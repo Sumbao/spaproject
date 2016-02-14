@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_MassageTypes" object="${massagetypes}" path="/massagetypeses" z="am6emZmQsLcHcUDRgWRy88a9V8I=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_createdBy" object="${massagetypes}" z="pj0hR5BF6iZskzfG7BdtJDBUh1k="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_updatedBy" object="${massagetypes}" z="GfoTGkGJp91xXDB6mnYpWFsA4C8="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_status" object="${massagetypes}" z="PqOx+taLCSlBIMfBOk27YFOlXv8="/>
+        <field:display date="true" dateTimePattern="${massageTypes_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_createdDate" object="${massagetypes}" z="lQAp4CNHWdNng5hNd2MXlpdmg3o="/>
+        <field:display date="true" dateTimePattern="${massageTypes_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_updatedDate" object="${massagetypes}" z="Prz0YyDppEBTSJKRlb2zq4A7MTo="/>
+        <field:display field="massageTypeCode" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeCode" object="${massagetypes}" z="iMh2mAwcfd0/sFmlFWibz3XsB54="/>
+        <field:display field="massageTypeName" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeName" object="${massagetypes}" z="UaNdsVS5fcqjVcmLrlFxz3n1S4I="/>
+        <field:display field="massageTypeDetail" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeDetail" object="${massagetypes}" z="wnlfT/lxzsexBnd0mGNqSCH6MHE="/>
+    </page:show>
+</div>

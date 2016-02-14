@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_Product" object="${product}" path="/products" z="3+5xXW0Ci8bnTUuf3JhXsZ6w+p8=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_Product_createdBy" object="${product}" z="jFPkX0oq64kjJCWL2djynsy9fYo="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_Product_updatedBy" object="${product}" z="ZPjROR7ejwo6kQtt4CHUkeDDoaY="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_Product_status" object="${product}" z="uekQQ4HHezNa52PaJqgG6WCwuwQ="/>
+        <field:display date="true" dateTimePattern="${product_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_Product_createdDate" object="${product}" z="NAade2N94G/gt96Ncv8be7LBKg8="/>
+        <field:display date="true" dateTimePattern="${product_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_Product_updatedDate" object="${product}" z="uypYFDPRjnmGQVwKac9mDdqUVkY="/>
+        <field:display field="productId" id="s_com_main_myprojectspa_domain_projectspa_Product_productId" object="${product}" z="40BFixGcvNhigvH8+BGdKFd2uvw="/>
+        <field:display field="productName" id="s_com_main_myprojectspa_domain_projectspa_Product_productName" object="${product}" z="Kr7LHwB5fWqF9DLWvIPxnU+hSJ8="/>
+        <field:display field="productDetails" id="s_com_main_myprojectspa_domain_projectspa_Product_productDetails" object="${product}" z="2N87pNLanIP8fQFCjvTS7GK2i9M="/>
+        <field:display field="productPrice" id="s_com_main_myprojectspa_domain_projectspa_Product_productPrice" object="${product}" z="Mbmd2fC4+9WfbSsptzuEJ1jgQo4="/>
+        <field:display field="productPicture" id="s_com_main_myprojectspa_domain_projectspa_Product_productPicture" object="${product}" z="6KeCtiXbqC/LEzn9md5JYjMTgdk="/>
+        <field:display field="productTypes" id="s_com_main_myprojectspa_domain_projectspa_Product_productTypes" object="${product}" z="/fH4iyP3W8uASM4qHJIA9Fb5fXY="/>
+    </page:show>
+</div>

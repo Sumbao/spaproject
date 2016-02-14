@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_Employee" object="${employee}" path="/employees" z="7PvbvncS0GVRI7xgPxEVM3v1zDI=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_Employee_createdBy" object="${employee}" z="BvxMEgLCx/dNohrWheqR8tyLLoA="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_Employee_updatedBy" object="${employee}" z="89pPw/N+rGn1kMqI5UFT+5f6hNw="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_Employee_status" object="${employee}" z="KDl5LYhz8l8XSaiy/tyusRxijkQ="/>
+        <field:display date="true" dateTimePattern="${employee_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_Employee_createdDate" object="${employee}" z="kvNS/iDSxvh3Qx4oXCpAR7BdD4E="/>
+        <field:display date="true" dateTimePattern="${employee_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_Employee_updatedDate" object="${employee}" z="gPjzepkvoj5FvibWCvaRwKSuw60="/>
+        <field:display field="empCode" id="s_com_main_myprojectspa_domain_projectspa_Employee_empCode" object="${employee}" z="CrBKibDF8kma7VOu7UiuSg7tQks="/>
+        <field:display field="empName" id="s_com_main_myprojectspa_domain_projectspa_Employee_empName" object="${employee}" z="jvv4MGJUpyjSatPRIxyudFnQpHE="/>
+        <field:display field="empAddr" id="s_com_main_myprojectspa_domain_projectspa_Employee_empAddr" object="${employee}" z="hnza9FYhMC+i6syZzQVH4ILz8/I="/>
+        <field:display field="empTel" id="s_com_main_myprojectspa_domain_projectspa_Employee_empTel" object="${employee}" z="c0dwF5KpRREGwP6sg5gHrAai6KQ="/>
+        <field:display field="empEmail" id="s_com_main_myprojectspa_domain_projectspa_Employee_empEmail" object="${employee}" z="4ZYTEehsETGD2RA4BdbcyUIU9BM="/>
+    </page:show>
+</div>

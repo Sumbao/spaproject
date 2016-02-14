@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_ShoppingEvent" object="${shoppingevent}" path="/shoppingevents" z="gl0/SKMCis49mdGpnqD3UxJyB6E=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_createdBy" object="${shoppingevent}" z="jSB87lg7X4kj9utJDZ3ea1uSKuk="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_updatedBy" object="${shoppingevent}" z="KepzcK4MYLl6P94K+gcafNSqI10="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_status" object="${shoppingevent}" z="eH8ePdxG6RRcAI/uLcYhAkV7050="/>
+        <field:display date="true" dateTimePattern="${shoppingEvent_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_createdDate" object="${shoppingevent}" z="agYyVQ3Jor5OQfuC6d2RVomrGN4="/>
+        <field:display date="true" dateTimePattern="${shoppingEvent_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_updatedDate" object="${shoppingevent}" z="QTyeooDbS+8OylFSIHR/UTgSJQo="/>
+        <field:display date="true" dateTimePattern="${shoppingEvent_eventcreatedate_date_format}" field="eventCreateDate" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_eventCreateDate" object="${shoppingevent}" z="fYfJIC+VxH1rh+E9bixv/9Lg2MI="/>
+        <field:display field="allPrice" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_allPrice" object="${shoppingevent}" z="aiPuhfTXYReXaQykvODLZvEWfcc="/>
+        <field:display field="customerOrder" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_customerOrder" object="${shoppingevent}" z="grQGoJlEIP+PGzOCJxYhOPbsEAw="/>
+        <field:display field="productOrder" id="s_com_main_myprojectspa_domain_projectspa_ShoppingEvent_productOrder" object="${shoppingevent}" z="R3UQj9UfFwrOWf1e1MbmXWs18lA="/>
+    </page:show>
+</div>

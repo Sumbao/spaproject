@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_producttypes" z="n7KHXc7GU0+9McB2s8fbiTRfHfg=">
+            <menu:item id="i_producttypes_new" messageCode="global_menu_new" url="/producttypeses?form" z="l62yKRIB8f/STKzQkvoGA9vbFGY="/>
+            <menu:item id="i_producttypes_list" messageCode="global_menu_list" url="/producttypeses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="iFPG+5/s8IdO1kuHWCVcdI089fI="/>
+        </menu:category>
+        <menu:category id="c_employee" z="sxLyQbJ/qSw9Reoi1NHvJhkZ/rU=">
+            <menu:item id="i_employee_new" messageCode="global_menu_new" url="/employees?form" z="+S/pgOAdANt9JPGnS20kM8qTu00="/>
+            <menu:item id="i_employee_list" messageCode="global_menu_list" url="/employees?page=1&amp;size=${empty param.size ? 10 : param.size}" z="IfTXfF5mBLDCW+DUkfuN3Wgvias="/>
+        </menu:category>
+        <menu:category id="c_customertype" z="IwkGg6P/GzYyT1/EZ2BfMznznXM=">
+            <menu:item id="i_customertype_new" messageCode="global_menu_new" url="/customertypes?form" z="A1hS8DjZzS5b7Lx9imNQsDalqL0="/>
+            <menu:item id="i_customertype_list" messageCode="global_menu_list" url="/customertypes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="JdoW5O6A8eEXil1aAQpty6VOucI="/>
+        </menu:category>
+        <menu:category id="c_massage" z="HpBsevuMnREYvH+2xVZHWrzlOhE=">
+            <menu:item id="i_massage_new" messageCode="global_menu_new" url="/massages?form" z="BqbIBFePzwrExm+Xnn3RT04mhLU="/>
+            <menu:item id="i_massage_list" messageCode="global_menu_list" url="/massages?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4FDcRk2KWyX/5jbNoBCmdmjwmzk="/>
+        </menu:category>
+        <menu:category id="c_holiday" z="SEwnQzeH9Zo/YsYH5KxVHjl+vmY=">
+            <menu:item id="i_holiday_new" messageCode="global_menu_new" url="/holidays?form" z="IfFUp52kysemIitooH7uuG3f7JA="/>
+            <menu:item id="i_holiday_list" messageCode="global_menu_list" url="/holidays?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Y6q/IDMKZpfmKMKoybo09i7Oa/I="/>
+        </menu:category>
+        <menu:category id="c_shoppingevent" z="TXc9t4+wI05kn6IcWLkoO6QqxNI=">
+            <menu:item id="i_shoppingevent_new" messageCode="global_menu_new" url="/shoppingevents?form" z="VlRnGM4gZstOFMGDZKcNH7igmI4="/>
+            <menu:item id="i_shoppingevent_list" messageCode="global_menu_list" url="/shoppingevents?page=1&amp;size=${empty param.size ? 10 : param.size}" z="tMjfTQR7uxkjpdfptSq+prSBtCc="/>
+        </menu:category>
+        <menu:category id="c_massageevent" z="sVtRKNCGzVLVlzB8MLjDekN+wOo=">
+            <menu:item id="i_massageevent_new" messageCode="global_menu_new" url="/massageevents?form" z="JaG3Aib3bzDDJ346RZhiTBnc2kk="/>
+            <menu:item id="i_massageevent_list" messageCode="global_menu_list" url="/massageevents?page=1&amp;size=${empty param.size ? 10 : param.size}" z="rVgBGHtUPVmmgZYbvP1O7H/bPSc="/>
+        </menu:category>
+        <menu:category id="c_customer" z="Wa+bVSiDyYo/wX1nGU1B/z+OKhE=">
+            <menu:item id="i_customer_new" messageCode="global_menu_new" url="/customers?form" z="d9+YIotZHp6KZLGKwwnMVzPvh8k="/>
+            <menu:item id="i_customer_list" messageCode="global_menu_list" url="/customers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Yo9cUtyc7EUvbxwQ7EoeqXWaVJM="/>
+        </menu:category>
+        <menu:category id="c_massagetypes" z="Q0OUyvBnyAtBRZB9cxmQUxv+KSU=">
+            <menu:item id="i_massagetypes_new" messageCode="global_menu_new" url="/massagetypeses?form" z="xYwpoaPRCWT2ySECFA+8/sXe0c4="/>
+            <menu:item id="i_massagetypes_list" messageCode="global_menu_list" url="/massagetypeses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="2kyFm++c6qy+5zHrjr2b7ALVF8o="/>
+        </menu:category>
+        <menu:category id="c_product" z="vJ6efqiSxFssuvqFTsXpvZ3AvA8=">
+            <menu:item id="i_product_new" messageCode="global_menu_new" url="/products?form" z="Ezf8cTW61d2RkMNEcYkDJpG01kc="/>
+            <menu:item id="i_product_list" messageCode="global_menu_list" url="/products?page=1&amp;size=${empty param.size ? 10 : param.size}" z="kEeyCmUUYXShbDEWwOLheaAkM50="/>
+        </menu:category>
+    </menu:menu>
+</div>

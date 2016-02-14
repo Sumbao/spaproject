@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_main_myprojectspa_domain_projectspa_CustomerType" items="${customertypes}" z="gEciBun+vsrDou7zKWndoQKor6U=">
+        <table:table data="${customertypes}" id="l_com_main_myprojectspa_domain_projectspa_CustomerType" path="/customertypes" z="lPt0whyBxpc38z3p/U2DaYnAsL4=">
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_CustomerType_createdBy" property="createdBy" z="3qFP4g3gU4e/uKvSST6QvPVQU4Q="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_CustomerType_updatedBy" property="updatedBy" z="FO8LUEvUiMJMpdN1D77mBVlpIi8="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_CustomerType_status" property="status" z="GgRoB0kZbvet75utw/0rifvxaPc="/>
+            <table:column date="true" dateTimePattern="${customerType_createddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_CustomerType_createdDate" property="createdDate" z="mbFkp//TzBTc+P4KWYlnYeIBLO0="/>
+            <table:column date="true" dateTimePattern="${customerType_updateddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_CustomerType_updatedDate" property="updatedDate" z="7F2EAPpM3inCt0iLm6MlMM5fq+o="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_CustomerType_customerTypeCode" property="customerTypeCode" z="OwL/4SmRAbUgMx9Mz770ktBYjfs="/>
+        </table:table>
+    </page:list>
+</div>

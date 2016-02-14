@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_CustomerType" object="${customertype}" path="/customertypes" z="/Dla+Ncr1N9/9qfgGGxGR8Om4wA=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_createdBy" object="${customertype}" z="g9xCgzBoTuB6JN1Hl/Qbd0n2zxM="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_updatedBy" object="${customertype}" z="I3/MhizOmyhosgMscRutbueC7nE="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_status" object="${customertype}" z="k5iWJJGxHAPf2VnkgRxDcIu7h7M="/>
+        <field:display date="true" dateTimePattern="${customerType_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_createdDate" object="${customertype}" z="LZKlL80zYe/TGhcTHnozsj+WXy4="/>
+        <field:display date="true" dateTimePattern="${customerType_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_updatedDate" object="${customertype}" z="XNAZdBD98btkSpyl/08p6BhqjxU="/>
+        <field:display field="customerTypeCode" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_customerTypeCode" object="${customertype}" z="3OrHaq//dEctpxazwQhrIRm9hZ8="/>
+        <field:display field="customerTypeName" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_customerTypeName" object="${customertype}" z="bPKfpaXp5tBTNetYOdVUxC7GUF8="/>
+        <field:display field="customerVoucher" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_customerVoucher" object="${customertype}" z="8w+6HfBTqcJZEuKtXLhaHvT9Ofs="/>
+        <field:display field="customerPrivillege" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_customerPrivillege" object="${customertype}" z="7/dnAKqRVlv4xL0ObbHr72+7GmU="/>
+    </page:show>
+</div>

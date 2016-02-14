@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_main_myprojectspa_domain_projectspa_MassageTypes" modelAttribute="massageTypes" path="/massagetypeses" versionField="Version" z="n6PbquwXQ50O2Tcmzyq30JSj2aI=">
+        <field:input field="createdBy" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_createdBy" z="rCYl2N5XFkvK2yE1f2cF7JyCE60="/>
+        <field:input field="updatedBy" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_updatedBy" z="canGU4wHMI2VRZeoEaVkYF1lbJM="/>
+        <field:input field="status" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_status" z="jbCpbjA3q6g3X/sax6x8KPdP06s="/>
+        <field:datetime dateTimePattern="${massageTypes_createddate_date_format}" field="createdDate" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_createdDate" z="8TzC3+ApJxy6rgB6XiftsLC2IkI="/>
+        <field:datetime dateTimePattern="${massageTypes_updateddate_date_format}" field="updatedDate" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_updatedDate" z="ipocPVOext/WmIGl+nGyQYTYEk8="/>
+        <field:input field="massageTypeCode" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeCode" z="6jwf762Y2796tD0hLNvAdf5/Phs="/>
+        <field:input field="massageTypeName" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeName" z="oWIPJhxc13w5rFLd9P1J5gXV268="/>
+        <field:input field="massageTypeDetail" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeDetail" z="Nu8hN8BpfmNHyTZR/MwzbBgnRFQ="/>
+        <field:simple field="massage" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_massage" messageCode="entity_reference_not_managed" messageCodeAttribute="Massage" z="G3wj6YWqaFB9XYpyBvr4n7nDR0o="/>
+    </form:update>
+</div>

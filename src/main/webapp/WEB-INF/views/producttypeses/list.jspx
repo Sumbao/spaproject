@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_main_myprojectspa_domain_projectspa_ProductTypes" items="${producttypeses}" z="yU6UNH2HubfDFgm04d6QTwcv3KE=">
+        <table:table data="${producttypeses}" id="l_com_main_myprojectspa_domain_projectspa_ProductTypes" path="/producttypeses" z="Bv3Et7BviK2vLf11/jGJLDkw4xI=">
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_ProductTypes_createdBy" property="createdBy" z="QnT+khgvDDsO90sffB33740Wmy4="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_ProductTypes_updatedBy" property="updatedBy" z="1WhjPQY5j4SwYijoM/djB6UDX98="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_ProductTypes_status" property="status" z="0jCYiJI4lDWCiOhB5U5/SqAgbjs="/>
+            <table:column date="true" dateTimePattern="${productTypes_createddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_ProductTypes_createdDate" property="createdDate" z="HtcDc0aMwpmZu6fc+JJS0Yo+z4s="/>
+            <table:column date="true" dateTimePattern="${productTypes_updateddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_ProductTypes_updatedDate" property="updatedDate" z="Y6bYUlLQjM8FcBz0KWZEiudlakY="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_ProductTypes_productTypesName" property="productTypesName" z="ydTErg8wSDSscEZCkfr9oCvNC1I="/>
+        </table:table>
+    </page:list>
+</div>

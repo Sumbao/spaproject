@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_main_myprojectspa_domain_projectspa_Product" modelAttribute="product" path="/products" versionField="Version" z="ED/gOkjnck9RnlK2NTGVGx/5GCw=">
+        <field:input field="createdBy" id="c_com_main_myprojectspa_domain_projectspa_Product_createdBy" z="wGFFg+vGVp9lQIuwFBnl06nCKXA="/>
+        <field:input field="updatedBy" id="c_com_main_myprojectspa_domain_projectspa_Product_updatedBy" z="6sHC5PWBdddyG8lnTKtBU/wUK60="/>
+        <field:input field="status" id="c_com_main_myprojectspa_domain_projectspa_Product_status" z="JCqLnsIjgFKHQpMNcJbgbz8Ur2M="/>
+        <field:datetime dateTimePattern="${product_createddate_date_format}" field="createdDate" id="c_com_main_myprojectspa_domain_projectspa_Product_createdDate" z="PzCYWcN7g0RyvPig2R3fguibrl0="/>
+        <field:datetime dateTimePattern="${product_updateddate_date_format}" field="updatedDate" id="c_com_main_myprojectspa_domain_projectspa_Product_updatedDate" z="XOVEO5THBoWwdrwxxGplT0jBw5A="/>
+        <field:input field="productId" id="c_com_main_myprojectspa_domain_projectspa_Product_productId" z="rzufG8MnNgKOpBEyBX52RRVbIB0="/>
+        <field:input field="productName" id="c_com_main_myprojectspa_domain_projectspa_Product_productName" z="R2h51WOt3BDoKq+yleu2yx4IuCY="/>
+        <field:input field="productDetails" id="c_com_main_myprojectspa_domain_projectspa_Product_productDetails" z="ErSohv/MvDXzuaNWjDGiifCxljk="/>
+        <field:input field="productPrice" id="c_com_main_myprojectspa_domain_projectspa_Product_productPrice" validationMessageCode="field_invalid_number" z="p6wjLWdsjMCjS42Dr2U3kiYasns="/>
+        <field:input field="productPicture" id="c_com_main_myprojectspa_domain_projectspa_Product_productPicture" z="mPXnUkBf5nk9VGZkReUNJr19uio="/>
+        <field:select field="productTypes" id="c_com_main_myprojectspa_domain_projectspa_Product_productTypes" itemValue="id" items="${producttypeses}" path="/producttypeses" z="yWdfm1WA97xKi8GW2D6DHjbEUdQ="/>
+    </form:update>
+</div>

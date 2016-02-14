@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_MassageEvent" object="${massageevent}" path="/massageevents" z="qcEDdJzgRkG1uHg8iYQ4bHeJ7Fs=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_createdBy" object="${massageevent}" z="Lv4kzHbV6XBIgE/ICMXEiU7XHyo="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_updatedBy" object="${massageevent}" z="5YwhHb2OYRkMEa2aiaeRyy4ty5U="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_status" object="${massageevent}" z="Zn30N+3Pbw5WnEvqXTYd3SKznEE="/>
+        <field:display date="true" dateTimePattern="${massageEvent_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_createdDate" object="${massageevent}" z="cI+IZ/7+jLm0um2axCT+Xy4rXds="/>
+        <field:display date="true" dateTimePattern="${massageEvent_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_updatedDate" object="${massageevent}" z="0EEMVgvopAC0N+bpu3OAwOIV4Sw="/>
+        <field:display date="true" dateTimePattern="${massageEvent_eventstarttime_date_format}" field="eventStartTime" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_eventStartTime" object="${massageevent}" z="ro97ko08i23EvHkwRkj3rcrztNc="/>
+        <field:display date="true" dateTimePattern="${massageEvent_eventendtime_date_format}" field="eventEndTime" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_eventEndTime" object="${massageevent}" z="nb17xPYtsa6JZ2hfj7dVyQ/jO+s="/>
+        <field:display field="userReserve" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_userReserve" object="${massageevent}" z="qK6HO55jNecTI6capPHtt18I/4U="/>
+        <field:display field="massage" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_massage" object="${massageevent}" z="mATuVcISqdv53vo5SfHT0UaJXPg="/>
+        <field:display field="employee" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_employee" object="${massageevent}" z="g6Mx2bqXIEKFoCat2Rg5TsyPOnw="/>
+    </page:show>
+</div>

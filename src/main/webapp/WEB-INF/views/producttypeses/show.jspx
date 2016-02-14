@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_ProductTypes" object="${producttypes}" path="/producttypeses" z="Ftg8+WRLDWZVdpCJ5wiLAOSiJMg=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_ProductTypes_createdBy" object="${producttypes}" z="yzm+OGDrDFdBnA0FnfEqqsg74so="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_ProductTypes_updatedBy" object="${producttypes}" z="D8rzTLFCiBHRhrUxcdflpYru2nM="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_ProductTypes_status" object="${producttypes}" z="ggcusDESmLzbD8hzJv7r0wFlRG0="/>
+        <field:display date="true" dateTimePattern="${productTypes_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_ProductTypes_createdDate" object="${producttypes}" z="cnla/r9HFqO7vpIWDeV0QHo8ZUU="/>
+        <field:display date="true" dateTimePattern="${productTypes_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_ProductTypes_updatedDate" object="${producttypes}" z="Jh9v/xaedVNiQMc3xW72yNk57Xw="/>
+        <field:display field="productTypesName" id="s_com_main_myprojectspa_domain_projectspa_ProductTypes_productTypesName" object="${producttypes}" z="efsYjB0aPQFg8qUEpnDJ9/zLfwY="/>
+        <field:display field="productTypesDescription" id="s_com_main_myprojectspa_domain_projectspa_ProductTypes_productTypesDescription" object="${producttypes}" z="1CcVVs21IEeK2+UaiyFAu2oFwpA="/>
+    </page:show>
+</div>

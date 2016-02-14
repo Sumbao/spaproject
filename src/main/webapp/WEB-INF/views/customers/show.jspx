@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_Customer" object="${customer}" path="/customers" z="THWY5F0Vynt8NJbZn8jBvQF3nq0=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_Customer_createdBy" object="${customer}" z="ff4BqtZ1rYB1Ssl9TDSeiHyF6To="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_Customer_updatedBy" object="${customer}" z="c7MfqVXv06PWqu//lncT3s0MyVI="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_Customer_status" object="${customer}" z="dNq82fBSXsIv4MvkxjsBiqy0CNQ="/>
+        <field:display date="true" dateTimePattern="${customer_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_Customer_createdDate" object="${customer}" z="T2izN8ixcilI4lW4FnGZLcfOzd0="/>
+        <field:display date="true" dateTimePattern="${customer_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_Customer_updatedDate" object="${customer}" z="ZlVyzvZ0Nh9HBNKB3MsSrX5n+3w="/>
+        <field:display field="userId" id="s_com_main_myprojectspa_domain_projectspa_Customer_userId" object="${customer}" z="cx/on8RryWTsKMckjh4rJ/hBzFc="/>
+        <field:display field="userPassword" id="s_com_main_myprojectspa_domain_projectspa_Customer_userPassword" object="${customer}" z="cZBm7xcAYt9Nv6T516jOwlZcsOA="/>
+        <field:display field="loginstatus" id="s_com_main_myprojectspa_domain_projectspa_Customer_loginstatus" object="${customer}" z="yQDfx/lxRDRPuxmEIb7wmu3w6Kg="/>
+        <field:display field="customerName" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerName" object="${customer}" z="fDjqO/I3D8fQWBaHeX/HIObeEWA="/>
+        <field:display field="customerAddr" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerAddr" object="${customer}" z="I/1Ibat3N6AVIP2Hv270W6czKDw="/>
+        <field:display field="customerEmail" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerEmail" object="${customer}" z="6hPN3CRhklStAiMZW9JHD3s5B+A="/>
+        <field:display field="customerAge" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerAge" object="${customer}" z="fEsjNppq4ut1hIwziDjQCvBbo7o="/>
+        <field:display date="true" dateTimePattern="${customer_customerbirthday_date_format}" field="customerBirthDay" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerBirthDay" object="${customer}" z="mYp2gohcYbiRCJJChUcKi34jWso="/>
+        <field:display field="customerTel" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerTel" object="${customer}" z="SBCXrzLKYxzALNj14L1amvlSAGY="/>
+        <field:display field="customerTypes" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerTypes" object="${customer}" z="WKya96XVdJa6qP3VSWAH0m3mzZI="/>
+    </page:show>
+</div>

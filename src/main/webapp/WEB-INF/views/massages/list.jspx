@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_main_myprojectspa_domain_projectspa_Massage" items="${massages}" z="k5B1nYSEFSJ591S8NLdvDtBL4O8=">
+        <table:table data="${massages}" id="l_com_main_myprojectspa_domain_projectspa_Massage" path="/massages" z="72nJFN8z/LaIOaVFoiGgDN/RII8=">
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Massage_createdBy" property="createdBy" z="yCGhuX7Ra7qEfyVLxBmgPf67xzQ="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Massage_updatedBy" property="updatedBy" z="D94M3VCzn895oiXWP0HV9xz+q0c="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Massage_status" property="status" z="vGTo9aTIXDCzog1T0+S+QqVZOT4="/>
+            <table:column date="true" dateTimePattern="${massage_createddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_Massage_createdDate" property="createdDate" z="1CYQjrVvtASZ38vis46nFY3fYRc="/>
+            <table:column date="true" dateTimePattern="${massage_updateddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_Massage_updatedDate" property="updatedDate" z="TWmnpfP+m/qctHyD5bUtGvMCRxc="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Massage_massageCode" property="massageCode" z="gJ7UV+H+pyUvdRzCBRNZG533CiA="/>
+        </table:table>
+    </page:list>
+</div>

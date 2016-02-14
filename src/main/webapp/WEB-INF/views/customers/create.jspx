@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_main_myprojectspa_domain_projectspa_Customer" modelAttribute="customer" path="/customers" render="${empty dependencies}" z="m49fMhRWIUTGCpZjjZ81bXxAkow=">
+        <field:input field="createdBy" id="c_com_main_myprojectspa_domain_projectspa_Customer_createdBy" z="QvGhaBgAbVIgkCxG6dSkM6FNSYE="/>
+        <field:input field="updatedBy" id="c_com_main_myprojectspa_domain_projectspa_Customer_updatedBy" z="IpLy0TzRFTAnAyn5eJCcxmBq9Ts="/>
+        <field:input field="status" id="c_com_main_myprojectspa_domain_projectspa_Customer_status" z="mvprfbJP8GB83ryc/UTfH03l+tk="/>
+        <field:datetime dateTimePattern="${customer_createddate_date_format}" field="createdDate" id="c_com_main_myprojectspa_domain_projectspa_Customer_createdDate" z="jWvTRKEInu9Xt3EaKBc19EaTaj0="/>
+        <field:datetime dateTimePattern="${customer_updateddate_date_format}" field="updatedDate" id="c_com_main_myprojectspa_domain_projectspa_Customer_updatedDate" z="sOC18rYspY5uAQe8+6gdgiF0Bto="/>
+        <field:input field="userId" id="c_com_main_myprojectspa_domain_projectspa_Customer_userId" z="3Av+ozjwHcpudgcrLhevhW5FKpQ="/>
+        <field:input field="userPassword" id="c_com_main_myprojectspa_domain_projectspa_Customer_userPassword" z="rYcyHVpEQN8lz+bTw6EasG2509M="/>
+        <field:input field="loginstatus" id="c_com_main_myprojectspa_domain_projectspa_Customer_loginstatus" max="1" min="0" required="true" validationMessageCode="field_invalid_integer" z="bdlPbGtKiHc9bHbwiRaMZufBYUE="/>
+        <field:input field="customerName" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerName" z="U1sdappBzLZzjs3wKC9DP/pEhKY="/>
+        <field:input field="customerAddr" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerAddr" z="yEicXdq+A74Hr7W435w6pgo49OY="/>
+        <field:input field="customerEmail" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerEmail" z="NCx10wI+jK+1d7YHJJjzBkn+KQM="/>
+        <field:input field="customerAge" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerAge" validationMessageCode="field_invalid_integer" z="NRr+SBVy8PapZ9Opx+xoEvPJNCE="/>
+        <field:datetime dateTimePattern="${customer_customerbirthday_date_format}" field="customerBirthDay" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerBirthDay" z="aPYV4b05Dg31egsx8eyTtfA4nnM="/>
+        <field:input field="customerTel" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerTel" z="U79MKsu/iYqOWpSyCeX1eogICeM="/>
+        <field:select field="customerTypes" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerTypes" itemValue="id" items="${customertypes}" path="/customertypes" z="HyvBE/onS3mjbKLnXhgby82FsN4="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_main_myprojectspa_domain_projectspa_Customer" render="${not empty dependencies}" z="iW+Y464T24sr/iZtyojeNxwpp1M="/>
+</div>

@@ -1,0 +1,114 @@
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-02-14 17:38:15
+project --topLevelPackage com.main.MyProjectSpa --projectName MyProjectSpa --java 7
+persistence setup --provider HIBERNATE --database DERBY_EMBEDDED 
+entity jpa --class ~base.BaseEntity --abstract --mappedSuperclass --activeRecord
+field string createdBy
+field string updatedBy
+field string status
+field date --fieldName createdDate --type java.util.Date --dateFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+field date --fieldName updatedDate --type java.util.Date --dateFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+entity jpa --class ~.domain.projectspa.Customer --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically
+field string --fieldName userId
+field string --fieldName userPassword
+field number --fieldName loginstatus --type java.lang.Integer --min 0 --max 1 
+field string --fieldName customerName
+field string --fieldName customerAddr
+field string --fieldName customerEmail
+field number --fieldName customerAge --type java.lang.Integer
+field date --fieldName customerBirthDay --type java.util.Date --dateFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+field string --fieldName customerTel
+entity jpa --class ~.domain.projectspa.CustomerType --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field number --fieldName customerTypeCode --type java.lang.Integer
+field string --fieldName customerTypeName
+field string --fieldName customerVoucher
+field string --fieldName customerPrivillege
+entity jpa --class ~.domain.projectspa.Employee --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field string --fieldName empCode
+field string --fieldName empName
+field string --fieldName empAddr
+field string --fieldName empTel
+field string --fieldName empEmail
+entity jpa --class ~.domain.projectspa.Holiday --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field date --fieldName holidayDate --type java.util.Date --dateFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+field string --fieldName holidayDetail
+entity jpa --class ~.domain.projectspa.Massage --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS 
+field string --fieldName massageCode
+field string --fieldName massageName
+field string --fieldName massageDetail
+entity jpa --class ~.domain.projectspa.massageTypes --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically 
+field string --fieldName massageTypeCode
+field string --fieldName massageTypeName
+field string --fieldName massageTypeDetail
+entity jpa --class ~.domain.projectspa.massageEvent --extends ~.base.BaseEntity --inheritanceType TABLE_PER_CLASS --testAutomatically  
+field date --fieldName eventStartTime --type java.util.Date --dateFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+field date --fieldName eventEndTime --type java.util.Date --dateFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+entity jpa --class ~.domain.projectspa.Product --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS
+field string --fieldName productId
+field string --fieldName productName
+field string --fieldName productDetails
+field number --fieldName productPrice --type java.lang.Float 
+field string --fieldName productPicture
+entity jpa --class ~.domain.projectspa.ProductTypes --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS 
+field string --fieldName productTypesName
+field string --fieldName productTypesDescription
+entity jpa --class ~.domain.projectspa.ShoppingEvent --extends ~.base.BaseEntity --testAutomatically --inheritanceType TABLE_PER_CLASS 
+field date --fieldName eventCreateDate --type java.util.Date --timeFormat SHORT --dateTimeFormatPattern "dd/MM/yyyy"
+field number --fieldName allPrice --type java.lang.Float 
+json all --deepSerialize 
+web mvc setup
+web mvc all --package ~.web.MyProjectSpa
+web mvc json all 
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 17:42:31
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-02-14 17:57:54
+focus --class ~.domain.projectspa.Customer
+focus --class ~.domain.projectspa.CustomerType
+field set --fieldName customer --type ~.domain.projectspa.Customer --cardinality ONE_TO_MANY --fetch LAZY --mappedBy customerTypes
+focus --class ~.domain.projectspa.Customer
+field reference --fieldName customerTypes --type ~.domain.projectspa.CustomerType --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName customer
+json all --deepSerialize 
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 18:04:22
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-02-14 18:07:46
+focus --class ~.domain.projectspa.MassageTypes
+field set --fieldName massage --type ~.domain.projectspa.Massage --cardinality ONE_TO_MANY --mappedBy massageTypes --fetch LAZY 
+focus --class ~.domain.projectspa.Massage
+field reference --fieldName massageTypes --type ~.domain.projectspa.MassageTypes --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName massage
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 18:11:23
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-02-14 18:14:03
+focus --class ~.domain.projectspa.Product
+focus --class ~.domain.projectspa.ProductTypes
+field set --fieldName product --type ~.domain.projectspa.Product --cardinality ONE_TO_MANY --fetch LAZY --mappedBy product
+focus --class ~.domain.projectspa.ProductTypes
+field reference --fieldName productTypes --type ~.domain.projectspa.ProductTypes --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName productTypes
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 18:17:08
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-02-14 18:19:16
+focus --class ~.domain.projectspa.Product
+field reference --fieldName productTypes --type ~.domain.projectspa.ProductTypes --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName productTypes
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 18:20:47
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-02-14 18:22:23
+focus --class ~.domain.projectspa.ProductTypes
+field set --fieldName product --type ~.domain.projectspa.Product --cardinality ONE_TO_MANY --fetch LAZY --mappedBy productTypes
+focus --class ~.domain.projectspa.Product
+field reference --fieldName productTypes --type ~.domain.projectspa.ProductTypes --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName productTypes
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 18:26:05
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-02-14 18:28:48
+focus --class ~.domain.projectspa.ShoppingEvent
+field reference --fieldName customerOrder --type ~.domain.projectspa.Customer --cardinality MANY_TO_ONE --joinColumnName customerOrder --fetch LAZY 
+field reference --fieldName productOrder --type ~.domain.projectspa.Product --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName productOrder
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 18:32:12
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-02-14 18:33:54
+focus --class ~.domain.projectspa.MassageEvent
+field reference --fieldName userReserve --type ~.domain.projectspa.Customer --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName userReserve
+field reference --fieldName massage --type ~.domain.projectspa.Massage --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName massage
+field reference --fieldName employee --type ~.domain.projectspa.Employee --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName employee
+focus --class ~.domain.projectspa.Employee
+focus --class ~.domain.projectspa.Holiday
+field reference --fieldName employeeHoliday --type ~.domain.projectspa.Employee --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName employeeHoliday
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 18:43:22

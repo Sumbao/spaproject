@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_main_myprojectspa_domain_projectspa_Employee" items="${employees}" z="HQIKYGzy1VIg6kbNkQzra4FUSos=">
+        <table:table data="${employees}" id="l_com_main_myprojectspa_domain_projectspa_Employee" path="/employees" z="LXegIg0oj8flY2LGEYlaOoaSx8E=">
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Employee_createdBy" property="createdBy" z="4gIVSJz9KrjQUg5YNRBJm1o5RpU="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Employee_updatedBy" property="updatedBy" z="kgwsSrtFUd6zHtiIAmnP6woN0ik="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Employee_status" property="status" z="nmyWzWeLGCOHOVA4/d2w5KbgTVI="/>
+            <table:column date="true" dateTimePattern="${employee_createddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_Employee_createdDate" property="createdDate" z="Zke69rE7PvmAOuFmvC2RkYtsO4g="/>
+            <table:column date="true" dateTimePattern="${employee_updateddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_Employee_updatedDate" property="updatedDate" z="IFHyHm/8odwcJWMr+Wzfx6x2pRk="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Employee_empCode" property="empCode" z="udZQZYHnrXIpLqYyEOD18BvHmwo="/>
+        </table:table>
+    </page:list>
+</div>

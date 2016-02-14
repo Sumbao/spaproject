@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_main_myprojectspa_domain_projectspa_Employee" modelAttribute="employee" path="/employees" versionField="Version" z="uE28NSoWb+xIJy1kiOz5c5kvoZc=">
+        <field:input field="createdBy" id="c_com_main_myprojectspa_domain_projectspa_Employee_createdBy" z="SwI71Nu+ze76t9lb0vkh/qc86DM="/>
+        <field:input field="updatedBy" id="c_com_main_myprojectspa_domain_projectspa_Employee_updatedBy" z="eTim+M54vqABqS0Njukebasoo5s="/>
+        <field:input field="status" id="c_com_main_myprojectspa_domain_projectspa_Employee_status" z="cUZ337vpkd26P28kX3vvOMy/ozk="/>
+        <field:datetime dateTimePattern="${employee_createddate_date_format}" field="createdDate" id="c_com_main_myprojectspa_domain_projectspa_Employee_createdDate" z="J0LXGmhnO8C2l4HMwwRvQmW/mZ8="/>
+        <field:datetime dateTimePattern="${employee_updateddate_date_format}" field="updatedDate" id="c_com_main_myprojectspa_domain_projectspa_Employee_updatedDate" z="oOP6x0lM17GbWU8VbGPJIIyjrN0="/>
+        <field:input field="empCode" id="c_com_main_myprojectspa_domain_projectspa_Employee_empCode" z="kVbEbA4OtWPpiabjD9X8ZriTgQI="/>
+        <field:input field="empName" id="c_com_main_myprojectspa_domain_projectspa_Employee_empName" z="T2+AV0buHZVJirdYDyMklMdmdbk="/>
+        <field:input field="empAddr" id="c_com_main_myprojectspa_domain_projectspa_Employee_empAddr" z="TIH/2vf+upp4QelCReG2vl/omXU="/>
+        <field:input field="empTel" id="c_com_main_myprojectspa_domain_projectspa_Employee_empTel" z="+Dy6/JS41zsgvw03shhGBTafm+g="/>
+        <field:input field="empEmail" id="c_com_main_myprojectspa_domain_projectspa_Employee_empEmail" z="MQ8Dk5FTwbXja+SDxRHYMWRtp3s="/>
+    </form:update>
+</div>

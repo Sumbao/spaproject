@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_main_myprojectspa_domain_projectspa_Massage" modelAttribute="massage" path="/massages" versionField="Version" z="v2QtOGenyggjlwEyHl/krEBagFM=">
+        <field:input field="createdBy" id="c_com_main_myprojectspa_domain_projectspa_Massage_createdBy" z="xc16RSl43iL3eX6LmQZULSvlUww="/>
+        <field:input field="updatedBy" id="c_com_main_myprojectspa_domain_projectspa_Massage_updatedBy" z="OkoAIPOlqfKXwBj5m79iwv34ak0="/>
+        <field:input field="status" id="c_com_main_myprojectspa_domain_projectspa_Massage_status" z="JBV2TSGC+WkjryNVfYzQBsDm/BA="/>
+        <field:datetime dateTimePattern="${massage_createddate_date_format}" field="createdDate" id="c_com_main_myprojectspa_domain_projectspa_Massage_createdDate" z="p3PozqB6lSzNKP6lmdA8wzCVjqo="/>
+        <field:datetime dateTimePattern="${massage_updateddate_date_format}" field="updatedDate" id="c_com_main_myprojectspa_domain_projectspa_Massage_updatedDate" z="3SUoCmiMJCYHrbAL78cROIDxKng="/>
+        <field:input field="massageCode" id="c_com_main_myprojectspa_domain_projectspa_Massage_massageCode" z="hjhnoCCh370Ta0dgctcAC0KnfEE="/>
+        <field:input field="massageName" id="c_com_main_myprojectspa_domain_projectspa_Massage_massageName" z="KCn6LRpInlwQ+XmpCIPl5dLz78U="/>
+        <field:input field="massageDetail" id="c_com_main_myprojectspa_domain_projectspa_Massage_massageDetail" z="l4gY/R6I4VfIUj4RUhM/kX73L3Q="/>
+        <field:select field="massageTypes" id="c_com_main_myprojectspa_domain_projectspa_Massage_massageTypes" itemValue="id" items="${massagetypeses}" path="/massagetypeses" z="BXsyIXBXcM4d/v3YY/OaXdN8ZPM="/>
+    </form:update>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_Massage" object="${massage}" path="/massages" z="1sE1A1gxHLVGnWpeDPYtiT1E7YY=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_Massage_createdBy" object="${massage}" z="TLwsPhSpsa+gYM8W99hYy0pbygs="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_Massage_updatedBy" object="${massage}" z="RW/QRfNL3mXV3y/czyNUzt0RtjM="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_Massage_status" object="${massage}" z="lRCiy5LVQ9GUK/ZfFaD2jqsxFNg="/>
+        <field:display date="true" dateTimePattern="${massage_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_Massage_createdDate" object="${massage}" z="qkvjrBGwSZfe4czBrUB30DyLklU="/>
+        <field:display date="true" dateTimePattern="${massage_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_Massage_updatedDate" object="${massage}" z="4XV20I4qpYw3/vREcVAm38E59Qs="/>
+        <field:display field="massageCode" id="s_com_main_myprojectspa_domain_projectspa_Massage_massageCode" object="${massage}" z="M6uffQkKSayPWRJz3IR0oXoJ6fk="/>
+        <field:display field="massageName" id="s_com_main_myprojectspa_domain_projectspa_Massage_massageName" object="${massage}" z="ZJbkRFL2KA69Dp5cSAFNbVKoJ1E="/>
+        <field:display field="massageDetail" id="s_com_main_myprojectspa_domain_projectspa_Massage_massageDetail" object="${massage}" z="8a0/ZS0rnFoS/qfg9H9V5CAs0c0="/>
+        <field:display field="massageTypes" id="s_com_main_myprojectspa_domain_projectspa_Massage_massageTypes" object="${massage}" z="UhGxTGmAd3sZsi1m1BZaBiS298c="/>
+    </page:show>
+</div>

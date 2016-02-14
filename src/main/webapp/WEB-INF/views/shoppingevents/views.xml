@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="shoppingevents/list">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingevents/list.jspx"/>
+    </definition>
+<definition extends="default" name="shoppingevents/show">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingevents/show.jspx"/>
+    </definition>
+<definition extends="default" name="shoppingevents/create">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingevents/create.jspx"/>
+    </definition>
+<definition extends="default" name="shoppingevents/update">
+        <put-attribute name="body" value="/WEB-INF/views/shoppingevents/update.jspx"/>
+    </definition>
+</tiles-definitions>
