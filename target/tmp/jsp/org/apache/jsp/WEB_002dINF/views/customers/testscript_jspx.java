@@ -43,9 +43,10 @@ public final class testscript_jspx extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("<div version=\"2.0\">");
       out.write("<div class=\"container\">");
-      out.write("<button class=\"btn btn-danger\" id=\"GG\">");
-      out.write("SSS");
-      out.write("</button>");
+      out.write("<h3>");
+      out.write('G');
+      out.write('G');
+      out.write("</h3>");
       out.write("</div>");
       out.write("</div>");
     } catch (Throwable t) {

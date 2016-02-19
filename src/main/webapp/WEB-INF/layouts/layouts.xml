@@ -16,4 +16,12 @@
     <put-attribute name="footer" value="/WEB-INF/views/footer.jspx" />
   </definition>
 
+  <definition name="custom" template="/WEB-INF/layouts/custom.jspx">
+  <put-attribute name="header" value="/WEB-INF/views/headerCustom.jspx" />
+  <put-attribute name="footer" value="/WEB-INF/views/footerCustom.jspx" />
+  </definition>
+
+  <definition name="loginTemplate" template="/WEB-INF/layouts/loginTemplate.jspx">
+  </definition>
+
 </tiles-definitions>
