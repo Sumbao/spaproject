@@ -75,6 +75,7 @@
 <aspect name="com.main.myprojectspa.domain.projectspa.Product_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.base.BaseEntity_Roo_ToString"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ShoppingEvent_Roo_ToString"/>
+<aspect name="com.main.myprojectspa.web.myprojectspa.MassageController_Custom_Controller"/>
 <aspect name="com.main.myprojectspa.web.myprojectspa.CustomerTypeController_Roo_Controller_Json"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.Employee_Roo_JavaBean"/>
 <aspect name="com.main.myprojectspa.web.myprojectspa.ShoppingEventController_Roo_Controller"/>
@@ -83,6 +84,7 @@
 <aspect name="com.main.myprojectspa.domain.projectspa.Product_Roo_ToString"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ProductTypes_Roo_Json"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ShoppingEvent_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.main.myprojectspa.web.myprojectspa.ProductController_Custom_Controller"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.Massage_Roo_ToString"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.Customer_Roo_Jpa_Entity"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.CustomerType_Roo_Jpa_ActiveRecord"/>

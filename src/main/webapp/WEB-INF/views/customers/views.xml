@@ -14,7 +14,7 @@
         <put-attribute name="body" value="/WEB-INF/views/customers/update.jspx"/>
     </definition>
 
-<definition extends="custom" name="customers/testscript">
-        <put-attribute name="body" value="/WEB-INF/views/customers/testscript.jspx"/>
+<definition extends="custom" name="customers/register">
+        <put-attribute name="body" value="/WEB-INF/views/customers/customerRegister.jspx"/>
     </definition>
 </tiles-definitions>
