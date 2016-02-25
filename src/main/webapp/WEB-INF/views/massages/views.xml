@@ -13,4 +13,7 @@
 <definition extends="default" name="massages/update">
         <put-attribute name="body" value="/WEB-INF/views/massages/update.jspx"/>
     </definition>
+    <definition extends="custom" name="massages/massageall">
+        <put-attribute name="body" value="/WEB-INF/views/massages/massageall.jspx"/>
+    </definition>
 </tiles-definitions>

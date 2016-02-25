@@ -3,26 +3,17 @@
 
 package com.main.myprojectspa.web.myprojectspa;
 
-import com.main.myprojectspa.domain.projectspa.Customer;
-import com.main.myprojectspa.domain.projectspa.CustomerType;
-import com.main.myprojectspa.web.myprojectspa.CustomerController;
-import java.io.UnsupportedEncodingException;
-import javax.servlet.http.HttpServletRequest;
-import javax.validation.Valid;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.PathVariable;
+
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.util.UriUtils;
-import org.springframework.web.util.WebUtils;
+
 
 privileged aspect CustomerController_Custom_Controller {
 
-    @RequestMapping(value = "/testscript", produces = "text/html")
-    public String CustomerController.testscript(Model uiModel) {
-        return "customers/testscript";
+    @RequestMapping(value = "/register", produces = "text/html")
+    public String CustomerController.register(Model uiModel) {
+
+        return "customers/register";
     }
     
    

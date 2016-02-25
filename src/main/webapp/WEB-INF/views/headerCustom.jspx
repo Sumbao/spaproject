@@ -14,34 +14,34 @@
 
     <spring:url value="/" var="dash_board_url"/>
     <spring:url value="/resources/images/ess-brand.png" var="image_brand_url"/>
-    <script>
-        console.log('${userDetail.username}');
-        if ('${userDetail.username}' == "No UserName") {
-            location.href = '/' + (window.location.pathname.split('/')[1]) + "/resources/j_spring_security_logout";
-        }
+    <!--<script>-->
+    <!--console.log('${userDetail.username}');-->
+    <!--if ('${userDetail.username}' == "No UserName") {-->
+    <!--location.href = '/' + (window.location.pathname.split('/')[1]) + "/resources/j_spring_security_logout";-->
+    <!--}-->
 
-        var session = {
-            date: new Date(Number("${now.time}")).setHours(0, 0, 0, 0),    // the current date without time
-            time: new Date(Number("${now.time}")),                      // the current date with time
-            user: "${user}",                                            // the session user
-            lang: "${lang}",                                            // the language is page language
-            other: [],                                                  // the other use for create request for other
-            context: '/' + (window.location.pathname.split('/')[1]),    // the context path
-            contextCurrentURL: '${currentURL}',                                   // the context path remove artifact web app
-            userRole: '${userRole}',                                   // the session userRole
-        };
-        var _language = window.session.lang;
-        /*    $(function(){
-         var token = $("meta[name='_csrf']").attr("content");
-         var header = $("meta[name='_csrf_header']").attr("content");
-         console.log(token);
-         console.log(header);
-         $(document).ajaxSend(function(e, xhr, options) {
-         xhr.setRequestHeader(header, token);
-         });
-         });*/
+    <!--var session = {-->
+    <!--date: new Date(Number("${now.time}")).setHours(0, 0, 0, 0),    // the current date without time-->
+    <!--time: new Date(Number("${now.time}")),                      // the current date with time-->
+    <!--user: "${user}",                                            // the session user-->
+    <!--lang: "${lang}",                                            // the language is page language-->
+    <!--other: [],                                                  // the other use for create request for other-->
+    <!--context: '/' + (window.location.pathname.split('/')[1]),    // the context path-->
+    <!--contextCurrentURL: '${currentURL}',                                   // the context path remove artifact web app-->
+    <!--userRole: '${userRole}',                                   // the session userRole-->
+    <!--};-->
+    <!--var _language = window.session.lang;-->
+    <!--/*    $(function(){-->
+    <!--var token = $("meta[name='_csrf']").attr("content");-->
+    <!--var header = $("meta[name='_csrf_header']").attr("content");-->
+    <!--console.log(token);-->
+    <!--console.log(header);-->
+    <!--$(document).ajaxSend(function(e, xhr, options) {-->
+    <!--xhr.setRequestHeader(header, token);-->
+    <!--});-->
+    <!--});*/-->
 
-    </script>
+    <!--</script>-->
     <!--<c:set var="LABEL_MEETINGROOM"><spring:message  javaScriptEscape="true" code="LB00002"/></c:set>-->
     <!--<c:set var="LABEL_RESERVATION_CHAIR"><spring:message  javaScriptEscape="true" code="LB00011"/></c:set>-->
     <!--<c:set var="LABEL_CONFERENCE_DETAIL"><spring:message  javaScriptEscape="true" code="LB00015"/></c:set>-->
@@ -112,54 +112,94 @@
     <!--commonChangeLanguage($(this).attr('alt'));-->
     <!--});-->
     <!--</script>-->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
-            <spring:url value="/resources/images/spa.png" var="spa"/>
+            <spring:url value="/resources/images/logo_spa.png" var="spa"/>
+            <spring:url value="/resources/scripts/MyProjectSpa/loginScript.js" var="login"/>
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#MyProjectSpa" style="padding-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;" /><img id="image" src="${spa}" style="width: 50px; height: 50px;" class="image-nav" />
             </div>
-
+            <a class="navbar-nav" href="/MyProjectSpa"
+               style="padding-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;"/><img id="image"
+                                                                                                           src="${spa}"
+                                                                                                           style="width: 50px; height: 50px;"
+                                                                                                           class="image-nav"/>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" role="navigation">
+
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
+                    <li><a href="#">service</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">products <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
+                            <li><a href="/MyProjectSpa/products/productall">product</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
+                            <li><a href="/MyProjectSpa/massages/massageall">massage</a></li>
                             <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
+                            <li><a href="#">beauty</a></li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
+                    <li class="btn">
+                        <button class="btn btn-warning" role="button" aria-haspopup="true" id="btn_loginmain">login</button>
                     </li>
+                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">login <span class="caret"></span></a>-->
+
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+    <div class="form-horizontal" role="form">
+        <div id="modalRegister" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>
+                            login
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Username</label>
+
+                            <div class="col-sm-7">
+                                <input id="txt_CompanyCodeEdit" type="text" class="form-control" maxlength="10"
+                                       data-toggle="popover" data-content="GG"
+                                       data-placement="bottom"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Password</label>
+
+                            <div class="col-sm-7">
+                                <input id="txt_CompanyNameEdit" type="text" class="form-control" maxlength="30"
+                                       data-toggle="popover" data-content="GG"
+                                       data-placement="bottom"/>
+                            </div>
+                        </div>
+                    </div>
+                    <center>
+                        <div class="modal-footer">
+                            <button id="btn_Login" type="button" class="btn btn-primary">Login</button>
+                            <button id="btn_Register" type="button" class="btn btn-warning">Register</button>
+                            <!--<button id="btn_CancelEditCompanies" type="button" aria-hidden="true" class="btn btn-danger"-->
+                            <!--data-dismiss="modal">${BUTTON_CANCEL}</button>-->
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="${login}" type="text/javascript"><!--Not Empty --></script>
 </div>
 
 

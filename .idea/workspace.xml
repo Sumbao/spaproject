@@ -2,68 +2,106 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95de58b8-be5f-454b-99c2-001c18ede9bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c10d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c10e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c10f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1101.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1110.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1121.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1130.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1141.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1150.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1161.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1170.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1181.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1190.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c11a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c11b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c11c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c11d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c11e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c11f0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1201.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1211.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1221.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1231.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1241.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1251.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1261.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1271.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1281.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1291.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1000.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1011.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1020.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1031.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1041.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1051.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1061.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1071.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1081.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1091.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d10a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d10b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d10c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df00.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df11.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df20.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df40.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df60.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df80.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/df91.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dfa0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dfb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dfc0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dfd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dfe0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dff1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/uncaughtException_jspx.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c61.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c81.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1ca1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1cc1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1ce1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1cf1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d01.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d11.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d21.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d31.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d51.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d61.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d71.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/logo_spa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageController_Custom_Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageController_Custom_Controller.aj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/customerRegister.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/massageall.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/loginScript.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1501.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1521.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1541.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1561.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1581.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1601.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1611.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1621.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1631.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/testscript.jspx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/spa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/spa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/layouts/default_jspx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/footer_jspx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/header_jspx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/menu_jspx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/resourceNotFound_jspx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/menu/category_tagx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/menu/item_tagx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/menu/menu_tagx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/language_tagx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/theme_tagx.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1470.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1bf0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1481.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c01.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1490.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1cd0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14a1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1be1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14b0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1bb0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14c1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c21.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14d0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1cb0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14e1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1bc1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14f0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c90.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1510.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c70.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1530.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c50.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1550.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c30.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1570.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c10.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1590.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1bd0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12a0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a20.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12b1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ba1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12c0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b00.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12d1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b91.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12e0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d19e0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12f1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b81.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1300.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ae0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1311.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b71.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1320.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ac0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1331.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b61.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1340.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1aa0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1351.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b51.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1360.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a80.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1371.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b41.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1380.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a60.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1391.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b31.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13a0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a40.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13b1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b21.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13c0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a00.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13d1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b11.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13e1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1af1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13f1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ad1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1401.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ab1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1411.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a91.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1421.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a71.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1431.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a51.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1441.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a31.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1451.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a11.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1461.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d19f1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/testscript_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/customerRegister_jspx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/db.lck" afterPath="$PROJECT_DIR$/MyProjectSpa/db.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log.ctrl" afterPath="$PROJECT_DIR$/MyProjectSpa/log/log.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log2.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/log/log2.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log3.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/log/log3.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/MyProjectSpa/log/logmirror.ctrl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c101.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c101.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c111.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c111.dat" />
@@ -91,6 +129,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cf0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/cf0.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_JavaBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_Jpa_Entity.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_Jpa_Entity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_JavaBean.class" />
@@ -106,26 +145,39 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageTypes_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageTypes_Roo_JavaBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage_Roo_JavaBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_JavaBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Roo_JavaBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerDataOnDemand_Roo_DataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/CustomerController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/CustomerController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand_Roo_DataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand_Roo_DataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand_Roo_DataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayDataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayDataOnDemand_Roo_DataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageTypesDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageTypesDataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageTypesDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageTypesDataOnDemand_Roo_DataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesDataOnDemand_Roo_DataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand_Roo_DataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventDataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventDataOnDemand_Roo_DataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/testscript.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/testscript.jspx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.aj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/views.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/testscript_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/testscript_jspx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/views.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/views.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/aop-ajc.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/aop-ajc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/builddef.lst" afterPath="$PROJECT_DIR$/target/classes/builddef.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/headerCustom_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/headerCustom_jspx.java" />
     </list>
     <ignored path="MyProjectSpa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -147,72 +199,114 @@
     <favorites_list name="MyProjectSpa" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="header.jspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jspx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index-template.jspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index-template.jspx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.jspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jspx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headerCustom.jspx" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="headerCustom.jspx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44460028">
-              <caret line="125" column="148" selection-start-line="125" selection-start-column="148" selection-end-line="125" selection-end-column="148" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testscript.jspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/testscript.jspx">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.967742">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+              <caret line="142" column="41" selection-start-line="142" selection-start-column="41" selection-end-line="142" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layouts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml">
+      <file leaf-file-name="loginScript.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/loginScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.206897">
-              <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.21568628">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#45#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productall.jspx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.645162">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MassageController_Custom_Controller.aj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageController_Custom_Controller.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerController_Custom_Controller.aj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/views.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.645162">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="customerRegister.jspx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/customerRegister.jspx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController_Custom_Controller.aj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController_Roo_Controller.aj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Roo_Controller.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="45" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -224,12 +318,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Aspect" />
+        <option value="JavaScript File" />
         <option value="Jspx File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -246,9 +347,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/logintemplate.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footerCustom.jspx" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/views.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/testscript.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/views.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/massageall.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/views.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageController_Custom_Controller.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.aj" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/customerRegister.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/views.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/loginScript.js" />
       </list>
     </option>
   </component>
@@ -295,6 +406,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -413,6 +527,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="massages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="customers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -491,6 +673,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -512,8 +750,34 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprojectspa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprojectspa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,37 +799,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyProjectSpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyProjectSpa" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="myprojectspa" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -968,6 +1211,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -984,48 +1232,52 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="95de58b8-be5f-454b-99c2-001c18ede9bb" name="Default" comment="" />
       <created>1455898513260</created>
       <option name="number" value="Default" />
       <updated>1455898513260</updated>
-      <workItem from="1455898514725" duration="3928000" />
+      <workItem from="1455898514725" duration="4099000" />
+      <workItem from="1456405524494" duration="5449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3928000" />
+    <option name="totallyTimeSpent" value="9548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18393235" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2653277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1055,6 +1307,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -1062,8 +1322,12 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyProjectSpa.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1071,11 +1335,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspx">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jspx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index-template.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyProjectSpa.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1127,34 +1430,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.193548">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.206897">
-          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footerCustom.jspx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/testscript.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.967742">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1164,13 +1443,235 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/views.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44460028">
-          <caret line="125" column="148" selection-start-line="125" selection-start-column="148" selection-end-line="125" selection-end-column="148" />
+        <state vertical-scroll-proportion="-4.967742">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.064516">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/massageall.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.645162">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.645162">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageController_Roo_Controller.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44117647">
+          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Roo_Controller.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/customerRegister.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.645162">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageController_Custom_Controller.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.967742">
+          <caret line="142" column="41" selection-start-line="142" selection-start-column="41" selection-end-line="142" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/loginScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21568628">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>MyProjectSpa:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>AspectJ</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MyProjectSpa</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
