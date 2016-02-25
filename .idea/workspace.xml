@@ -2,26 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95de58b8-be5f-454b-99c2-001c18ede9bb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c61.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c81.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1ca1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1cc1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1ce1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1cf1.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d01.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d11.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d21.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d31.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d41.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d51.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d61.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1d71.dat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/logo_spa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageController_Custom_Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageController_Custom_Controller.aj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/customerRegister.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/massageall.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/loginScript.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log2.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1470.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1481.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1490.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14b0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14d0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14f0.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1501.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1510.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1521.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1530.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1541.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1550.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1561.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1570.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1581.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1590.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15a1.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15b1.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c15c1.dat" afterPath="" />
@@ -32,40 +42,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1611.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1621.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1631.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12a0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1300.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1311.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1320.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1331.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1340.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1351.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1360.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1371.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1380.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1391.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13a0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1401.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1411.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1421.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1431.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1441.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1451.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1461.dat" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/testscript.jspx" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/spa.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/images/spa.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/layouts/default_jspx.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/testscript_jspx.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/footer_jspx.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/header_jspx.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/menu_jspx.java" afterPath="" />
@@ -75,6 +55,50 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/menu/menu_tagx.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/language_tagx.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/theme_tagx.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1470.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1bf0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1481.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c01.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1490.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1cd0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14a1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1be1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14b0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1bb0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14c1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c21.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14d0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1cb0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14e1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1bc1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c14f0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c90.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1510.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c70.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1530.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c50.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1550.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c30.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1570.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1c10.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1590.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1bd0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12a0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a20.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12b1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ba1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12c0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b00.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12d1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b91.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12e0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d19e0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d12f1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b81.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1300.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ae0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1311.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b71.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1320.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ac0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1331.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b61.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1340.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1aa0.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1351.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b51.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1360.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a80.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1371.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b41.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1380.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a60.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1391.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b31.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13a0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a40.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13b1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b21.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13c0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a00.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13d1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1b11.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13e1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1af1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d13f1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ad1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1401.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1ab1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1411.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a91.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1421.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a71.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1431.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a51.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1441.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a31.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1451.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d1a11.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d1461.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/d19f1.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/testscript_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/customerRegister_jspx.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/db.lck" afterPath="$PROJECT_DIR$/MyProjectSpa/db.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log.ctrl" afterPath="$PROJECT_DIR$/MyProjectSpa/log/log.ctrl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log3.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/log/log3.dat" />
@@ -1218,12 +1242,12 @@
       <option name="number" value="Default" />
       <updated>1455898513260</updated>
       <workItem from="1455898514725" duration="4099000" />
-      <workItem from="1456405524494" duration="5399000" />
+      <workItem from="1456405524494" duration="5449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9498000" />
+    <option name="totallyTimeSpent" value="9548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
