@@ -112,3 +112,10 @@ focus --class ~.domain.projectspa.Holiday
 field reference --fieldName employeeHoliday --type ~.domain.projectspa.Employee --cardinality MANY_TO_ONE --fetch LAZY --joinColumnName employeeHoliday
 exit
 // Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-02-14 18:43:22
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-03-14 15:49:12
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-03-14 15:49:56
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-03-14 15:50:52
+security setup
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-03-14 15:51:07

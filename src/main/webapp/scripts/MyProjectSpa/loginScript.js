@@ -4,9 +4,7 @@
 
 
 $("#btn_loginmain").on('click',function(){
-    $("#modalRegister").modal("show");
+    window.location = "/MyProjectSpa/login";
 });
 
-$("#btn_Register").on('click',function(){
-    window.location = "/MyProjectSpa/customers/register";
-});
+

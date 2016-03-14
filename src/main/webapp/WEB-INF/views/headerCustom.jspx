@@ -14,34 +14,34 @@
 
     <spring:url value="/" var="dash_board_url"/>
     <spring:url value="/resources/images/ess-brand.png" var="image_brand_url"/>
-    <!--<script>-->
-    <!--console.log('${userDetail.username}');-->
-    <!--if ('${userDetail.username}' == "No UserName") {-->
-    <!--location.href = '/' + (window.location.pathname.split('/')[1]) + "/resources/j_spring_security_logout";-->
-    <!--}-->
+    <script>
+    console.log('${userDetail.username}');
+    if ('${userDetail.username}' == "No UserName") {
+    location.href = '/' + (window.location.pathname.split('/')[1]) + "/resources/j_spring_security_logout";
+    }
 
-    <!--var session = {-->
-    <!--date: new Date(Number("${now.time}")).setHours(0, 0, 0, 0),    // the current date without time-->
-    <!--time: new Date(Number("${now.time}")),                      // the current date with time-->
-    <!--user: "${user}",                                            // the session user-->
-    <!--lang: "${lang}",                                            // the language is page language-->
-    <!--other: [],                                                  // the other use for create request for other-->
-    <!--context: '/' + (window.location.pathname.split('/')[1]),    // the context path-->
-    <!--contextCurrentURL: '${currentURL}',                                   // the context path remove artifact web app-->
-    <!--userRole: '${userRole}',                                   // the session userRole-->
-    <!--};-->
-    <!--var _language = window.session.lang;-->
-    <!--/*    $(function(){-->
-    <!--var token = $("meta[name='_csrf']").attr("content");-->
-    <!--var header = $("meta[name='_csrf_header']").attr("content");-->
-    <!--console.log(token);-->
-    <!--console.log(header);-->
-    <!--$(document).ajaxSend(function(e, xhr, options) {-->
-    <!--xhr.setRequestHeader(header, token);-->
-    <!--});-->
-    <!--});*/-->
+    var session = {
+    date: new Date(Number("${now.time}")).setHours(0, 0, 0, 0),    // the current date without time
+    time: new Date(Number("${now.time}")),                      // the current date with time
+    user: "${user}",                                            // the session user
+    lang: "${lang}",                                            // the language is page language
+    other: [],                                                  // the other use for create request for other
+    context: '/' + (window.location.pathname.split('/')[1]),    // the context path
+    contextCurrentURL: '${currentURL}',                                   // the context path remove artifact web app
+    userRole: '${userRole}',                                   // the session userRole
+    };
+    var _language = window.session.lang;
+    /*    $(function(){
+    var token = $("meta[name='_csrf']").attr("content");
+    var header = $("meta[name='_csrf_header']").attr("content");
+    console.log(token);
+    console.log(header);
+    $(document).ajaxSend(function(e, xhr, options) {
+    xhr.setRequestHeader(header, token);
+    });
+    });*/
 
-    <!--</script>-->
+    </script>
     <!--<c:set var="LABEL_MEETINGROOM"><spring:message  javaScriptEscape="true" code="LB00002"/></c:set>-->
     <!--<c:set var="LABEL_RESERVATION_CHAIR"><spring:message  javaScriptEscape="true" code="LB00011"/></c:set>-->
     <!--<c:set var="LABEL_CONFERENCE_DETAIL"><spring:message  javaScriptEscape="true" code="LB00015"/></c:set>-->
@@ -112,7 +112,9 @@
     <!--commonChangeLanguage($(this).attr('alt'));-->
     <!--});-->
     <!--</script>-->
-    <nav class="navbar navbar-default" role="navigation">
+    <spring:url value="/resources/images/pichead.jpg" var="pichead"/>
+    <!--<img id="imagehead" src="${pichead}" style="width: 700px; height: 200px;"/>-->
+    <nav class="navbar navbar-default" role="navigation" >
         <div class="container-fluid">
             <spring:url value="/resources/images/logo_spa.png" var="spa"/>
             <spring:url value="/resources/scripts/MyProjectSpa/loginScript.js" var="login"/>
@@ -150,7 +152,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="btn">
-                        <button class="btn btn-warning" role="button" aria-haspopup="true" id="btn_loginmain">login</button>
+                        <button class="btn btn-info" role="button" aria-haspopup="true" id="btn_loginmain">login</button>
                     </li>
                     <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">login <span class="caret"></span></a>-->
 
@@ -158,47 +160,58 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-    <div class="form-horizontal" role="form">
-        <div id="modalRegister" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-md">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4>
-                            login
-                        </h4>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label class="col-sm-4 control-label">Username</label>
+    <!--<div class="form-horizontal" role="form">-->
+        <!--<div id="modalRegister" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+            <!--<div class="modal-dialog modal-md">-->
+                <!--<div class="modal-content">-->
+                    <!--<div class="modal-header">-->
+                        <!--<h4>-->
+                            <!--login-->
+                        <!--</h4>-->
+                    <!--</div>-->
+                    <!--<div class="modal-body">-->
+                        <!--<div class="form-group">-->
+                            <!--<label class="col-sm-4 control-label">Username</label>-->
 
-                            <div class="col-sm-7">
-                                <input id="txt_CompanyCodeEdit" type="text" class="form-control" maxlength="10"
-                                       data-toggle="popover" data-content="GG"
-                                       data-placement="bottom"/>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label class="col-sm-4 control-label">Password</label>
+                            <!--<div class="col-sm-7">-->
+                                <!--<input id="txt_username" type="text" class="form-control" maxlength="10"-->
+                                       <!--data-toggle="popover" data-content="GG"-->
+                                       <!--data-placement="bottom"/>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<div class="form-group">-->
+                            <!--<label class="col-sm-4 control-label">Password</label>-->
 
-                            <div class="col-sm-7">
-                                <input id="txt_CompanyNameEdit" type="text" class="form-control" maxlength="30"
-                                       data-toggle="popover" data-content="GG"
-                                       data-placement="bottom"/>
-                            </div>
-                        </div>
-                    </div>
-                    <center>
-                        <div class="modal-footer">
-                            <button id="btn_Login" type="button" class="btn btn-primary">Login</button>
-                            <button id="btn_Register" type="button" class="btn btn-warning">Register</button>
-                            <!--<button id="btn_CancelEditCompanies" type="button" aria-hidden="true" class="btn btn-danger"-->
-                            <!--data-dismiss="modal">${BUTTON_CANCEL}</button>-->
-                        </div>
-                    </center>
-                </div>
-            </div>
-        </div>
-    </div>
+                            <!--<div class="col-sm-7">-->
+                                <!--<input id="txt_password" type="text" class="form-control" maxlength="30"-->
+                                       <!--data-toggle="popover" data-content="GG"-->
+                                       <!--data-placement="bottom"/>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<center>-->
+                        <!--<div class="modal-footer">-->
+                            <!--<button id="btn_Login" type="button" class="btn btn-primary">Login</button>-->
+                            <!--<button id="btn_Register" type="button" class="btn btn-warning">Register</button>-->
+                            <!--&lt;!&ndash;<button id="btn_CancelEditCompanies" type="button" aria-hidden="true" class="btn btn-danger"&ndash;&gt;-->
+                            <!--&lt;!&ndash;data-dismiss="modal">${BUTTON_CANCEL}</button>&ndash;&gt;-->
+                        <!--</div>-->
+                    <!--</center>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <style>
+        .navbar-default{
+            background-color: #66afe9;
+        }
+        .dropdown-menu{
+            background-color: #66afe9;
+        }
+        .dropdown-menu li a{
+            color: #FFFFFF;
+        }
+    </style>
     <script src="${login}" type="text/javascript"><!--Not Empty --></script>
 </div>
 
