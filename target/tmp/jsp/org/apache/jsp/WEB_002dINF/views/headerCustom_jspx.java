@@ -64,11 +64,59 @@ public final class headerCustom_jspx extends org.apache.jasper.runtime.HttpJspBa
         return;
       if (_jspx_meth_spring_url_1(_jspx_page_context))
         return;
-      out.write("<nav role=\"navigation\" class=\"navbar navbar-default\">");
-      out.write("<div class=\"container-fluid\">");
+      out.write("<script>");
+      out.write("\n");
+      out.write("    console.log('");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${userDetail.username}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("');\n");
+      out.write("    if ('");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${userDetail.username}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("' == \"No UserName\") {\n");
+      out.write("    location.href = '/' + (window.location.pathname.split('/')[1]) + \"/resources/j_spring_security_logout\";\n");
+      out.write("    }\n");
+      out.write("\n");
+      out.write("    var session = {\n");
+      out.write("    date: new Date(Number(\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${now.time}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\")).setHours(0, 0, 0, 0),    // the current date without time\n");
+      out.write("    time: new Date(Number(\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${now.time}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\")),                      // the current date with time\n");
+      out.write("    user: \"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${user}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\",                                            // the session user\n");
+      out.write("    lang: \"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${lang}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\",                                            // the language is page language\n");
+      out.write("    other: [],                                                  // the other use for create request for other\n");
+      out.write("    context: '/' + (window.location.pathname.split('/')[1]),    // the context path\n");
+      out.write("    contextCurrentURL: '");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${currentURL}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("',                                   // the context path remove artifact web app\n");
+      out.write("    userRole: '");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${userRole}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("',                                   // the session userRole\n");
+      out.write("    };\n");
+      out.write("    var _language = window.session.lang;\n");
+      out.write("    /*    $(function(){\n");
+      out.write("    var token = $(\"meta[name='_csrf']\").attr(\"content\");\n");
+      out.write("    var header = $(\"meta[name='_csrf_header']\").attr(\"content\");\n");
+      out.write("    console.log(token);\n");
+      out.write("    console.log(header);\n");
+      out.write("    $(document).ajaxSend(function(e, xhr, options) {\n");
+      out.write("    xhr.setRequestHeader(header, token);\n");
+      out.write("    });\n");
+      out.write("    });*/\n");
+      out.write("\n");
+      out.write("    ");
+      out.write("</script>");
       if (_jspx_meth_spring_url_2(_jspx_page_context))
         return;
+      out.write("<nav role=\"navigation\" class=\"navbar navbar-default\">");
+      out.write("<div class=\"container-fluid\">");
       if (_jspx_meth_spring_url_3(_jspx_page_context))
+        return;
+      if (_jspx_meth_spring_url_4(_jspx_page_context))
         return;
       out.write("<div class=\"navbar-header\">");
       out.write("<button aria-expanded=\"false\" data-target=\"#bs-example-navbar-collapse-1\" data-toggle=\"collapse\" class=\"navbar-toggle collapsed\" type=\"button\">");
@@ -117,7 +165,7 @@ public final class headerCustom_jspx extends org.apache.jasper.runtime.HttpJspBa
       out.write("</ul>");
       out.write("<ul class=\"nav navbar-nav navbar-right\">");
       out.write("<li class=\"btn\">");
-      out.write("<button id=\"btn_loginmain\" aria-haspopup=\"true\" role=\"button\" class=\"btn btn-warning\">");
+      out.write("<button id=\"btn_loginmain\" aria-haspopup=\"true\" role=\"button\" class=\"btn btn-info\">");
       out.write("login");
       out.write("</button>");
       out.write("</li>");
@@ -125,49 +173,19 @@ public final class headerCustom_jspx extends org.apache.jasper.runtime.HttpJspBa
       out.write("</div>");
       out.write("</div>");
       out.write("</nav>");
-      out.write("<div role=\"form\" class=\"form-horizontal\">");
-      out.write("<div aria-hidden=\"true\" aria-labelledby=\"myModalLabel\" role=\"dialog\" class=\"modal fade\" id=\"modalRegister\">");
-      out.write("<div class=\"modal-dialog modal-md\">");
-      out.write("<div class=\"modal-content\">");
-      out.write("<div class=\"modal-header\">");
-      out.write("<h4>");
+      out.write("<style>");
       out.write("\n");
-      out.write("                            login\n");
-      out.write("                        ");
-      out.write("</h4>");
-      out.write("</div>");
-      out.write("<div class=\"modal-body\">");
-      out.write("<div class=\"form-group\">");
-      out.write("<label class=\"col-sm-4 control-label\">");
-      out.write("Username");
-      out.write("</label>");
-      out.write("<div class=\"col-sm-7\">");
-      out.write("<input data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" maxlength=\"10\" class=\"form-control\" type=\"text\" id=\"txt_CompanyCodeEdit\" />");
-      out.write("</div>");
-      out.write("</div>");
-      out.write("<div class=\"form-group\">");
-      out.write("<label class=\"col-sm-4 control-label\">");
-      out.write("Password");
-      out.write("</label>");
-      out.write("<div class=\"col-sm-7\">");
-      out.write("<input data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" maxlength=\"30\" class=\"form-control\" type=\"text\" id=\"txt_CompanyNameEdit\" />");
-      out.write("</div>");
-      out.write("</div>");
-      out.write("</div>");
-      out.write("<center>");
-      out.write("<div class=\"modal-footer\">");
-      out.write("<button class=\"btn btn-primary\" type=\"button\" id=\"btn_Login\">");
-      out.write("Login");
-      out.write("</button>");
-      out.write("<button class=\"btn btn-warning\" type=\"button\" id=\"btn_Register\">");
-      out.write("Register");
-      out.write("</button>");
-      out.write("</div>");
-      out.write("</center>");
-      out.write("</div>");
-      out.write("</div>");
-      out.write("</div>");
-      out.write("</div>");
+      out.write("        .navbar-default{\n");
+      out.write("            background-color: #66afe9;\n");
+      out.write("        }\n");
+      out.write("        .dropdown-menu{\n");
+      out.write("            background-color: #66afe9;\n");
+      out.write("        }\n");
+      out.write("        .dropdown-menu li a{\n");
+      out.write("            color: #FFFFFF;\n");
+      out.write("        }\n");
+      out.write("    ");
+      out.write("</style>");
       out.write("<script type=\"text/javascript\" src=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${login}", java.lang.String.class, (PageContext)_jspx_page_context, null) + "\">");
       out.write("</script>");
       out.write("</div>");
@@ -246,8 +264,8 @@ public final class headerCustom_jspx extends org.apache.jasper.runtime.HttpJspBa
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_2 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_2.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_2.setParent(null);
-    _jspx_th_spring_url_2.setVar("spa");
-    _jspx_th_spring_url_2.setValue("/resources/images/logo_spa.png");
+    _jspx_th_spring_url_2.setVar("pichead");
+    _jspx_th_spring_url_2.setValue("/resources/images/pichead.jpg");
     int[] _jspx_push_body_count_spring_url_2 = new int[] { 0 };
     try {
       int _jspx_eval_spring_url_2 = _jspx_th_spring_url_2.doStartTag();
@@ -273,8 +291,8 @@ public final class headerCustom_jspx extends org.apache.jasper.runtime.HttpJspBa
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_3 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_3.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_3.setParent(null);
-    _jspx_th_spring_url_3.setVar("login");
-    _jspx_th_spring_url_3.setValue("/resources/scripts/MyProjectSpa/loginScript.js");
+    _jspx_th_spring_url_3.setVar("spa");
+    _jspx_th_spring_url_3.setValue("/resources/images/logo_spa.png");
     int[] _jspx_push_body_count_spring_url_3 = new int[] { 0 };
     try {
       int _jspx_eval_spring_url_3 = _jspx_th_spring_url_3.doStartTag();
@@ -288,6 +306,33 @@ public final class headerCustom_jspx extends org.apache.jasper.runtime.HttpJspBa
     } finally {
       _jspx_th_spring_url_3.doFinally();
       _jspx_tagPool_spring_url_var_value_nobody.reuse(_jspx_th_spring_url_3);
+    }
+    return false;
+  }
+
+  private boolean _jspx_meth_spring_url_4(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  spring:url
+    org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_4 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
+    _jspx_th_spring_url_4.setPageContext(_jspx_page_context);
+    _jspx_th_spring_url_4.setParent(null);
+    _jspx_th_spring_url_4.setVar("login");
+    _jspx_th_spring_url_4.setValue("/resources/scripts/MyProjectSpa/loginScript.js");
+    int[] _jspx_push_body_count_spring_url_4 = new int[] { 0 };
+    try {
+      int _jspx_eval_spring_url_4 = _jspx_th_spring_url_4.doStartTag();
+      if (_jspx_th_spring_url_4.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        return true;
+      }
+    } catch (Throwable _jspx_exception) {
+      while (_jspx_push_body_count_spring_url_4[0]-- > 0)
+        out = _jspx_page_context.popBody();
+      _jspx_th_spring_url_4.doCatch(_jspx_exception);
+    } finally {
+      _jspx_th_spring_url_4.doFinally();
+      _jspx_tagPool_spring_url_var_value_nobody.reuse(_jspx_th_spring_url_4);
     }
     return false;
   }
