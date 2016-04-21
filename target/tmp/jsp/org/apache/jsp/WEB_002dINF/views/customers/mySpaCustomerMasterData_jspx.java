@@ -49,7 +49,7 @@ public final class mySpaCustomerMasterData_jspx extends org.apache.jasper.runtim
       out.write("<p>");
       out.write("The .table class adds basic styling (light padding and only horizontal dividers) to a table:");
       out.write("</p>");
-      out.write("<table class=\"table-responsive\">");
+      out.write("<table class=\"table\">");
       out.write("<thead>");
       out.write("<tr>");
       out.write("<th>");

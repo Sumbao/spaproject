@@ -6,20 +6,249 @@
      role="tabpanel" class="tab-pane" id="ProductTabs">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                  <div class="form-horizontal" role="form">
-                      <div class="form-group" style="margin-top: 10px">
-                          <button id="productBtnAdd" class="btn btn-success" style="margin-right:5px;">
-                              <span class="glyphicon glyphicon-plus"></span>
-                          </button>
-                          <button id="productDelete" class="btn btn-danger" style="margin-right:5px;">
-                              <span class="glyphicon glyphicon-minus"></span>
-                          </button>
-                      </div>
-                  </div>
+    <spring:url value="/resources/scripts/MyProjectSpa/product.js" var="ProDuct"/>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-horizontal" role="form">
+                    <div class="form-group" style="margin-top: 10px">
+                        <button id="productBtnAdd" class="btn btn-success" style="margin-right:5px;">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                        <button id="productDelete" class="btn btn-danger" style="margin-right:5px;">
+                            <span class="glyphicon glyphicon-minus"></span>
+                        </button>
+                    </div>
+                    <div class="form-group">
+                        <div class="table-responsive">
+                            <table class="table" data-toggle="table" role="table">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        <div>
+                                            <center><input id="checkBoxproAll" type="checkbox"/></center>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <center>edit</center>
+                                    </th>
+                                    <th>
+                                        <center>Product Code</center>
+                                    </th>
+                                    <th>
+                                        <center>product Name</center>
+                                    </th>
+                                    <th>
+                                        <center>Product datail</center>
+                                    </th>
+                                    <th>
+                                        <center>Product Price</center>
+                                    </th>
+                                    <th>
+                                        <center>Product types</center>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody id="tableProduct">
+                                <jsp:text/>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-horizontal">
+                <div id="modalAddProduct" class="modal fade" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4>Add Data</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label required">product Code</label>
+
+                                    <div class="col-sm-6">
+                                        <input id="proCodeAdd" type="text" class="form-control"
+                                               data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label required">product Name</label>
+
+                                    <div class="col-sm-6">
+                                        <input id="pronameAdd" type="text" class="form-control"
+                                               data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">product type</label>
+                                    <div class="col-sm-6">
+                                        <select id="select_Protype" class="form-control" data-toggle="popover"
+                                                data-content="GG"
+                                                data-placement="bottom">
+                                            <jsp:text/>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label required">product detail</label>
+
+                                    <div class="col-sm-6">
+                                            <textarea id="prodesAdd" class="form-control"
+                                                      data-toggle="popover" data-content="GG"
+                                                      data-placement="bottom" maxlength="50"><jsp:text/></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label required">product Price</label>
+
+                                    <div class="col-sm-6">
+                                        <input id="propriceAdd" type="text" class="form-control"
+                                               data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">product picture</label>
+
+                                    <div class="col-sm-6">
+                                        <div class="input-group">
+                                            <input id="productPicture" type="text" class="form-control"
+                                                   disabled="disabled"
+                                                   data-toggle="popover" data-content="GG"
+                                                   data-placement="bottom"/>
+                                            <span class="input-group-btn fileUpload">
+                                                <span class="btn btn-primary btn-file glyphicon glyphicon-folder-close">
+                                                    <input type="file" id="file" class="upload"/>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <center>
+                                    <button id="modalBtnAddpro" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon glyphicon-ok"></span>
+                                    </button>
+                                    <button id="btnCancelpro" class="btn btn-danger">
+                                        <span class="glyphicon glyphicon glyphicon-remove"></span>
+                                    </button>
+                                    <button id="modalBtnAddNextpro" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon glyphicon-chevron-right"></span>
+                                    </button>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="modalEditProduct" class="modal fade" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4>Edit Data</h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label required">product Code</label>
+
+                                    <div class="col-sm-6">
+                                        <input id="protypeCodeAdd" type="text" class="form-control"
+                                               data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label required">product Name</label>
+
+                                    <div class="col-sm-6">
+                                        <input id="protypenameEdit" type="text" class="form-control"
+                                               data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">product type</label>
+
+                                    <div class="col-sm-6">
+                                        <select id="select_ProtypeEdit" class="form-control" data-toggle="popover"
+                                                data-content="GG"
+                                                data-placement="bottom">
+                                            <jsp:text/>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label required">product detail</label>
+
+                                    <div class="col-sm-6">
+                                            <textarea id="protypedesEdit" class="form-control"
+                                                      data-toggle="popover" data-content="GG"
+                                                      data-placement="bottom" maxlength="50"><jsp:text/></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label required">product Price</label>
+
+                                    <div class="col-sm-6">
+                                        <input id="protypenameEdit" type="text" class="form-control"
+                                               data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-3 control-label">product picture</label>
+
+                                    <div class="col-sm-6">
+                                        <div class="input-group">
+                                            <input id="productPictureEdit" type="text" class="form-control"
+                                                   disabled="disabled"
+                                                   data-toggle="popover" data-content="GG"
+                                                   data-placement="bottom"/>
+                                            <span class="input-group-btn fileUpload">
+                                                <span class="btn btn-primary btn-file glyphicon glyphicon-folder-close">
+                                                    <input type="producrfileedit" id="productFileEdit" class="upload"/>
+                                                </span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <center>
+                                    <button id="modalBtnEditPro" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon glyphicon-ok"></span>
+                                    </button>
+                                    <button id="btnCancelEditPro" class="btn btn-danger">
+                                        <span class="glyphicon glyphicon glyphicon-remove"></span>
+                                    </button>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <script src="${ProDuct}" type="text/javascript"><!--Not Empty --></script>
+    <style type="text/css">
+        .fileUpload {
+            position: relative;
+            overflow: hidden;
+            margin: 10px;
+        }
+
+        .fileUpload input.upload {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+            filter: alpha(opacity=0);
+        }
+    </style>
 </div>

@@ -7,6 +7,145 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <spring:url value="/resources/scripts/MyProjectSpa/MassageTypes" var="massagetypes"/>
-    <button id="TestBT" class="btn btn-danger">test</button>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-horizontal" role="forn">
+                    <div class="form-group" style="margin-top: 10px">
+                        <button id="mastypeBtnAdd" class="btn btn-success" style="margin-right:5px;">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                        <button id="mastypeDelete" class="btn btn-danger" style="margin-right:5px;">
+                            <span class="glyphicon glyphicon-minus"></span>
+                        </button>
+                    </div>
+                    <div class="form-group">
+                        <div>
+                            <table class="table table-responsive" data-toggle="table" role="table">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        <div>
+                                            <center><input id="checkBoxmastypeAll" type="checkbox"/></center>
+                                        </div>
+                                    </th>
+                                    <th>
+                                        <center>Edit</center>
+                                    </th>
+                                    <th>
+                                        <center>TypeCode</center>
+                                    </th>
+                                    <th>
+                                        <center>TypeName</center>
+                                    </th>
+                                    <th>
+                                        <center>Detail</center>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody id="tablemastype">
+                                <jsp:text/>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-horizontal">
+                    <div id="modalAddmastype" class="modal fade" role="dialog" aria-labelledby="myModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4>Add Data</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">TypeCode</label>
+
+                                        <div class="col-sm-6">
+                                            <input id="typeCodeAdd" type="text" class="form-control"
+                                                   data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">TypeName</label>
+
+                                        <div class="col-sm-6">
+                                            <input id="typeNameAdd" type="text" class="form-control"
+                                                   data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">Detail</label>
+                                        <div class="col-sm-6">
+                                         <textarea id="typeDetailAdd" class="form-control"
+                                                   data-toggle="popover" data-content="GG"
+                                                   data-placement="bottom" maxlength="50"><jsp:text/></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <center>
+                                        <button id="modalBtnAddmastype" class="btn btn-primary"><span
+                                                class="glyphicon glyphicon glyphicon-ok"></span></button>
+                                        <button id="btnCancelmastype" class="btn btn-danger"><span
+                                                class="glyphicon glyphicon glyphicon-remove"></span></button>
+                                        <button id="modalBtnAddNextmastype" class="btn btn-primary"><span
+                                                class="glyphicon glyphicon glyphicon-chevron-right"></span></button>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="modalEditmastype" class="modal fade" role="dialog" aria-labelledby="myModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4>Edit Data</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">TypeCode</label>
+
+                                        <div class="col-sm-6">
+                                            <input id="typeCodeEdit" type="text" class="form-control"
+                                                   data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">TypeName</label>
+
+                                        <div class="col-sm-6">
+                                            <input id="typeNameEdit" type="text" class="form-control"
+                                                   data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">Detail</label>
+
+                                        <div class="col-sm-6">
+                                        <textarea id="typeDetailEdit" class="form-control"
+                                                  data-toggle="popover" data-content="GG"
+                                                  data-placement="bottom" maxlength="50"><jsp:text/></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <center>
+                                        <button id="modalBtnEditmastype" class="btn btn-primary"><span
+                                                class="glyphicon glyphicon glyphicon-ok"></span></button>
+                                        <button id="btnCancelEditmastype" class="btn btn-danger"><span
+                                                class="glyphicon glyphicon glyphicon-remove"></span></button>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="${massagetypes}"><!--Not Empty --></script>
 </div>

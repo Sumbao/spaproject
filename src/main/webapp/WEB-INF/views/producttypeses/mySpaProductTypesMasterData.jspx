@@ -10,7 +10,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="form-horizontal" role="forn">
+                <div class="form-horizontal" role="form">
                     <div class="form-group" style="margin-top: 10px">
                         <button id="producttypeBtnAdd" class="btn btn-success" style="margin-right:5px;">
                             <span class="glyphicon glyphicon-plus"></span>
@@ -20,8 +20,8 @@
                         </button>
                     </div>
                     <div class="form-group">
-                        <div>
-                            <table class="table table-responsive" data-toggle="table" role="table">
+                        <div class="table-responsive">
+                            <table class="table" data-toggle="table" role="table">
                                 <thead>
                                 <tr>
                                     <th>
@@ -62,7 +62,9 @@
                                         <label class="col-sm-3 control-label required">ProductType Description</label>
 
                                         <div class="col-sm-6">
-                                            <textarea class="form-control" rows="5" id="protypedesAdd" data-toggle="popover" data-content="GG" data-placement="bottom"></textarea>
+                                            <textarea id="protypedesAdd" class="form-control"
+                                                      data-toggle="popover" data-content="GG"
+                                                      data-placement="bottom" maxlength="50"><jsp:text/></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +104,9 @@
                                         <label class="col-sm-3 control-label required">ProductType Description</label>
 
                                         <div class="col-sm-6">
-                                            <textarea class="form-control" rows="5" id="protypedesEdit" data-toggle="popover" data-content="GG" data-placement="bottom"></textarea>
+                                            <textarea id="protypedesEdit" class="form-control"
+                                                       data-toggle="popover" data-content="GG"
+                                                       data-placement="bottom" maxlength="50"><jsp:text/></textarea>
                                         </div>
                                     </div>
                                 </div>

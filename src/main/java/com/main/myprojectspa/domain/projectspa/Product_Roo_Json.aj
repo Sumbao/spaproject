@@ -11,7 +11,7 @@ import java.util.Collection;
 import java.util.List;
 
 privileged aspect Product_Roo_Json {
-    
+
     public String Product.toJson() {
         return new JSONSerializer()
         .exclude("*.class").deepSerialize(this);
@@ -26,7 +26,7 @@ privileged aspect Product_Roo_Json {
         return new JSONDeserializer<Product>()
         .use(null, Product.class).deserialize(json);
     }
-    
+
     public static String Product.toJsonArray(Collection<Product> collection) {
         return new JSONSerializer()
         .exclude("*.class").deepSerialize(collection);

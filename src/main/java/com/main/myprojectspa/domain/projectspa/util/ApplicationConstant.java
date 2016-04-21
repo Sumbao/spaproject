@@ -14,13 +14,13 @@ public class ApplicationConstant {
     public static Logger LOGGER = LoggerFactory.getLogger(ApplicationConstant.class);
     public static  Properties connectProperties = null;
 
-    public static  String PATH_FILE = "PathFile-Spa=C:/picPro";
+    public static  String PATH_FILE = "PathFileSpa=C:/picPro/";
 
     static {
         Resource resource = new ClassPathResource("/config.properties");
         try{
             connectProperties = PropertiesLoaderUtils.loadProperties(resource);
-            PATH_FILE =  ((connectProperties == null) ? PATH_FILE : (String)connectProperties.get("PathFile-Spa"));
+            PATH_FILE =  ((connectProperties == null) ? PATH_FILE : (String)connectProperties.get("PathFileSpa"));
         }catch(IOException e){
             LOGGER.error("Error : {}", e);
         }

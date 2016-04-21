@@ -2,6 +2,6 @@ $( document ).ready(function() {
     console.log( "GGHHY" );
 });
 
-$("#TestBT").on('click',function(){
-    alert("GG");
+$("#mastypeBtnAdd").on('click',function(){
+    $("#modalAddmastype").modal("show");
 })
