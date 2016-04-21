@@ -10,4 +10,13 @@ privileged aspect ProductController_Custom_Controller {
     public String ProductController.productall(Model uiModel) {
         return "products/productall";
     }
+
+    @RequestMapping(value = "/productdetail", produces = "text/html")
+    public String ProductController.productdetail(Model uiModel) {
+        return "products/productdetail";
+    }
 }
+
+
+
+
