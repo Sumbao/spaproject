@@ -15,6 +15,11 @@ privileged aspect CustomerController_Custom_Controller {
 
         return "customers/register";
     }
+    @RequestMapping(value = "/masterdata", produces = "text/html")
+    public String CustomerController.masterdata(Model uiModel) {
+
+        return "customers/masterdata";
+    }
     
    
     

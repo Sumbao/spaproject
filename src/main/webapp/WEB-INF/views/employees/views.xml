@@ -13,4 +13,8 @@
 <definition extends="default" name="employees/update">
         <put-attribute name="body" value="/WEB-INF/views/employees/update.jspx"/>
     </definition>
+    <definition extends="mainlayout" name="employees/masterdata">
+        <put-attribute name="body" value="/WEB-INF/views/employees/mySpaMasterData.jspx"/>
+    </definition>
+
 </tiles-definitions>

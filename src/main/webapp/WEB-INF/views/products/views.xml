@@ -16,5 +16,8 @@
     <definition extends="custom" name="products/productall">
         <put-attribute name="body" value="/WEB-INF/views/products/productall.jspx"/>
     </definition>
+    <definition extends="custom" name="products/productdetail">
+        <put-attribute name="body" value="/WEB-INF/views/products/productdetail.jspx"/>
+    </definition>
 
 </tiles-definitions>
