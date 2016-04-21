@@ -2,70 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95de58b8-be5f-454b-99c2-001c18ede9bb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log5.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2a30.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2a41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2a50.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2a61.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2a70.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2a81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2a90.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2aa1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2ab0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2ac1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2ad0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2ae1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2af0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b01.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b10.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b21.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b30.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b50.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b61.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2b91.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2ba1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2bb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2bc1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2bd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2be1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c2bf1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2860.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2871.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2880.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2891.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d28a0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d28b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d28c0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d28d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d28e0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d28f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2900.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2911.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2920.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2931.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2940.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2951.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2960.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2971.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2980.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2991.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d29a1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d29b1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d29c1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d29d1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d29e1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d29f1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2a01.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2a11.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d2a21.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/customerRegister_jspx.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log9.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4e70.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4e81.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4e90.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4ea1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4eb0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4ec1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4ed0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4ee1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4ef0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f30.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f41.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f50.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f61.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f70.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f81.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4f90.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4fa1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4fb1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4fc1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4fd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4fe1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c4ff1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c5001.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c5011.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c5021.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c5031.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4ca0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4cb1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4cc0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4cd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4ce0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4cf1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d00.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d40.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d51.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d60.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d71.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d80.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4d91.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4da0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4db1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4dc0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4dd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4de1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4df1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4e01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4e11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4e21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4e31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4e41.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4e51.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/d4e61.dat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/db.lck" afterPath="$PROJECT_DIR$/MyProjectSpa/db.lck" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log.ctrl" afterPath="$PROJECT_DIR$/MyProjectSpa/log/log.ctrl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/MyProjectSpa/log/logmirror.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c10.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c10.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c101.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c101.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c111.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c111.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c121.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c121.dat" />
@@ -80,9 +78,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c200.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c200.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c211.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c211.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c221.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c221.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c230.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c230.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c241.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c241.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c251.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c251.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c31.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c31.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c41.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c41.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c51.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c51.dat" />
@@ -96,6 +91,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_JavaBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_JavaBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer_Roo_JavaBean.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Employee.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Employee.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Employee_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Employee_Roo_JavaBean.class" />
@@ -110,24 +107,25 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_JavaBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_Json.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Roo_JavaBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Roo_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Roo_Json.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent_Roo_JavaBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ApplicationConversionServiceFactoryBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ApplicationConversionServiceFactoryBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/CustomerController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/CustomerController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/EmployeeController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/EmployeeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductTypesController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductTypesController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductTypesController_Custom_Controller_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductTypesController_Custom_Controller_Json.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerDataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerIntegrationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand_Roo_DataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/CustomerTypeIntegrationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeIntegrationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayDataOnDemand_Roo_DataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/HolidayIntegrationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand_Roo_DataOnDemand.class" />
@@ -141,31 +139,41 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductIntegrationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesDataOnDemand_Roo_DataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductTypesIntegrationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventDataOnDemand_Roo_DataOnDemand.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ShoppingEventIntegrationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext-security.xml" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layoutcustom.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layoutcustom.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layouts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/views.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product.java" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes.java" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_Json.aj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Roo_Json.aj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.java" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController.java" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductTypesController_Custom_Controller_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductTypesController_Custom_Controller_Json.aj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.properties" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/mySpaCustomerMasterData.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/mySpaCustomerMasterData.jspx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massagetypeses/mySpaMassagetypeMasterData.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massagetypeses/mySpaMassagetypeMasterData.jspx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/mySpaProductMasterData.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/mySpaProductMasterData.jspx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/views.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productdetail.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productdetail.jspx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/producttypeses/mySpaProductTypesMasterData.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/producttypeses/mySpaProductTypesMasterData.jspx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/MassageTypes" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/MassageTypes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/product.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/product.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/aop-ajc.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/aop-ajc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/spring/applicationContext-security.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/spring/applicationContext-security.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/builddef.lst" afterPath="$PROJECT_DIR$/target/classes/builddef.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/footer_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/footer_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/header_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/header_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/login_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/login_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/resourceNotFound_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/resourceNotFound_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/language_tagx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/language_tagx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/theme_tagx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/theme_tagx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config.properties" afterPath="$PROJECT_DIR$/target/classes/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/builddef.lst" afterPath="$PROJECT_DIR$/target/test-classes/builddef.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/mySpaCustomerMasterData_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/customers/mySpaCustomerMasterData_jspx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/employees/mySpaMenuTabs_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/employees/mySpaMenuTabs_jspx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/mainlayout/headermain_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/mainlayout/headermain_jspx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/massagetypeses/mySpaMassagetypeMasterData_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/massagetypeses/mySpaMassagetypeMasterData_jspx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/products/mySpaProductMasterData_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/products/mySpaProductMasterData_jspx.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/producttypeses/mySpaProductTypesMasterData_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/producttypeses/mySpaProductTypesMasterData_jspx.java" />
     </list>
     <ignored path="MyProjectSpa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -188,66 +196,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mySpaProductTypesMasterData.jspx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/producttypeses/mySpaProductTypesMasterData.jspx">
+      <file leaf-file-name="productall.jspx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="3.1003382">
-              <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
+            <state vertical-scroll-proportion="-15.83871">
+              <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mySpaMassagetypeMasterData.jspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massagetypeses/mySpaMassagetypeMasterData.jspx">
+      <file leaf-file-name="productsearch.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.096774">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductTypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.9520697">
+              <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
               <folding>
-                <element signature="e#0#45#0" expanded="false" />
+                <marker date="1461267733258" expanded="true" signature="1326:1356" placeholder="..." />
+                <marker date="1461267733258" expanded="true" signature="2066:2096" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MassageTypes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/MassageTypes">
+      <file leaf-file-name="Product.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mySpaMenuTabs.jspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx">
+      <file leaf-file-name="ProductController_Custom_Controller_Json.aj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller_Json.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.354838">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mySpaEmployeeMasterData.jspx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaEmployeeMasterData.jspx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.64516">
-              <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerType_Roo_Json.aj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_Json.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController_Roo_Controller_Json.aj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Roo_Controller_Json.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -281,16 +290,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageController_Custom_Controller.aj" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/views.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/webmvc-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jspx" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/loginTemplate.jspx" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/loginScript.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jspx" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/customerRegister.jspx" />
-        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller_Json.aj" />
-        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Customer_Custom_Finder.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/register.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainlayout/footermain.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/main.jspx" />
@@ -299,13 +298,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/views.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Custom_Controller.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/views.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productdetail.jspx" />
         <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/holidays/mySpaHolidayMasterData.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/database-script/data.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/EmployeeController_Custom_Controller.aj" />
@@ -315,23 +309,38 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layoutcustom.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainlayout/headermain.jspx" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/mySpaCustomerMasterData.jspx" />
         <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/EmployeeController_Custom_Controller_Json.aj" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/product.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Employee_Custom_Finder.aj" />
         <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Producttypes_Custom_Finder.aj" />
-        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductTypesController_Custom_Controller_Json.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaEmployeeMasterData.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMasterData.jspx" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/mySpaProductMasterData.jspx" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/Employees.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massagetypeses/mySpaMassagetypeMasterData.jspx" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/producttypes.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/MassageTypes" />
         <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/test" />
-        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/MassageTypes" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massagetypeses/mySpaMassagetypeMasterData.jspx" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductTypesController_Custom_Controller_Json.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/producttypeses/mySpaProductTypesMasterData.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Custom_Finder.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/mySpaCustomerMasterData.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Roo_Json.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_Json.aj" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/product.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productall.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productdetail.jspx" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/mySpaProductMasterData.jspx" />
+        <option value="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller_Json.aj" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productdetail.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js" />
       </list>
     </option>
   </component>
@@ -1071,6 +1080,70 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprojectspa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprojectspa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprojectspa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myprojectspa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectspa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -1084,7 +1157,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="SearchEverywhereHistoryKey" value="tab&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx&#10;emp&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/webapp/WEB-INF/views/employees/mySpaEmployeeMasterData.jspx&#10;load&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/webapp/WEB-INF/tags/util/load-scripts.tagx&#10;data&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/META-INF/database-script/data.sql&#10;application&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/META-INF/spring/applicationContext.xml&#10;data.sq&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/META-INF/database-script/data.sql&#10;security&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/META-INF/spring/applicationContext-security.xml" />
+    <property name="SearchEverywhereHistoryKey" value="product&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller_Json.aj&#10;productty&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes.java&#10;productty_roo&#9;PSI&#9;JAVA://com.main.myprojectspa.domain.projectspa.ProductTypes_Roo_Json&#10;CONFIG&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/config.properties&#10;pom.xml&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/pom.xml&#10;application&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/java/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.java&#10;config&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/config.properties&#10;emp&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/webapp/scripts/MyProjectSpa/Employees.js&#10;menutab&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx&#10;productcon&#9;PSI&#9;JAVA://com.main.myprojectspa.web.myprojectspa.ProductController&#10;pro&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/java/com/main/myprojectspa/domain/projectspa/Product.java&#10;massagetype&#9;PSI&#9;JAVA://com.main.myprojectspa.domain.projectspa.MassageTypes&#10;massage&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/webapp/scripts/MyProjectSpa/MassageTypes&#10;tab&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx&#10;load&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/webapp/WEB-INF/tags/util/load-scripts.tagx&#10;data&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/META-INF/database-script/data.sql&#10;data.sq&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/META-INF/database-script/data.sql&#10;security&#9;FILE&#9;file://C:/Users/zazabi37/Desktop/MyProjectSpa/src/main/resources/META-INF/spring/applicationContext-security.xml" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -1520,16 +1593,16 @@
       <workItem from="1458889584683" duration="2742000" />
       <workItem from="1459398341918" duration="17944000" />
       <workItem from="1461143110964" duration="5495000" />
-      <workItem from="1461242729314" duration="968000" />
+      <workItem from="1461242729314" duration="21768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62960000" />
+    <option name="totallyTimeSpent" value="83760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1538,9 +1611,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2653277" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1548,13 +1622,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1597,7 +1670,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1605,149 +1680,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="57" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-46.83871">
-          <caret line="66" column="64" selection-start-line="66" selection-start-column="64" selection-end-line="66" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/CustomerController_Roo_Controller.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productdetail.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="e#380#381#0" expanded="false" />
-            <element signature="e#424#425#0" expanded="false" />
-            <element signature="e#562#563#0" expanded="false" />
-            <element signature="e#609#610#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.4838705">
-          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.193548">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.16572717">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.967742">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.548388">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/database-script/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.645162">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/mySpaMassageMasterData.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19842164">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/holidays/mySpaHolidayMasterData.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.677419">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/default.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/custom.jspx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.032258">
@@ -1770,22 +1702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.580646">
-          <caret line="126" column="50" selection-start-line="126" selection-start-column="50" selection-end-line="126" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainlayout/headermain.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17361894">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/layoutmain.jspx">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7519729">
@@ -1804,13 +1720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5208568">
           <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/mySpaCustomerMasterData.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29763246">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1820,13 +1729,6 @@
         <state vertical-scroll-proportion="0.26361656">
           <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Customer_Custom_Finder.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="1" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1842,14 +1744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="27" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/EmployeeController_Roo_Controller_Json.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="70" selection-start-line="88" selection-start-column="70" selection-end-line="88" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1869,28 +1763,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/EmployeeController_Custom_Controller_Json.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="5" selection-start-line="33" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#2570#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductTypesController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07189543">
           <caret line="7" column="32" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1898,6 +1775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1905,23 +1783,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductTypesController_Custom_Controller_Json.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35947713">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1929,22 +1791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54565954">
           <caret line="22" column="76" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/mySpaProductMasterData.jspx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.123595506">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/MassageTypes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -1957,58 +1803,311 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageTypes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/Employees.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/MassageTypes">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3507624">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-            <marker date="1461147642213" expanded="true" signature="463:1609" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaEmployeeMasterData.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.64516">
-          <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="53" />
+        <state vertical-scroll-proportion="-27.903225">
+          <caret line="142" column="35" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massagetypeses/mySpaMassagetypeMasterData.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.354838">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.16129">
+          <caret line="128" column="39" selection-start-line="128" selection-start-column="39" selection-end-line="130" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massagetypeses/mySpaMassagetypeMasterData.jspx">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/EmployeeController_Roo_Controller_Json.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.096774">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.9520697">
+          <caret line="88" column="70" selection-start-line="88" selection-start-column="70" selection-end-line="88" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/EmployeeController_Custom_Controller_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Customer_Custom_Finder.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14379086">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customers/mySpaCustomerMasterData.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.967741">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/producttypeses/mySpaProductTypesMasterData.jspx">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.1003382">
-          <caret line="125" column="51" selection-start-line="125" selection-start-column="51" selection-end-line="125" selection-end-column="51" />
+        <state vertical-scroll-proportion="11.064516">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14379086">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Custom_Finder.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductTypesController_Custom_Controller_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/Employees.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="19" selection-start-line="15" selection-start-column="35" selection-end-line="52" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <marker date="1461243925409" expanded="true" signature="463:1609" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.669673">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/util/ApplicationConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21568628">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26361656">
+          <caret line="17" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5161295">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="3" selection-start-line="90" selection-start-column="0" selection-end-line="98" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/mainlayout/headermain.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0417136">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4464487">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54565954">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Roo_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35947713">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#1532#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Roo_Controller_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/mySpaProductMasterData.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12401353">
+          <caret line="175" column="70" selection-start-line="175" selection-start-column="70" selection-end-line="175" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.098987624">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+            <marker date="1461263080191" expanded="true" signature="1067:2253" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productdetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38344225">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productdetail.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4464487">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products/productall.jspx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.83871">
+          <caret line="47" column="74" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9520697">
+          <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="3" />
+          <folding>
+            <marker date="1461267733258" expanded="true" signature="1326:1356" placeholder="..." />
+            <marker date="1461267733258" expanded="true" signature="2066:2096" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

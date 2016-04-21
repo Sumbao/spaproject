@@ -12,7 +12,9 @@
             background-position: center bottom;
         }
     </style>
-
+    <script type="text/javascript">
+        var partImages = '${pageContext.request.contextPath}';
+    </script>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -21,7 +23,7 @@
                         <div class="table-responsive">
                             <div class="form-horizontal">
                                 <div class="form-group col-sm-12">
-                                    <label class="control-label">สินค้าทั้งหมด</label>
+                                    <label class="control-label">All Product</label>
                                 </div>
                                 <div id="productSearchAll" class="col-sm-12">
                                     <div id="rowProduct" class="row">

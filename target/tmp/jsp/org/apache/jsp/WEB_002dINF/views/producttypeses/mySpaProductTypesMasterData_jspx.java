@@ -57,7 +57,7 @@ public final class mySpaProductTypesMasterData_jspx extends org.apache.jasper.ru
       out.write("<div class=\"container\">");
       out.write("<div class=\"row\">");
       out.write("<div class=\"col-sm-12\">");
-      out.write("<div role=\"forn\" class=\"form-horizontal\">");
+      out.write("<div role=\"form\" class=\"form-horizontal\">");
       out.write("<div style=\"margin-top: 10px\" class=\"form-group\">");
       out.write("<button style=\"margin-right:5px;\" class=\"btn btn-success\" id=\"producttypeBtnAdd\">");
       out.write("<span class=\"glyphicon glyphicon-plus\" />");
@@ -67,8 +67,8 @@ public final class mySpaProductTypesMasterData_jspx extends org.apache.jasper.ru
       out.write("</button>");
       out.write("</div>");
       out.write("<div class=\"form-group\">");
-      out.write("<div>");
-      out.write("<table role=\"table\" data-toggle=\"table\" class=\"table table-responsive\">");
+      out.write("<div class=\"table-responsive\">");
+      out.write("<table role=\"table\" data-toggle=\"table\" class=\"table\">");
       out.write("<thead>");
       out.write("<tr>");
       out.write("<th>");
@@ -124,7 +124,8 @@ public final class mySpaProductTypesMasterData_jspx extends org.apache.jasper.ru
       out.write("ProductType Description");
       out.write("</label>");
       out.write("<div class=\"col-sm-6\">");
-      out.write("<textarea data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" id=\"protypedesAdd\" rows=\"5\" class=\"form-control\" />");
+      out.write("<textarea maxlength=\"50\" data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" class=\"form-control\" id=\"protypedesAdd\">");
+      out.write("</textarea>");
       out.write("</div>");
       out.write("</div>");
       out.write("</div>");
@@ -166,7 +167,8 @@ public final class mySpaProductTypesMasterData_jspx extends org.apache.jasper.ru
       out.write("ProductType Description");
       out.write("</label>");
       out.write("<div class=\"col-sm-6\">");
-      out.write("<textarea data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" id=\"protypedesEdit\" rows=\"5\" class=\"form-control\" />");
+      out.write("<textarea maxlength=\"50\" data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" class=\"form-control\" id=\"protypedesEdit\">");
+      out.write("</textarea>");
       out.write("</div>");
       out.write("</div>");
       out.write("</div>");

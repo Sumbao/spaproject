@@ -26,7 +26,7 @@ privileged aspect ProductTypes_Roo_Json {
         return new JSONDeserializer<ProductTypes>()
         .use(null, ProductTypes.class).deserialize(json);
     }
-    
+
     public static String ProductTypes.toJsonArray(Collection<ProductTypes> collection) {
         return new JSONSerializer()
         .exclude("*.class").deepSerialize(collection);
@@ -36,7 +36,7 @@ privileged aspect ProductTypes_Roo_Json {
         return new JSONSerializer()
         .include(fields).exclude("*.class").deepSerialize(collection);
     }
-    
+
     public static Collection<ProductTypes> ProductTypes.fromJsonArrayToProductTypeses(String json) {
         return new JSONDeserializer<List<ProductTypes>>()
         .use("values", ProductTypes.class).deserialize(json);

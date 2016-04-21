@@ -32,7 +32,7 @@ privileged aspect ProductTypesController_Custom_Controller_Json {
     }
 
     @RequestMapping(value="/createprotype",method = RequestMethod.POST, headers = "Accept=application/json")
-    public ResponseEntity<String> EmployeeController.createprotype(@RequestBody String json){
+    public ResponseEntity<String> ProductTypesController.createprotype(@RequestBody String json){
         ResponseEntity<String> status = null;
         HttpHeaders headers = new HttpHeaders();
         headers.add("Content-Type", "application/json");
@@ -50,5 +50,6 @@ privileged aspect ProductTypesController_Custom_Controller_Json {
             return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
 
 }

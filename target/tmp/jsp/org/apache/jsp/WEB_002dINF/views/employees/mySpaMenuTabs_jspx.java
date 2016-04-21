@@ -68,12 +68,12 @@ public final class mySpaMenuTabs_jspx extends org.apache.jasper.runtime.HttpJspB
       out.write("</a>");
       out.write("</li>");
       out.write("<li role=\"presentation\">");
-      out.write("<a data-toggle=\"tab\" role=\"tab\" aria-controls=\"ProductTypesTabs\" href=\"#ProductTypesTabs\">");
+      out.write("<a data-toggle=\"tab\" role=\"tab\" aria-controls=\"ProductTypesTabs\" onclick=\"loadtableprotype(this)\" href=\"#ProductTypesTabs\">");
       out.write("ProductTypes");
       out.write("</a>");
       out.write("</li>");
       out.write("<li role=\"presentation\">");
-      out.write("<a data-toggle=\"tab\" role=\"tab\" aria-controls=\"ProductTabs\" href=\"#ProductTabs\">");
+      out.write("<a data-toggle=\"tab\" role=\"tab\" aria-controls=\"ProductTabs\" onclick=\"loadtableproduct(this);setproType(this)\" href=\"#ProductTabs\">");
       out.write("Product");
       out.write("</a>");
       out.write("</li>");
