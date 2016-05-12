@@ -63,6 +63,6 @@ public class Customer extends BaseEntity {
     /**
      */
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "customer")
+    @JoinColumn(name = "customerTypes")
     private CustomerType customerTypes;
 }

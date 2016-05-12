@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_main_myprojectspa_domain_projectspa_Information" items="${informations}" z="SKblQls6I2Ld+l5ptLWy+DSw3OQ=">
+        <table:table data="${informations}" id="l_com_main_myprojectspa_domain_projectspa_Information" path="/informations" z="XTxWf6m+PCcErIM5xFBGV5GRoOo=">
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Information_createdBy" property="createdBy" z="2Lf0ZU05OLPZaPTYWTb/Arcko2M="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Information_updatedBy" property="updatedBy" z="O4Dy8g8qdW2I3oHwUNfTrW/qoII="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Information_status" property="status" z="3B2EfMWwR8+U6cEpZqOqYz0wCyk="/>
+            <table:column date="true" dateTimePattern="${information_createddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_Information_createdDate" property="createdDate" z="7ghp00RDa9TpRYrF+QUazLVRwno="/>
+            <table:column date="true" dateTimePattern="${information_updateddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_Information_updatedDate" property="updatedDate" z="urvbi1lN3wm0Nl0aj5WmodGF2Ys="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Information_informationName" property="informationName" z="mWqja1g5LHfzCiGk8u15su/21G8="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,35 +1,21 @@
-<!--
-  Created by IntelliJ IDEA.
-  User: zazabi37
-  Date: 14/03/2016
-  Time: 4:03 PM
-  To change this template use File | Settings | File Templates.
--->
 <div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8" />
     <jsp:output omit-xml-declaration="yes" />
-    <!--<spring:message var="app_name" code="application_name" htmlEscape="false" />-->
-    <!--<spring:message var="title" code="welcome_titlepane" arguments="${app_name}" htmlEscape="false" />-->
-    <!--<util:panel id="title" title="${title}">-->
-        <!--<h3>-->
-            <!--<spring:message code="welcome_h3" arguments="${app_name}" />-->
-        <!--</h3>-->
-        <!--<p>-->
-            <!--<spring:message code="welcome_text" />-->
-        <!--</p>-->
-    <!--</util:panel>-->
+    <spring:message var="app_name" code="application_name" htmlEscape="false" />
+    <spring:message var="title" code="welcome_titlepane" arguments="${app_name}" htmlEscape="false" />
+    <spring:url value="/resources/scripts/MyProjectSpa/informationall.js" var="Informationall"/>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <div class="form-horizontal" role="form">
+                <div class="form-horizontal">
                     <div class="form-group">
-                        <h3>
-                            GG
-                        </h3>
-
+                        <ul id="allnew" class="list-unstyled">
+                            <jsp:text/>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <script src="${Informationall}" type="text/javascript"><!--Not Empty --></script>
 </div>

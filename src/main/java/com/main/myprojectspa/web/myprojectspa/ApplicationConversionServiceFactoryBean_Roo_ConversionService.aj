@@ -7,6 +7,7 @@ import com.main.myprojectspa.domain.projectspa.Customer;
 import com.main.myprojectspa.domain.projectspa.CustomerType;
 import com.main.myprojectspa.domain.projectspa.Employee;
 import com.main.myprojectspa.domain.projectspa.Holiday;
+import com.main.myprojectspa.domain.projectspa.Information;
 import com.main.myprojectspa.domain.projectspa.Massage;
 import com.main.myprojectspa.domain.projectspa.MassageEvent;
 import com.main.myprojectspa.domain.projectspa.MassageTypes;
@@ -114,6 +115,30 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         return new org.springframework.core.convert.converter.Converter<java.lang.String, com.main.myprojectspa.domain.projectspa.Holiday>() {
             public com.main.myprojectspa.domain.projectspa.Holiday convert(String id) {
                 return getObject().convert(getObject().convert(id, Long.class), Holiday.class);
+            }
+        };
+    }
+    
+    public Converter<Information, String> ApplicationConversionServiceFactoryBean.getInformationToStringConverter() {
+        return new org.springframework.core.convert.converter.Converter<com.main.myprojectspa.domain.projectspa.Information, java.lang.String>() {
+            public String convert(Information information) {
+                return new StringBuilder().append(information.getCreatedBy()).append(' ').append(information.getUpdatedBy()).append(' ').append(information.getStatus()).append(' ').append(information.getCreatedDate()).toString();
+            }
+        };
+    }
+    
+    public Converter<Long, Information> ApplicationConversionServiceFactoryBean.getIdToInformationConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.Long, com.main.myprojectspa.domain.projectspa.Information>() {
+            public com.main.myprojectspa.domain.projectspa.Information convert(java.lang.Long id) {
+                return Information.findInformation(id);
+            }
+        };
+    }
+    
+    public Converter<String, Information> ApplicationConversionServiceFactoryBean.getStringToInformationConverter() {
+        return new org.springframework.core.convert.converter.Converter<java.lang.String, com.main.myprojectspa.domain.projectspa.Information>() {
+            public com.main.myprojectspa.domain.projectspa.Information convert(String id) {
+                return getObject().convert(getObject().convert(id, Long.class), Information.class);
             }
         };
     }
@@ -275,6 +300,9 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
         registry.addConverter(getHolidayToStringConverter());
         registry.addConverter(getIdToHolidayConverter());
         registry.addConverter(getStringToHolidayConverter());
+        registry.addConverter(getInformationToStringConverter());
+        registry.addConverter(getIdToInformationConverter());
+        registry.addConverter(getStringToInformationConverter());
         registry.addConverter(getMassageToStringConverter());
         registry.addConverter(getIdToMassageConverter());
         registry.addConverter(getStringToMassageConverter());

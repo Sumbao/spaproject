@@ -12,8 +12,6 @@ import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.FetchType;
 import javax.persistence.OneToMany;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 
 @RooJavaBean
 @RooToString
@@ -34,5 +32,18 @@ public class ProductTypes extends BaseEntity {
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "productTypes")
     private Set<Product> product = new HashSet<Product>();
 
+    /**
+     */
+    public String toJson() {
+        return new JSONSerializer()
+                .exclude("*.class").exclude("*.producttypes").deepSerialize(this);
+    }
+
+    /**
+     */
+    public static String toJsonArray(Collection<ProductTypes> collection) {
+        return new JSONSerializer()
+                .exclude("*.class").exclude("*.producttypes").deepSerialize(collection);
+    }
 
 }

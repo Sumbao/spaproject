@@ -106,12 +106,18 @@ privileged aspect ProductController_Custom_Controller_Json {
         HttpHeaders headers = new HttpHeaders();
         headers.add("Content-Type", "application/json; charset=utf-8");
         try {
-            Product product = Product.findProduct(id);
+            List<Product> product = Product.findbyId(id);
             if (product == null) {
                 return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
             }
 
-            return new ResponseEntity<String>(headers, HttpStatus.OK);
+            return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
+                    .include("productId")
+                    .include("productName")
+                    .include("productDetails")
+                    .include("productPrice")
+                    .exclude("*")
+                    .deepSerialize(product)),headers, HttpStatus.OK);
         } catch (Exception e) {
             LOGGER.error("Error : {}", e);
             e.printStackTrace();
@@ -119,5 +125,27 @@ privileged aspect ProductController_Custom_Controller_Json {
         }
     }
 
+    @RequestMapping(value="/findProductbyproducttype/{id}",method=RequestMethod.GET,headers="Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> ProductController.findProductbyproducttype(@PathVariable("id") Long id) throws IOException{
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        try{
+            List<Product> product = Product.findProductBytypeid(id);
+            return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
+                    .include("id")
+                    .include("version")
+                    .include("productId")
+                    .include("productName")
+                    .include("productDetails")
+                    .include("productPrice")
+                    .include("productTypes.id")
+                    .include("productTypes.productTypesName")
+                    .exclude("*")
+                    .deepSerialize(product)),headers, HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
 
 }

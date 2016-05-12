@@ -10,7 +10,6 @@
         <field:datetime dateTimePattern="${customerType_updateddate_date_format}" field="updatedDate" id="c_com_main_myprojectspa_domain_projectspa_CustomerType_updatedDate" z="qegSPvbk4HedwR6CTDx4TJy6+/s="/>
         <field:input field="customerTypeCode" id="c_com_main_myprojectspa_domain_projectspa_CustomerType_customerTypeCode" validationMessageCode="field_invalid_integer" z="AaWaOjwdaiRPETyLw3O3mVvrdBA="/>
         <field:input field="customerTypeName" id="c_com_main_myprojectspa_domain_projectspa_CustomerType_customerTypeName" z="68fVczHNa2eflTn5Q5m5uj1EpQA="/>
-        <field:input field="customerVoucher" id="c_com_main_myprojectspa_domain_projectspa_CustomerType_customerVoucher" z="runJlypBJhcC3wNqUAZfEVoodnI="/>
         <field:input field="customerPrivillege" id="c_com_main_myprojectspa_domain_projectspa_CustomerType_customerPrivillege" z="hEkGFtGt/8lNZ+NgTUcyqLnFqOc="/>
         <field:simple field="customer" id="c_com_main_myprojectspa_domain_projectspa_CustomerType_customer" messageCode="entity_reference_not_managed" messageCodeAttribute="Customer" z="HvtZlH0pT9pzT2w2jTiUEWEc5UI="/>
     </form:update>

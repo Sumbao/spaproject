@@ -12,5 +12,6 @@
     <li role="presentation" ><a href="#MassageTabs" aria-controls="MassageTabs"  role="tab" data-toggle="tab">Massage</a></li>
     <li role="presentation" ><a href="#ProductTypesTabs" onclick="loadtableprotype(this)" aria-controls="ProductTypesTabs"  role="tab" data-toggle="tab">ProductTypes</a></li>
     <li role="presentation" ><a href="#ProductTabs" onclick="loadtableproduct(this);setproType(this)" aria-controls="ProductTabs"  role="tab" data-toggle="tab">Product</a></li>
+    <li role="presentation" ><a href="#InformationTabs" aria-controls="InformationTabs" role="tab" data-toggle="tab">Information</a></li>
 </ul>
 

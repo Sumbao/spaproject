@@ -1,10 +1,10 @@
 /**
  * Created by zazabi37 on 31/03/2016.
  */
-$(document).ready(function(){
-    console.log("GG");
-    setproType();
-});
+//$(document).ready(function(){
+//    console.log("GG");
+//    setproType();
+//});
 
 $("#productBtnAdd").on('click',function(){
     $("#modalAddProduct").modal("show");
@@ -28,8 +28,6 @@ function loadtableproduct(){
     var jsonData = AjaxUtil.get({
         url:session.context + "/products/findallproduct"
     })
-
-    console.log(jsonData);
 
     $("#tableProduct").empty();
     $("#tableProduct").data("data-table",jsonData);
@@ -138,7 +136,7 @@ function clearvalueProduct(){
     $("#propriceAdd").val("");
     $("#productPicture").val("");
     $("#file").val("");
-    $("$select_Protype").val("");
+    $("#select_Protype").val("");
 }
 
 $("#file").on('change',function(){

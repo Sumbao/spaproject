@@ -26,10 +26,6 @@ public class CustomerType extends BaseEntity {
 
     /**
      */
-    private String customerVoucher;
-
-    /**
-     */
     private String customerPrivillege;
 
     /**
