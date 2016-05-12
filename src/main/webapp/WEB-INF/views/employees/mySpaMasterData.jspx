@@ -21,6 +21,7 @@
                     <tiles:insertTemplate template="/WEB-INF/views/massages/mySpaMassageMasterData.jspx"/>
                     <tiles:insertTemplate template="/WEB-INF/views/producttypeses/mySpaProductTypesMasterData.jspx"/>
                     <tiles:insertTemplate template="/WEB-INF/views/products/mySpaProductMasterData.jspx"/>
+                    <tiles:insertTemplate template="/WEB-INF/views/informations/mySpaInformationMasterData.jspx"/>
                 </div>
             </div>
 

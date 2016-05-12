@@ -67,8 +67,8 @@ public final class mySpaProductTypesMasterData_jspx extends org.apache.jasper.ru
       out.write("</button>");
       out.write("</div>");
       out.write("<div class=\"form-group\">");
-      out.write("<div class=\"table-responsive\">");
-      out.write("<table role=\"table\" data-toggle=\"table\" class=\"table\">");
+      out.write("<div>");
+      out.write("<table class=\"table table-responsive\" role=\"table\" data-toggle=\"table\">");
       out.write("<thead>");
       out.write("<tr>");
       out.write("<th>");
@@ -189,6 +189,13 @@ public final class mySpaProductTypesMasterData_jspx extends org.apache.jasper.ru
       out.write("</div>");
       out.write("</div>");
       out.write("</div>");
+      out.write("<style>");
+      out.write("\n");
+      out.write("        @-moz-document url-prefix() {\n");
+      out.write("            fieldset { display: table-cell; }\n");
+      out.write("        }\n");
+      out.write("    ");
+      out.write("</style>");
       out.write("<script type=\"text/javascript\" src=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${ProType}", java.lang.String.class, (PageContext)_jspx_page_context, null) + "\">");
       out.write("</script>");
       out.write("</div>");

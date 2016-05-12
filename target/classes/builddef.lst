@@ -16,7 +16,6 @@ C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\base\
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\base\BaseEntity_Roo_JavaBean.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\base\BaseEntity_Roo_Jpa_ActiveRecord.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\base\BaseEntity_Roo_Jpa_Entity.aj
-C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\base\BaseEntity_Roo_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\base\BaseEntity_Roo_ToString.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Customer.java
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\CustomerType.java
@@ -48,6 +47,14 @@ C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domai
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Holiday_Roo_Jpa_Entity.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Holiday_Roo_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Holiday_Roo_ToString.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information.java
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information_Custom_Finder.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information_Roo_Configurable.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information_Roo_JavaBean.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information_Roo_Jpa_ActiveRecord.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information_Roo_Jpa_Entity.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information_Roo_Json.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information_Roo_ToString.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Massage.java
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageEvent.java
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageEvent_Roo_Configurable.aj
@@ -111,6 +118,10 @@ C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\m
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\HolidayController.java
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\HolidayController_Roo_Controller.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\HolidayController_Roo_Controller_Json.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\InformationController.java
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\InformationController_Custom_Controller_Json.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\InformationController_Roo_Controller.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\InformationController_Roo_Controller_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageController.java
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageController_Custom_Controller.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageController_Roo_Controller.aj

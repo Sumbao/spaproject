@@ -1,6 +1,7 @@
 <aspectj>
 <aspects>
 <aspect name="com.main.myprojectspa.domain.projectspa.CustomerDataOnDemand_Roo_Configurable"/>
+<aspect name="com.main.myprojectspa.domain.projectspa.InformationDataOnDemand_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ProductDataOnDemand_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.MassageIntegrationTest_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ShoppingEventIntegrationTest_Roo_Configurable"/>
@@ -9,6 +10,7 @@
 <aspect name="com.main.myprojectspa.domain.projectspa.CustomerDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ShoppingEventDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ProductTypesDataOnDemand_Roo_Configurable"/>
+<aspect name="com.main.myprojectspa.domain.projectspa.InformationDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.CustomerIntegrationTest_Roo_IntegrationTest"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.EmployeeIntegrationTest_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ProductTypesIntegrationTest_Roo_Configurable"/>
@@ -17,6 +19,7 @@
 <aspect name="com.main.myprojectspa.domain.projectspa.ProductIntegrationTest_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ProductIntegrationTest_Roo_IntegrationTest"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.HolidayDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.main.myprojectspa.domain.projectspa.InformationIntegrationTest_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ShoppingEventDataOnDemand_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.MassageTypesIntegrationTest_Roo_IntegrationTest"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.HolidayIntegrationTest_Roo_IntegrationTest"/>
@@ -27,8 +30,9 @@
 <aspect name="com.main.myprojectspa.domain.projectspa.ProductDataOnDemand_Roo_DataOnDemand"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.MassageEventDataOnDemand_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.EmployeeDataOnDemand_Roo_DataOnDemand"/>
-<aspect name="com.main.myprojectspa.domain.projectspa.HolidayIntegrationTest_Roo_Configurable"/>
+<aspect name="com.main.myprojectspa.domain.projectspa.InformationIntegrationTest_Roo_IntegrationTest"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.MassageIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.main.myprojectspa.domain.projectspa.HolidayIntegrationTest_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.MassageTypesIntegrationTest_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.MassageEventIntegrationTest_Roo_Configurable"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.CustomerTypeIntegrationTest_Roo_IntegrationTest"/>

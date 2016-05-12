@@ -5,19 +5,34 @@
     <script>
         var partImages = '${pageContext.request.contextPath}';
     </script>
+    <spring:url value="/resources/scripts/MyProjectSpa/productdetail.js" var="ProDetail"/>
     <div class="container">
         <div class="row">
             <legend><h2>Product</h2></legend>
             <div class="col-sm-7">
-                <div class="form-group"><label id="proCode"><jsp:text/></label></div>
-                <div class="form-group"><label id="proName"><jsp:text/></label></div>
-                <div class="form-group"><label id="proPrice"><jsp:text/></label></div>
-                <div class="form-group"><label id="proDetail"><jsp:text/></label></div>
-
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label>ProductCode : </label>
+                        <label id="proCode"><jsp:text/></label>
+                    </div>
+                    <div class="form-group">
+                        <label> ProductName : </label>
+                        <label id="proName"><jsp:text/></label>
+                    </div>
+                    <div class="form-group">
+                        <label>Price : </label>
+                        <label id="proPrice"><jsp:text/></label>
+                    </div>
+                    <div class="form-group">
+                        <label>Detail : </label>
+                        <label id="proDetail"><jsp:text/></label>
+                    </div>
+                </div>
             </div>
             <div clas="col-sm-5">
                 <img id="proImage" class="img-rounded" width="250" height="250" src="${pageContext.request.contextPath}/products/loadimage/"/>
             </div>
         </div>
     </div>
+    <script src="${ProDetail}" type="text/javascript"><!--Not Empty --></script>
 </div>

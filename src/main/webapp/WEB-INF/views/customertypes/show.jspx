@@ -10,7 +10,6 @@
         <field:display date="true" dateTimePattern="${customerType_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_updatedDate" object="${customertype}" z="XNAZdBD98btkSpyl/08p6BhqjxU="/>
         <field:display field="customerTypeCode" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_customerTypeCode" object="${customertype}" z="3OrHaq//dEctpxazwQhrIRm9hZ8="/>
         <field:display field="customerTypeName" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_customerTypeName" object="${customertype}" z="bPKfpaXp5tBTNetYOdVUxC7GUF8="/>
-        <field:display field="customerVoucher" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_customerVoucher" object="${customertype}" z="8w+6HfBTqcJZEuKtXLhaHvT9Ofs="/>
         <field:display field="customerPrivillege" id="s_com_main_myprojectspa_domain_projectspa_CustomerType_customerPrivillege" object="${customertype}" z="7/dnAKqRVlv4xL0ObbHr72+7GmU="/>
     </page:show>
 </div>

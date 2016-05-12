@@ -69,6 +69,8 @@ public final class mySpaMasterData_jspx extends org.apache.jasper.runtime.HttpJs
         return;
       if (_jspx_meth_tiles_insertTemplate_7(_jspx_page_context))
         return;
+      if (_jspx_meth_tiles_insertTemplate_8(_jspx_page_context))
+        return;
       out.write("</div>");
       out.write("</div>");
       out.write("</div>");
@@ -180,6 +182,18 @@ public final class mySpaMasterData_jspx extends org.apache.jasper.runtime.HttpJs
     _jspx_th_tiles_insertTemplate_7.setJspContext(_jspx_page_context);
     _jspx_th_tiles_insertTemplate_7.setTemplate("/WEB-INF/views/products/mySpaProductMasterData.jspx");
     _jspx_th_tiles_insertTemplate_7.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_tiles_insertTemplate_8(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  tiles:insertTemplate
+    org.apache.tiles.jsp.taglib.InsertTemplateTag _jspx_th_tiles_insertTemplate_8 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.tiles.jsp.taglib.InsertTemplateTag.class) : new org.apache.tiles.jsp.taglib.InsertTemplateTag();
+    _jspx_th_tiles_insertTemplate_8.setJspContext(_jspx_page_context);
+    _jspx_th_tiles_insertTemplate_8.setTemplate("/WEB-INF/views/informations/mySpaInformationMasterData.jspx");
+    _jspx_th_tiles_insertTemplate_8.doTag();
     return false;
   }
 }

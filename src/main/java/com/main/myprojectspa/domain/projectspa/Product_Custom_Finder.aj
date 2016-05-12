@@ -14,4 +14,19 @@ privileged aspect Product_Custom_Finder {
         List<Product> list = criteria.list();
         return list;
     }
+
+    public  static List<Product> Product.findProductBytypeid(Long typeid){
+        Criteria criteria =((Session) Product.entityManager().getDelegate()).createCriteria(Product.class,"Product");
+//        criteria.createAlias("ProductTypes","ProductTypes");
+        criteria.add(Restrictions.eq("productTypes.id",typeid));
+        List<Product> list = criteria.list();
+        return list;
+    }
+
+    public static List<Product> Product.findbyId(Long proId){
+        Criteria criteria = ((Session) Product.entityManager().getDelegate()).createCriteria(Product.class,"Product");
+        criteria.add(Restrictions.eq("productId",proId));
+        List<Product> list = criteria.list();
+        return list;
+    }
 }

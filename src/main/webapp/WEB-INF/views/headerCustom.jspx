@@ -151,6 +151,20 @@
                     </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <!--<li class="dropdown">-->
+                        <!--<p class="navbar-text">-->
+                            <!--<span class="visible-xs-inline">&#160;&#160;&#160;</span>-->
+                            <!--<a class="navbar-link">-->
+                                <!--<spring:url value="/resources/images/ess-lang-th.png" var="image_th_url"/>-->
+                                <!--<img id="lang-th" src="${image_th_url}" alt="th" class="image-nav" title="TH"/>-->
+                            <!--</a>-->
+                            <!--&#160;|&#160;-->
+                            <!--<a class="navbar-link">-->
+                                <!--<spring:url value="/resources/images/ess-lang-en.png" var="image_en_url"/>-->
+                                <!--<img id="lang-en" src="${image_en_url}" alt="en" class="image-nav" title="EN"/>-->
+                            <!--</a>-->
+                        <!--</p>-->
+                    <!--</li>-->
                     <li class="btn">
                         <button class="btn btn-info" role="button" aria-haspopup="true" id="btn_loginmain">login</button>
                     </li>
@@ -203,7 +217,7 @@
     <!--</div>-->
     <style>
         .navbar-default{
-            background-color: #66afe9;
+            background-color: #428BCA;
         }
         .dropdown-menu{
             background-color: #66afe9;

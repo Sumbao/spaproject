@@ -32,7 +32,6 @@ privileged aspect CustomerTypeDataOnDemand_Roo_DataOnDemand {
         setCustomerPrivillege(obj, index);
         setCustomerTypeCode(obj, index);
         setCustomerTypeName(obj, index);
-        setCustomerVoucher(obj, index);
         setStatus(obj, index);
         setUpdatedBy(obj, index);
         setUpdatedDate(obj, index);
@@ -62,11 +61,6 @@ privileged aspect CustomerTypeDataOnDemand_Roo_DataOnDemand {
     public void CustomerTypeDataOnDemand.setCustomerTypeName(CustomerType obj, int index) {
         String customerTypeName = "customerTypeName_" + index;
         obj.setCustomerTypeName(customerTypeName);
-    }
-    
-    public void CustomerTypeDataOnDemand.setCustomerVoucher(CustomerType obj, int index) {
-        String customerVoucher = "customerVoucher_" + index;
-        obj.setCustomerVoucher(customerVoucher);
     }
     
     public void CustomerTypeDataOnDemand.setStatus(CustomerType obj, int index) {

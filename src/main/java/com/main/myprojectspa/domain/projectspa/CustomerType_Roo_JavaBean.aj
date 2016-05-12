@@ -25,14 +25,6 @@ privileged aspect CustomerType_Roo_JavaBean {
         this.customerTypeName = customerTypeName;
     }
     
-    public String CustomerType.getCustomerVoucher() {
-        return this.customerVoucher;
-    }
-    
-    public void CustomerType.setCustomerVoucher(String customerVoucher) {
-        this.customerVoucher = customerVoucher;
-    }
-    
     public String CustomerType.getCustomerPrivillege() {
         return this.customerPrivillege;
     }

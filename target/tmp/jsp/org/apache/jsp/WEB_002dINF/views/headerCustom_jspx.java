@@ -176,7 +176,7 @@ public final class headerCustom_jspx extends org.apache.jasper.runtime.HttpJspBa
       out.write("<style>");
       out.write("\n");
       out.write("        .navbar-default{\n");
-      out.write("            background-color: #66afe9;\n");
+      out.write("            background-color: #428BCA;\n");
       out.write("        }\n");
       out.write("        .dropdown-menu{\n");
       out.write("            background-color: #66afe9;\n");

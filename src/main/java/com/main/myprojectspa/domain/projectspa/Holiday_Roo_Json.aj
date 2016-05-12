@@ -3,10 +3,9 @@
 
 package com.main.myprojectspa.domain.projectspa;
 
-import com.main.myprojectspa.domain.projectspa.Holiday;
 import flexjson.JSONDeserializer;
 import flexjson.JSONSerializer;
-import java.util.ArrayList;
+
 import java.util.Collection;
 import java.util.List;
 

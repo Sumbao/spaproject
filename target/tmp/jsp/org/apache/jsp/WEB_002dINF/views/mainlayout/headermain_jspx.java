@@ -168,40 +168,15 @@ static {
       out.write("</li>");
       out.write("</ul>");
       out.write("</li>");
-      out.write("<li>");
-      out.write("<a href=\"/MyProjectSpa/employees/masterdata\">");
-      out.write("Add Data");
-      out.write("</a>");
-      out.write("</li>");
       out.write("</ul>");
       out.write("<ul class=\"nav navbar-nav navbar-right\">");
-      out.write("<li class=\"dropdown\">");
-      out.write("<p class=\"navbar-text\">");
-      out.write("<span class=\"visible-xs-inline\">");
-      out.write("   ");
-      out.write("</span>");
-      out.write("<a class=\"navbar-link\">");
-      if (_jspx_meth_spring_url_5(_jspx_page_context))
-        return;
-      out.write("<img title=\"TH\" class=\"image-nav\" alt=\"th\" src=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${image_th_url}", java.lang.String.class, (PageContext)_jspx_page_context, null) + "\" id=\"lang-th\" />");
-      out.write("</a>");
-      out.write("\n");
-      out.write("                             | \n");
-      out.write("                            ");
-      out.write("<a class=\"navbar-link\">");
-      if (_jspx_meth_spring_url_6(_jspx_page_context))
-        return;
-      out.write("<img title=\"EN\" class=\"image-nav\" alt=\"en\" src=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${image_en_url}", java.lang.String.class, (PageContext)_jspx_page_context, null) + "\" id=\"lang-en\" />");
-      out.write("</a>");
-      out.write("</p>");
-      out.write("</li>");
       out.write("<li class=\"dropdown\">");
       out.write("<a aria-expanded=\"false\" aria-haspopup=\"true\" role=\"button\" data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\">");
       out.write("<i class=\"fa fa-bars\">");
       out.write("</i>");
       out.write("<ul class=\"dropdown-menu\">");
       out.write("<li>");
-      if (_jspx_meth_spring_url_7(_jspx_page_context))
+      if (_jspx_meth_spring_url_5(_jspx_page_context))
         return;
       out.write("<a href=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${fn:escapeXml(sign_out_url)}", java.lang.String.class, (PageContext)_jspx_page_context, _jspx_fnmap_0) + "\">");
       out.write("signout");
@@ -217,11 +192,11 @@ static {
       out.write("<style>");
       out.write("\n");
       out.write("        .navbar-default {\n");
-      out.write("            background-color: #66afe9;\n");
+      out.write("            background-color: #428BCA;\n");
       out.write("        }\n");
       out.write("\n");
       out.write("        .dropdown-menu {\n");
-      out.write("            background-color: #66afe9;\n");
+      out.write("            background-color: #428BCA;\n");
       out.write("        }\n");
       out.write("\n");
       out.write("        .dropdown-menu li a {\n");
@@ -388,8 +363,8 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_5 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_5.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_5.setParent(null);
-    _jspx_th_spring_url_5.setVar("image_th_url");
-    _jspx_th_spring_url_5.setValue("/resources/images/ess-lang-th.png");
+    _jspx_th_spring_url_5.setVar("sign_out_url");
+    _jspx_th_spring_url_5.setValue("/resources/j_spring_security_logout");
     int[] _jspx_push_body_count_spring_url_5 = new int[] { 0 };
     try {
       int _jspx_eval_spring_url_5 = _jspx_th_spring_url_5.doStartTag();
@@ -403,60 +378,6 @@ static {
     } finally {
       _jspx_th_spring_url_5.doFinally();
       _jspx_tagPool_spring_url_var_value_nobody.reuse(_jspx_th_spring_url_5);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_spring_url_6(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  spring:url
-    org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_6 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
-    _jspx_th_spring_url_6.setPageContext(_jspx_page_context);
-    _jspx_th_spring_url_6.setParent(null);
-    _jspx_th_spring_url_6.setVar("image_en_url");
-    _jspx_th_spring_url_6.setValue("/resources/images/ess-lang-en.png");
-    int[] _jspx_push_body_count_spring_url_6 = new int[] { 0 };
-    try {
-      int _jspx_eval_spring_url_6 = _jspx_th_spring_url_6.doStartTag();
-      if (_jspx_th_spring_url_6.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_spring_url_6[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_spring_url_6.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_spring_url_6.doFinally();
-      _jspx_tagPool_spring_url_var_value_nobody.reuse(_jspx_th_spring_url_6);
-    }
-    return false;
-  }
-
-  private boolean _jspx_meth_spring_url_7(PageContext _jspx_page_context)
-          throws Throwable {
-    PageContext pageContext = _jspx_page_context;
-    JspWriter out = _jspx_page_context.getOut();
-    //  spring:url
-    org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_7 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
-    _jspx_th_spring_url_7.setPageContext(_jspx_page_context);
-    _jspx_th_spring_url_7.setParent(null);
-    _jspx_th_spring_url_7.setVar("sign_out_url");
-    _jspx_th_spring_url_7.setValue("/resources/j_spring_security_logout");
-    int[] _jspx_push_body_count_spring_url_7 = new int[] { 0 };
-    try {
-      int _jspx_eval_spring_url_7 = _jspx_th_spring_url_7.doStartTag();
-      if (_jspx_th_spring_url_7.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
-        return true;
-      }
-    } catch (Throwable _jspx_exception) {
-      while (_jspx_push_body_count_spring_url_7[0]-- > 0)
-        out = _jspx_page_context.popBody();
-      _jspx_th_spring_url_7.doCatch(_jspx_exception);
-    } finally {
-      _jspx_th_spring_url_7.doFinally();
-      _jspx_tagPool_spring_url_var_value_nobody.reuse(_jspx_th_spring_url_7);
     }
     return false;
   }

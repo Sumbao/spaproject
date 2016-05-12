@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_main_myprojectspa_domain_projectspa_Information" object="${information}" path="/informations" z="oWHsXFJCVTHhORLb4TmDNNb3x0c=">
+        <field:display field="createdBy" id="s_com_main_myprojectspa_domain_projectspa_Information_createdBy" object="${information}" z="HhGOOfvTX5FwDjdYoj+AJyPqbiU="/>
+        <field:display field="updatedBy" id="s_com_main_myprojectspa_domain_projectspa_Information_updatedBy" object="${information}" z="tZp5T0eCGli4UwAXbyVdjenkYAA="/>
+        <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_Information_status" object="${information}" z="gtp1TFLPp91Z+j/GdQL/KuB4pRQ="/>
+        <field:display date="true" dateTimePattern="${information_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_Information_createdDate" object="${information}" z="sDKto725LjAn2WUWSkxMky3zWWM="/>
+        <field:display date="true" dateTimePattern="${information_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_Information_updatedDate" object="${information}" z="uZL8/WfHiPQpgyul7HO12P//QJg="/>
+        <field:display field="informationName" id="s_com_main_myprojectspa_domain_projectspa_Information_informationName" object="${information}" z="OgHrovI6hj1paaoq+u1b8i8ZgTQ="/>
+        <field:display field="informationDetail" id="s_com_main_myprojectspa_domain_projectspa_Information_informationDetail" object="${information}" z="ROfyAErQjCWR4aJ6KucGDFhSEEI="/>
+        <field:display field="informationPictureName" id="s_com_main_myprojectspa_domain_projectspa_Information_informationPictureName" object="${information}" z="KIhuFlr4lBZrQ/rYHQJTuoDJooc="/>
+    </page:show>
+</div>

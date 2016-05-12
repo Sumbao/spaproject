@@ -12,6 +12,6 @@ import org.springframework.roo.addon.web.mvc.controller.json.RooWebJson;
 @RooWebScaffold(path = "products", formBackingObject = Product.class)
 @RooWebJson(jsonObject = Product.class)
 public class ProductController {
-    private Logger LOGGER = LoggerFactory.getLogger(ProductController.class);
 
+    private Logger LOGGER = LoggerFactory.getLogger(ProductController.class);
 }

@@ -77,6 +77,11 @@ public final class mySpaMenuTabs_jspx extends org.apache.jasper.runtime.HttpJspB
       out.write("Product");
       out.write("</a>");
       out.write("</li>");
+      out.write("<li role=\"presentation\">");
+      out.write("<a data-toggle=\"tab\" role=\"tab\" aria-controls=\"InformationTabs\" href=\"#InformationTabs\">");
+      out.write("Information");
+      out.write("</a>");
+      out.write("</li>");
       out.write("</ul>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
