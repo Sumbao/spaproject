@@ -7,8 +7,8 @@
 
     <li role="presentation" class="active"><a href="#EmployeesTabs" aria-controls="EmployeesTabs" role="tab" data-toggle="tab">Employees</a></li>
     <li role="presentation" ><a href="#CustomerTabs" aria-controls="CustomerTabs" role="tab" data-toggle="tab">Customer</a></li>
-    <li role="presentation" ><a href="#HolidayTabs"  aria-controls="HolidayTabs" role="tab" data-toggle="tab">Holiday</a></li>
-    <li role="presentation" ><a href="#MassageTypesTabs" aria-controls="MassageTypesTabs" role="tab" data-toggle="tab">MassageType</a></li>
+    <!--<li role="presentation" ><a href="#HolidayTabs"  aria-controls="HolidayTabs" role="tab" data-toggle="tab">Holiday</a></li>-->
+    <!--<li role="presentation" ><a href="#MassageTypesTabs" aria-controls="MassageTypesTabs" role="tab" data-toggle="tab">MassageType</a></li>-->
     <li role="presentation" ><a href="#MassageTabs" aria-controls="MassageTabs"  role="tab" data-toggle="tab">Massage</a></li>
     <li role="presentation" ><a href="#ProductTypesTabs" onclick="loadtableprotype(this)" aria-controls="ProductTypesTabs"  role="tab" data-toggle="tab">ProductTypes</a></li>
     <li role="presentation" ><a href="#ProductTabs" onclick="loadtableproduct(this);setproType(this)" aria-controls="ProductTabs"  role="tab" data-toggle="tab">Product</a></li>

@@ -51,4 +51,12 @@ privileged aspect MassageEvent_Roo_JavaBean {
         this.employee = employee;
     }
     
+    public Date MassageEvent.getReserveDate() {
+        return this.reserveDate;
+    }
+    
+    public void MassageEvent.setReserveDate(Date reserveDate) {
+        this.reserveDate = reserveDate;
+    }
+    
 }

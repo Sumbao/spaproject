@@ -18,7 +18,7 @@ privileged aspect Product_Custom_Finder {
     public  static List<Product> Product.findProductBytypeid(Long typeid){
         Criteria criteria =((Session) Product.entityManager().getDelegate()).createCriteria(Product.class,"Product");
 //        criteria.createAlias("ProductTypes","ProductTypes");
-        criteria.add(Restrictions.eq("productTypes.id",typeid));
+        criteria.add(Restrictions.eq("Product.productTypes.id",typeid));
         List<Product> list = criteria.list();
         return list;
     }

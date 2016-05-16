@@ -183,8 +183,8 @@ function editprotype(btn){
     var index = btn.value;
     var dataTableProType = $("#tableProducttypes").data("data-table");
 
-    $("#modalAddProducttypes").data("data-id",dataTableProType[index].id);
-    $("#modalAddProducttypes").data("data-index",index);
+    $("#modalEditProducttypes").data("data-id",dataTableProType[index].id);
+    $("#modalEditProducttypes").data("data-index",index);
 
     $("#protypenameEdit").val(dataTableProType[index].productTypesName);
     $("#protypedesEdit").val(dataTableProType[index].productTypesDescription);

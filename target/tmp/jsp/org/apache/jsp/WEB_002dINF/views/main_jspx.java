@@ -69,6 +69,9 @@ public final class main_jspx extends org.apache.jasper.runtime.HttpJspBase
       out.write("<div class=\"col-sm-12\">");
       out.write("<div class=\"form-horizontal\">");
       out.write("<div class=\"form-group\">");
+      out.write("<legend>");
+      out.write("ข่าวประชาสัมพันธ์");
+      out.write("</legend>");
       out.write("<ul class=\"list-unstyled\" id=\"allnew\">");
       out.write("</ul>");
       out.write("</div>");

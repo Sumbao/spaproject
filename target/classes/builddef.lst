@@ -57,6 +57,7 @@ C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domai
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Information_Roo_ToString.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Massage.java
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageEvent.java
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageEvent_Custom_Finder.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageEvent_Roo_Configurable.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageEvent_Roo_JavaBean.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageEvent_Roo_Jpa_ActiveRecord.aj
@@ -70,6 +71,7 @@ C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domai
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageTypes_Roo_Jpa_Entity.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageTypes_Roo_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\MassageTypes_Roo_ToString.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Massage_Custom_Finder.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Massage_Roo_Configurable.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Massage_Roo_JavaBean.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\domain\projectspa\Massage_Roo_Jpa_ActiveRecord.aj
@@ -124,12 +126,16 @@ C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\m
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\InformationController_Roo_Controller_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageController.java
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageController_Custom_Controller.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageController_Custom_Controller_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageController_Roo_Controller.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageController_Roo_Controller_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageEventController.java
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageEventController_Custom_Controller.aj
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageEventController_Custom_Controller_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageEventController_Roo_Controller.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageEventController_Roo_Controller_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageTypesController.java
+C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageTypesController_Custom_Controller_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageTypesController_Roo_Controller.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\MassageTypesController_Roo_Controller_Json.aj
 C:\Users\zazabi37\Desktop\MyProjectSpa\src\main\java\com\main\myprojectspa\web\myprojectspa\ProductController.java

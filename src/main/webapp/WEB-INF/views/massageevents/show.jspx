@@ -13,5 +13,6 @@
         <field:display field="userReserve" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_userReserve" object="${massageevent}" z="qK6HO55jNecTI6capPHtt18I/4U="/>
         <field:display field="massage" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_massage" object="${massageevent}" z="mATuVcISqdv53vo5SfHT0UaJXPg="/>
         <field:display field="employee" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_employee" object="${massageevent}" z="g6Mx2bqXIEKFoCat2Rg5TsyPOnw="/>
+        <field:display date="true" dateTimePattern="${massageEvent_reservedate_date_format}" field="reserveDate" id="s_com_main_myprojectspa_domain_projectspa_MassageEvent_reserveDate" object="${massageevent}" z="pPwJhFIqLnTxEppZGQnKjtvUmOc="/>
     </page:show>
 </div>

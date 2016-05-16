@@ -132,17 +132,22 @@ privileged aspect ProductController_Custom_Controller_Json {
         headers.add("Content-Type", "application/json; charset=utf-8");
         try{
             List<Product> product = Product.findProductBytypeid(id);
-            return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
-                    .include("id")
-                    .include("version")
-                    .include("productId")
-                    .include("productName")
-                    .include("productDetails")
-                    .include("productPrice")
-                    .include("productTypes.id")
-                    .include("productTypes.productTypesName")
-                    .exclude("*")
-                    .deepSerialize(product)),headers, HttpStatus.OK);
+            if(product == null){
+                return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
+            }else{
+                return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
+                        .include("id")
+                        .include("version")
+                        .include("productId")
+                        .include("productName")
+                        .include("productDetails")
+                        .include("productPrice")
+                        .include("productTypes.id")
+                        .include("productTypes.productTypesName")
+                        .exclude("*")
+                        .deepSerialize(product)),headers, HttpStatus.OK);
+            }
+
         } catch (Exception e) {
             return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
         }

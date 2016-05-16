@@ -12,5 +12,6 @@
         <field:display field="massageName" id="s_com_main_myprojectspa_domain_projectspa_Massage_massageName" object="${massage}" z="ZJbkRFL2KA69Dp5cSAFNbVKoJ1E="/>
         <field:display field="massageDetail" id="s_com_main_myprojectspa_domain_projectspa_Massage_massageDetail" object="${massage}" z="8a0/ZS0rnFoS/qfg9H9V5CAs0c0="/>
         <field:display field="massageTypes" id="s_com_main_myprojectspa_domain_projectspa_Massage_massageTypes" object="${massage}" z="UhGxTGmAd3sZsi1m1BZaBiS298c="/>
+        <field:display field="massageTime" id="s_com_main_myprojectspa_domain_projectspa_Massage_massageTime" object="${massage}" z="h+9Aau2Aja1r1AIi2x7oXQz9QrI="/>
     </page:show>
 </div>

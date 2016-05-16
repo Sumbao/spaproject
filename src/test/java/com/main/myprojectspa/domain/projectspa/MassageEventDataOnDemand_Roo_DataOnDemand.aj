@@ -44,6 +44,7 @@ privileged aspect MassageEventDataOnDemand_Roo_DataOnDemand {
         setCreatedDate(obj, index);
         setEventEndTime(obj, index);
         setEventStartTime(obj, index);
+        setReserveDate(obj, index);
         setStatus(obj, index);
         setUpdatedBy(obj, index);
         setUpdatedDate(obj, index);
@@ -68,6 +69,11 @@ privileged aspect MassageEventDataOnDemand_Roo_DataOnDemand {
     public void MassageEventDataOnDemand.setEventStartTime(MassageEvent obj, int index) {
         Date eventStartTime = new GregorianCalendar(Calendar.getInstance().get(Calendar.YEAR), Calendar.getInstance().get(Calendar.MONTH), Calendar.getInstance().get(Calendar.DAY_OF_MONTH), Calendar.getInstance().get(Calendar.HOUR_OF_DAY), Calendar.getInstance().get(Calendar.MINUTE), Calendar.getInstance().get(Calendar.SECOND) + new Double(Math.random() * 1000).intValue()).getTime();
         obj.setEventStartTime(eventStartTime);
+    }
+    
+    public void MassageEventDataOnDemand.setReserveDate(MassageEvent obj, int index) {
+        Date reserveDate = new GregorianCalendar(Calendar.getInstance().get(Calendar.YEAR), Calendar.getInstance().get(Calendar.MONTH), Calendar.getInstance().get(Calendar.DAY_OF_MONTH), Calendar.getInstance().get(Calendar.HOUR_OF_DAY), Calendar.getInstance().get(Calendar.MINUTE), Calendar.getInstance().get(Calendar.SECOND) + new Double(Math.random() * 1000).intValue()).getTime();
+        obj.setReserveDate(reserveDate);
     }
     
     public void MassageEventDataOnDemand.setStatus(MassageEvent obj, int index) {
