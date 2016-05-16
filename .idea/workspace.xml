@@ -1,243 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="299e38b0-54ba-4106-a093-6b1f02cd7c4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_acl_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_taglibs_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_3_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/newmassageevent.jspx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log22.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cadf0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae01.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae10.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae21.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae30.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae50.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae61.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae70.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cae90.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caea1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caeb0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caec1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caed0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caee1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caef0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf01.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf10.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf21.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf30.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf41.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf61.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/caf91.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cafa1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cafb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cafc1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cafd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac00.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac11.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac20.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac40.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac60.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac80.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dac91.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/daca0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dacb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dacc0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dacd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dace0.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dacf1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad00.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad11.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad20.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad31.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad40.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad51.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad61.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad71.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad81.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dad91.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dada1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dadb1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dadc1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dadd1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/dade1.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/products/productall_jspx.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/products/productdetail_jspx.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/db.lck" afterPath="$PROJECT_DIR$/MyProjectSpa/db.lck" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/log.ctrl" afterPath="$PROJECT_DIR$/MyProjectSpa/log/log.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/MyProjectSpa/log/logmirror.ctrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c10.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c10.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c101.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c101.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c111.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c111.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c121.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c121.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c130.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c130.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c141.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c141.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c150.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c150.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c161.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c161.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c171.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c171.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1e0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1e0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c1f1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c1f1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c20.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c20.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c200.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c200.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c211.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c211.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c221.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c221.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c230.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c230.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c241.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c241.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c251.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c251.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c31.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c31.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c41.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c41.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c51.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c51.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c60.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c60.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c71.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c71.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c81.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c81.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/c90.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/c90.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/ca1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/ca1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cb1.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/cb1.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa/seg0/cf0.dat" afterPath="$PROJECT_DIR$/MyProjectSpa/seg0/cf0.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_Jpa_Entity.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/base/BaseEntity_Roo_Jpa_Entity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Customer_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Employee.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Employee.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Employee_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Employee_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Holiday.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Holiday.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Holiday_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Holiday_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Information.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Information.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Information_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Information_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageEvent.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_Jpa_ActiveRecord.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_Jpa_ActiveRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_Json.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageTypes.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageTypes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageTypes_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageTypes_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageTypes_Roo_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/MassageTypes_Roo_Json.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage_Roo_Jpa_ActiveRecord.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage_Roo_Jpa_ActiveRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage_Roo_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Massage_Roo_Json.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Custom_Finder.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Custom_Finder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/Product_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent_Roo_JavaBean.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/domain/projectspa/ShoppingEvent_Roo_JavaBean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageController_Roo_Controller_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageController_Roo_Controller_Json.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageEventController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageEventController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageEventController_Roo_Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageEventController_Roo_Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageEventController_Roo_Controller_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageEventController_Roo_Controller_Json.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageTypesController.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageTypesController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageTypesController_Roo_Controller_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/MassageTypesController_Roo_Controller_Json.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller_Json.class" afterPath="$PROJECT_DIR$/target/classes/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller_Json.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/EmployeeDataOnDemand_Roo_DataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/InformationDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/InformationDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/InformationDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/InformationDataOnDemand_Roo_DataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/InformationIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/InformationIntegrationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand_Roo_DataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand_Roo_DataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageTypesDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageTypesDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageTypesDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/MassageTypesDataOnDemand_Roo_DataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand_Roo_DataOnDemand.class" afterPath="$PROJECT_DIR$/target/test-classes/com/main/myprojectspa/domain/projectspa/ProductDataOnDemand_Roo_DataOnDemand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MyProjectSpa_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MyProjectSpa_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyProjectSpa.iml" afterPath="$PROJECT_DIR$/MyProjectSpa.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log.roo" afterPath="$PROJECT_DIR$/log.roo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_JavaBean.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_JavaBean.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/CustomerType_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Customer_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Customer_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Employee_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Employee_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Holiday_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Holiday_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_JavaBean.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_JavaBean.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_Jpa_Entity.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_Jpa_Entity.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_ToString.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Information_Roo_ToString.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Massage.java" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Massage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageEvent.java" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageEvent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_JavaBean.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_JavaBean.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageEvent_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageTypes.java" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageTypes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageTypes_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/MassageTypes_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Massage_Roo_JavaBean.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Massage_Roo_JavaBean.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Massage_Roo_Jpa_ActiveRecord.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Massage_Roo_Jpa_ActiveRecord.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Massage_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Massage_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ProductTypes_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Custom_Finder.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Custom_Finder.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ShoppingEvent_Roo_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/ShoppingEvent_Roo_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/InformationController_Roo_Controller.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/InformationController_Roo_Controller.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/InformationController_Roo_Controller_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/InformationController_Roo_Controller_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageEventController_Roo_Controller.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/MassageEventController_Roo_Controller.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller_Json.aj" afterPath="$PROJECT_DIR$/src/main/java/com/main/myprojectspa/web/myprojectspa/ProductController_Custom_Controller_Json.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/META-INF/database-script/data.sql" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/database-script/data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/i18n/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/util/load-scripts.tagx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/util/load-scripts.tagx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employees/mySpaMenuTabs.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/headerCustom.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/create.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/create.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/show.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/show.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/update.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/update.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/views.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massageevents/views.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/create.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/create.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/show.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/show.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/update.jspx" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/massages/update.jspx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/Employees.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/Employees.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/ProductTypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/informationall.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/informationall.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/productsearch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/scripts/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/styles/alt.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/alt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/styles/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/styles/standard.css" afterPath="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand_Roo_DataOnDemand.aj" afterPath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/CustomerTypeDataOnDemand_Roo_DataOnDemand.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/InformationDataOnDemand_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/InformationDataOnDemand_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/InformationDataOnDemand_Roo_DataOnDemand.aj" afterPath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/InformationDataOnDemand_Roo_DataOnDemand.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/InformationIntegrationTest_Roo_Configurable.aj" afterPath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/InformationIntegrationTest_Roo_Configurable.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/InformationIntegrationTest_Roo_IntegrationTest.aj" afterPath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/InformationIntegrationTest_Roo_IntegrationTest.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand_Roo_DataOnDemand.aj" afterPath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/MassageDataOnDemand_Roo_DataOnDemand.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand_Roo_DataOnDemand.aj" afterPath="$PROJECT_DIR$/src/test/java/com/main/myprojectspa/domain/projectspa/MassageEventDataOnDemand_Roo_DataOnDemand.aj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/aop-ajc.xml" afterPath="$PROJECT_DIR$/target/classes/META-INF/aop-ajc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/META-INF/database-script/data.sql" afterPath="$PROJECT_DIR$/target/classes/META-INF/database-script/data.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/builddef.lst" afterPath="$PROJECT_DIR$/target/classes/builddef.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/employees/mySpaMenuTabs_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/employees/mySpaMenuTabs_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/footer_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/footer_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/headerCustom_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/headerCustom_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/header_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/header_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/main_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/main_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/mainlayout/headermain_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/mainlayout/headermain_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/resourceNotFound_jspx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/WEB_002dINF/views/resourceNotFound_jspx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/language_tagx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/language_tagx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/load_002dscripts_tagx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/load_002dscripts_tagx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/theme_tagx.java" afterPath="$PROJECT_DIR$/target/tmp/jsp/org/apache/jsp/tag/web/util/theme_tagx.java" />
-    </list>
+    <list default="true" id="299e38b0-54ba-4106-a093-6b1f02cd7c4d" name="Default" comment="" />
     <ignored path="MyProjectSpa.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -299,11 +63,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employees.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Employees.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/Employees.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68265164">
+            <state vertical-scroll-proportion="0.0">
               <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -341,16 +115,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product_Custom_Finder.aj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/main/myprojectspa/domain/projectspa/Product_Custom_Finder.aj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -941,6 +705,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyProjectSpa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -1433,15 +1211,15 @@
       <option name="number" value="Default" />
       <updated>1463294682334</updated>
       <workItem from="1463294683519" duration="25887000" />
-      <workItem from="1463375590109" duration="7912000" />
+      <workItem from="1463375590109" duration="8723000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33799000" />
+    <option name="totallyTimeSpent" value="34610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1740,7 +1518,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="127" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1758,11 +1536,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="90" column="48" selection-start-line="90" selection-start-column="48" selection-end-line="90" selection-end-column="48" />
           <folding>
-            <marker date="1463215808519" expanded="true" signature="1482:1512" placeholder="..." />
-            <marker date="1463215808519" expanded="true" signature="2263:2293" placeholder="..." />
-            <marker date="1463215808519" expanded="true" signature="3196:3211" placeholder="..." />
-            <marker date="1463215808519" expanded="true" signature="4523:4553" placeholder="..." />
-            <marker date="1463215808519" expanded="true" signature="5301:5331" placeholder="..." />
+            <marker date="1463386895108" expanded="true" signature="1482:1512" placeholder="..." />
+            <marker date="1463386895108" expanded="true" signature="2263:2293" placeholder="..." />
+            <marker date="1463386895108" expanded="true" signature="3196:3211" placeholder="..." />
+            <marker date="1463386895108" expanded="true" signature="4523:4553" placeholder="..." />
+            <marker date="1463386895108" expanded="true" signature="5301:5331" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1871,8 +1649,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/scripts/MyProjectSpa/Employees.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68265164">
+        <state vertical-scroll-proportion="0.0">
           <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
