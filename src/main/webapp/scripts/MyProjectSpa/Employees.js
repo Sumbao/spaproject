@@ -53,6 +53,9 @@ function loadtable(){
             '</tr>'
         )
     })
+    $("#tableEmployee").dataTables({
+
+    })
 };
 
 $("#employeeBtnAdd").on('click',function(){

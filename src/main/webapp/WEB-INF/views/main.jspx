@@ -9,6 +9,7 @@
             <div class="col-sm-12">
                 <div class="form-horizontal">
                     <div class="form-group">
+                        <legend>ข่าวประชาสัมพันธ์</legend>
                         <ul id="allnew" class="list-unstyled">
                             <jsp:text/>
                         </ul>

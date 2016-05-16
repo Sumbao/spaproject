@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 privileged aspect Massage_Roo_Jpa_ActiveRecord {
     
-    public static final List<String> Massage.fieldNames4OrderClauseFilter = java.util.Arrays.asList("massageCode", "massageName", "massageDetail", "massageTypes");
+    public static final List<String> Massage.fieldNames4OrderClauseFilter = java.util.Arrays.asList("massageCode", "massageName", "massageDetail", "massageTypes", "massageTime");
     
     public static long Massage.countMassages() {
         return entityManager().createQuery("SELECT COUNT(o) FROM Massage o", Long.class).getSingleResult();

@@ -1,0 +1,38 @@
+<div xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8" />
+    <jsp:output omit-xml-declaration="yes" />
+    <spring:url value="/resources/scripts/MyProjectSpa/massageEvent.js" var="massageevent"/>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label class="control-label col-sm-4">พนักงาน</label>
+                        <div class="col-sm-3">
+                            <select id="selectemp" class="form-control">
+                                <jsp:text/>
+                            </select>
+                        </div>
+                        <button type="button" class="btn btn-primary" id="searchEmpEvent" ><span class="glyphicon glyphicon-search"></span></button>
+                        <button type="button" class="btn btn-danger" id="newEmpEvent" style="margin-left: 5px"><span class="glyphicon glyphicon-time"></span></button>
+                    </div>
+                </div>
+            </div>
+            <div id="calendar" class="fc fc-ltr fc-unthemed"></div>
+        </div>
+    </div>
+    <script src="${massageevent}" type="text/javascript"><!--Not Empty --></script>
+    <style>
+        body {
+            padding: 0;
+            font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+            font-size: 14px;
+        }
+
+        #calendar {
+            /*max-width: 900px;*/
+            margin: 0 auto;
+        }
+
+    </style>
+</div>

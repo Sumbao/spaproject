@@ -12,7 +12,7 @@ function loadallinformation() {
             '<li id="infor-' + index + '">' +
                 '<div class="panel">'+
             '<div class="panel-heading"  style="background-color: #66afe9">' +
-            '<a href="" style="color: #FFFFFF">' +
+            '<a href="" style="color: #FFFFFF; font-size:24PX">' +
             item.informationName +
             '</a>' +
             '</div>' +
@@ -20,7 +20,7 @@ function loadallinformation() {
             '<div class="row">' +
                 '<div class="col-sm-12">'+
             '<img id="inforImage" class="img-rounded col-sm-2" width="160" height="100" src="/MyProjectSpa/informations/loadinformationimage/' + item.id + '"/>' +
-            '<p class="desc defaultFont col-sm-10">' +
+            '<p class="desc defaultFont col-sm-10" style="font-size:20PX">' +
             item.informationDetail +
             '</p>' +
             '</div>' +

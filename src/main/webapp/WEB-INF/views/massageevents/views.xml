@@ -13,4 +13,10 @@
 <definition extends="default" name="massageevents/update">
         <put-attribute name="body" value="/WEB-INF/views/massageevents/update.jspx"/>
     </definition>
+    <definition extends="custom" name="massageevents/massagelist">
+        <put-attribute name="body" value="/WEB-INF/views/massageevents/massagesevent.jspx"/>
+    </definition>
+    <definition extends="custom" name="massageevents/newevent">
+        <put-attribute name="body" value="/WEB-INF/views/massageevents/newmassageevent.jspx"/>
+    </definition>
 </tiles-definitions>

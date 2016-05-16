@@ -94,6 +94,7 @@ privileged aspect MassageEventController_Roo_Controller {
         uiModel.addAttribute("massageEvent_updateddate_date_format", "dd/MM/yyyy");
         uiModel.addAttribute("massageEvent_eventstarttime_date_format", "dd/MM/yyyy");
         uiModel.addAttribute("massageEvent_eventendtime_date_format", "dd/MM/yyyy");
+        uiModel.addAttribute("massageEvent_reservedate_date_format", "dd/MM/yyyy");
     }
     
     void MassageEventController.populateEditForm(Model uiModel, MassageEvent massageEvent) {

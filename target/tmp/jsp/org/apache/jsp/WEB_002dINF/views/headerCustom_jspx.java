@@ -133,7 +133,7 @@ public final class headerCustom_jspx extends org.apache.jasper.runtime.HttpJspBa
       out.write("<div role=\"navigation\" class=\"collapse navbar-collapse\">");
       out.write("<ul class=\"nav navbar-nav\">");
       out.write("<li>");
-      out.write("<a href=\"#\">");
+      out.write("<a href=\"/MyProjectSpa/massageevents/massagelist\">");
       out.write("service");
       out.write("</a>");
       out.write("</li>");

@@ -13,6 +13,7 @@
         <field:select field="userReserve" id="c_com_main_myprojectspa_domain_projectspa_MassageEvent_userReserve" itemValue="id" items="${customers}" path="/customers" z="JXXEGDcvacehwSqpsR5Djf0rnFo="/>
         <field:select field="massage" id="c_com_main_myprojectspa_domain_projectspa_MassageEvent_massage" itemValue="id" items="${massages}" path="/massages" z="2/W1+i8ZydSUfWKcKgsxjX5bTR4="/>
         <field:select field="employee" id="c_com_main_myprojectspa_domain_projectspa_MassageEvent_employee" itemValue="id" items="${employees}" path="/employees" z="N7sR5UAEEKnnjGk6qYNuFRBKmVo="/>
+        <field:datetime dateTimePattern="${massageEvent_reservedate_date_format}" field="reserveDate" id="c_com_main_myprojectspa_domain_projectspa_MassageEvent_reserveDate" z="0W7d6DDqCehOpfOxcv4h3YOO6SY="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_main_myprojectspa_domain_projectspa_MassageEvent" render="${not empty dependencies}" z="ICNVYMdTJ/wfWP+mgt+SJLvrIp0="/>
 </div>

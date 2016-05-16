@@ -70,7 +70,7 @@ function findAllProduct() {
             '<div class="form-group">' +
             '<img id="inforImage" class="img-responsive" width="160" height="100" src="/MyProjectSpa/products/loadimage/' + item.id + '"/>' +
             '<div class="caption">' +
-            '<label>' +
+            '<label style="font-size: 20PX">' +
             '<center>' +
             item.productName +
             '</center>' +
@@ -100,7 +100,7 @@ $("#searchProduct").on('click', function () {
     var producttypesearch = $("#selectProductTypes").val().split("#");
 
     getdata = AjaxUtil.get({
-        url: session.context + "/findProductbyproducttype/" + producttypesearch[0]
+        url: session.context + "/products/findProductbyproducttype/" + producttypesearch[0]
     });
 
     $("#rowRoom").empty();

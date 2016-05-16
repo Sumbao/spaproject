@@ -40,4 +40,12 @@ privileged aspect Massage_Roo_JavaBean {
         this.massageTypes = massageTypes;
     }
     
+    public Integer Massage.getMassageTime() {
+        return this.massageTime;
+    }
+    
+    public void Massage.setMassageTime(Integer massageTime) {
+        this.massageTime = massageTime;
+    }
+    
 }
