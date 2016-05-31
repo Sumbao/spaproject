@@ -36,6 +36,7 @@ privileged aspect MassageController_Custom_Controller_Json {
                     .include("massageCode")
                     .include("massageName")
                     .include("massageTime")
+                    .include("massageprice")
                     .exclude("*")
                     .deepSerialize(massage)),headers, HttpStatus.OK);
         } catch (Exception e) {
@@ -43,5 +44,48 @@ privileged aspect MassageController_Custom_Controller_Json {
         }
     }
 
+    @RequestMapping(value = "/findallmassage", method = RequestMethod.GET, headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> MassageController.findallmassage() {
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        try {
+            List<Massage> massage = Massage.findAllMassages();
+            return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
+                    .include("id")
+                    .include("version")
+                    .include("massageCode")
+                    .include("massageName")
+                    .include("massageTime")
+                    .include("massageTypes.id")
+                    .include("massageTypes.version")
+                    .include("massageTypes.massageTypeName")
+                    .include("massageDetail")
+                    .exclude("*")
+                    .deepSerialize(massage)), headers, HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<String>("{\"ERROR\":" + e.getMessage() + "\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+//    @RequestMapping(value="/creatmassage",method = RequestMethod.POST, headers = "Accept=application/json")
+//    public ResponseEntity<String> MassageController.creatmassage(@RequestBody String json){
+//        ResponseEntity<String> status = null;
+//        HttpHeaders headers = new HttpHeaders();
+//        headers.add("Content-Type", "application/json");
+//        Massage massage = Massage.fromJsonToMassage(json);
+//        try {
+//            //List<Massage> list = Massage.createmassage(massage.getMassageCode(),massage.getMassageName());
+//            if(list.size() == 0){
+//                massage.persist();
+//                status = new ResponseEntity<String>(headers, HttpStatus.CREATED);
+//            } else {
+//                status = new ResponseEntity<String>(headers, HttpStatus.CONFLICT);
+//            }
+//            return status;
+//        } catch (Exception e) {
+//            return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+//        }
+//    }
 
 }

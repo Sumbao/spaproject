@@ -5,7 +5,11 @@ package com.main.myprojectspa.web.myprojectspa;
 
 import com.main.myprojectspa.domain.projectspa.Employee;
 import com.main.myprojectspa.web.myprojectspa.EmployeeController;
+
+import java.io.IOException;
 import java.util.List;
+
+import flexjson.JSONSerializer;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -38,7 +42,7 @@ privileged aspect EmployeeController_Custom_Controller_Json {
         headers.add("Content-Type", "application/json");
         Employee employee = Employee.fromJsonToEmployee(json);
         try {
-            List<Employee> list = Employee.findEmpbyId(employee.getEmpCode());
+            List<Employee> list = Employee.findEmpbyCode(employee.getEmpCode());
             if(list.size() == 0){
                 employee.persist();
                 status = new ResponseEntity<String>(headers, HttpStatus.CREATED);
@@ -51,4 +55,30 @@ privileged aspect EmployeeController_Custom_Controller_Json {
         }
     }
 
+
+    @RequestMapping(value ="/findempbyid/{id}",method = RequestMethod.GET,headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> EmployeeController.findempbyid(@PathVariable("id") Long id) throws IOException {
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        try {
+            List<Employee> employee = Employee.findEmpbyId(id);
+            if (employee == null) {
+                return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
+            }
+
+            return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
+                    .include("id")
+                    .include("version")
+                    .include("empCode")
+                    .include("empName")
+                    .include("empAddr")
+                    .include("empTel")
+                    .include("empEmail")
+                    .exclude("*")
+                    .deepSerialize(employee)),headers, HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<String>("{\"ERROR\":" + e.getMessage() + "\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
 }

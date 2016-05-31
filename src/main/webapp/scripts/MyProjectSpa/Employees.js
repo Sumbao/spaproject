@@ -5,24 +5,19 @@
 //    console.log( "ready!" );
 //});
 loadtable();
-function loadtable(){
+function loadtable() {
     clearvaluemodal();
-    jsonData = AjaxUtil.get({
-        url:session.context+"/employees/findalldataemployee"
+    var jsonData = AjaxUtil.get({
+        url: session.context + "/employees/findalldataemployee"
     })
-    $("#tableEmployee").empty();
+    $("#tableEmployeebody").empty();
     $("#tableEmployee").data("data-table", jsonData);
     $.each(jsonData, function (index, item) {
         $("#tableEmployee").append('' +
             '<tr>' +
-            '<td>'+
-            '<center>'+
-            '<input id="checkBoxEmployee'+index+'" value="'+jsonData[index].id+'" name="checkBoxEmployee" type="checkbox" class="checkbox" onclick="checkBoxInputEmployee(this)"/>'+
-            '</center>'+
-            '</td>'+
             '<td>' +
             '<center>' +
-            '<button value="' + index + '" class="btn btn-primary" onclick="editemployee(this)""><span class="glyphicon fa fa-pencil"></span></button>' +
+            '<input id="checkBoxEmployee' + index + '" value="' + jsonData[index].id + '" name="checkBoxEmployee" type="checkbox" class="checkbox" onclick="checkBoxInputEmployee(this)"/>' +
             '</center>' +
             '</td>' +
             '<td>' +
@@ -50,82 +45,90 @@ function loadtable(){
             item.empEmail +
             '</center>' +
             '</td>' +
+            '<td>' +
+            '<center>' +
+            '<button value="' + index + '" class="btn btn-primary" onclick="editemployee(this)""><span class="glyphicon fa fa-pencil"></span></button>' +
+            '</center>' +
+            '</td>' +
+            '<td>' +
+            '<center>' +
+            '<button class="btn btn-danger" value="' + index + '" onclick="deleteEmpData(' + item.id + ')""><span class="glyphicon glyphicon glyphicon-remove"></span></button>' +
+            '</center>' +
+            '</td>' +
             '</tr>'
         )
     })
-    $("#tableEmployee").dataTables({
-
-    })
+    $("#tableEmployee").DataTable();
 };
 
-$("#employeeBtnAdd").on('click',function(){
+$("#employeeBtnAdd").on('click', function () {
     $("#modalAddEmployee").modal("show");
 });
 
-$("#modalBtnAddEmp").on('click',function(){
+$("#modalBtnAddEmp").on('click', function () {
     var empcode = $("#empCodeAdd").val();
     var empname = $("#empNameAdd").val();
     var empaddr = $("#empAddrAdd").val();
     var emptel = $("#empTelAdd").val();
     var empmail = $("#empemailAdd").val();
 
-    var data ={
-        empCode:empcode,
-        empName:empname,
-        empAddr:empaddr,
-        empTel:emptel,
-        empEmail:empmail
+    var data = {
+        empCode: empcode,
+        empName: empname,
+        empAddr: empaddr,
+        empTel: emptel,
+        empEmail: empmail
     }
 
     var jsondata = AjaxUtil.post({
-        url: session.context+"/employees/createmployee",
-        data : JSON.stringify(data),
+        url: session.context + "/employees/createmployee",
+        data: JSON.stringify(data),
         complete: function (xhr) {
             if (xhr.readyState == 4) {
                 if (xhr.status == 201) {
-                    swal("Success","","success");
+                    swal("Success", "", "success");
                     $("#modalAddEmployee").modal("hide");
                     clearvaluemodal();
+                    $("#tableEmployee").DataTable().destroy();
                     loadtable();
                 }
                 else if (xhr.status == 200) {
-                    swal("Failed","","warning");
+                    swal("Failed", "", "warning");
                 }
                 else if (xhr.status == 409) {
-                    swal("SameData","","warning");
+                    swal("SameData", "", "warning");
                 }
 
             } else {
-                swal("FailedGG","","warning");
+                swal("FailedGG", "", "warning");
             }
         }
     })
 });
 
-function checkBoxInputEmployee (checkbox) {
+function checkBoxInputEmployee(checkbox) {
     var countInputChecked = $("input[name^='checkBoxEmployee']:checked:enabled").length;
-    var countInputAll  = $("[name='checkBoxEmployee']").length;
+    var countInputAll = $("[name='checkBoxEmployee']").length;
 
-    if(countInputChecked == countInputAll){
-        $("#checkBoxEmployeeAll").prop("checked",true);
+    if (countInputChecked == countInputAll) {
+        $("#checkBoxEmployeeAll").prop("checked", true);
     }
-    else
-    {
-        $("#checkBoxEmployeeAll").prop("checked",false);
+    else {
+        $("#checkBoxEmployeeAll").prop("checked", false);
     }
 }
 
-$("#checkBoxEmployeeAll").on('change',function(){
+$("#checkBoxEmployeeAll").on('change', function () {
     var booleanCheckAll = $("#checkBoxEmployeeAll").prop("checked");
-    if(booleanCheckAll){
-        $("[name='checkBoxEmployee']").prop("checked",true);
+    if (booleanCheckAll) {
+        $("[name='checkBoxEmployee']").prop("checked", true);
     }
-    else{
-        $("[name='checkBoxEmployee']").prop("checked",false);
+    else {
+        $("[name='checkBoxEmployee']").prop("checked", false);
     }
 });
 
-function clearvaluemodal(){
+function clearvaluemodal() {
     $("#empCodeAdd").val("");
     $("#empNameAdd").val("");
     $("#empAddrAdd").val("");
@@ -133,58 +136,59 @@ function clearvaluemodal(){
     $("#empemailAdd").val("");
 };
 
-$("#modalBtnAddNextEmp").on('click',function(){
+$("#modalBtnAddNextEmp").on('click', function () {
     var empcode = $("#empCodeAdd").val();
     var empname = $("#empNameAdd").val();
     var empaddr = $("#empAddrAdd").val();
     var emptel = $("#empTelAdd").val();
     var empmail = $("#empemailAdd").val();
 
-    var data ={
-        empCode:empcode,
-        empName:empname,
-        empAddr:empaddr,
-        empTel:emptel,
-        empEmail:empmail
+    var data = {
+        empCode: empcode,
+        empName: empname,
+        empAddr: empaddr,
+        empTel: emptel,
+        empEmail: empmail
     }
 
     var jsondata = AjaxUtil.post({
-        url: session.context+"/employees/createmployee",
-        data : JSON.stringify(data),
+        url: session.context + "/employees/createmployee",
+        data: JSON.stringify(data),
         complete: function (xhr) {
             if (xhr.readyState == 4) {
                 if (xhr.status == 201) {
-                    swal("Success","","success");
+                    swal("Success", "", "success");
                     clearvaluemodal();
+                    $("#tableEmployee").DataTable().destroy();
                     loadtable();
                 }
                 else if (xhr.status == 200) {
-                    swal("Failed","","warning");
+                    swal("Failed", "", "warning");
                 }
                 else if (xhr.status == 409) {
-                    swal("SameData","","warning");
+                    swal("SameData", "", "warning");
                 }
 
             } else {
-                swal("FailedGG","","warning");
+                swal("FailedGG", "", "warning");
             }
         }
     })
 });
 
-$("#btnCancelAdd").on('click',function(){
+$("#btnCancelAdd").on('click', function () {
     $("#modalAddEmployee").modal("hide");
 });
 
-$("#btnEditEmployee").on('click',function(){
-   $("#modalEditEmployee").modal("show");
+$("#btnEditEmployee").on('click', function () {
+    $("#modalEditEmployee").modal("show");
 });
 
-$("#btnCancelEdit").on('click',function(){
+$("#btnCancelEdit").on('click', function () {
     $("#modalEditEmployee").modal("hide")
 });
 
-$("#modalBtnEditEmp").on('click',function(){
+$("#modalBtnEditEmp").on('click', function () {
     var id = $("#modalEditEmployee").data("data-id");
     var index = $("#modalEditEmployee").data("data-index");
     var dataTableEmployee = $("#tableEmployee").data("data-table");
@@ -202,34 +206,35 @@ $("#modalBtnEditEmp").on('click',function(){
 
 
     jsondata = AjaxUtil.put({
-        url: session.context+"/employees/"+id,
-        data:JSON.stringify(dataTableEmployee[index]),
+        url: session.context + "/employees/" + id,
+        data: JSON.stringify(dataTableEmployee[index]),
         complete: function (xhr) {
             if (xhr.readyState == 4) {
                 if (xhr.status == 200) {
-                    swal("Success","","success");
+                    swal("Success", "", "success");
                     $("#modalEditEmployee").modal("hide");
                     clearvalueeditmodal();
+                    $("#tableEmployee").DataTable().destroy();
                     loadtable();
                 }
                 else if (xhr.status == 409) {
-                    swal("SameData","","warning");
+                    swal("SameData", "", "warning");
                 }
 
             } else {
-                swal("FailedGG","","warning");
+                swal("FailedGG", "", "warning");
             }
         }
     })
 });
 
-function editemployee(btn){
+function editemployee(btn) {
     clearvaluemodal();
     var index = btn.value;
     var dataTableEmployee = $("#tableEmployee").data("data-table");
 
-    $("#modalEditEmployee").data("data-id",dataTableEmployee[index].id);
-    $("#modalEditEmployee").data("data-index",index);
+    $("#modalEditEmployee").data("data-id", dataTableEmployee[index].id);
+    $("#modalEditEmployee").data("data-index", index);
 
     $("#empCodeEdit").val(dataTableEmployee[index].empCode);
     $("#empNameEdit").val(dataTableEmployee[index].empName);
@@ -240,7 +245,7 @@ function editemployee(btn){
     $("#modalEditEmployee").modal("show");
 };
 
-function clearvalueeditmodal(){
+function clearvalueeditmodal() {
     $("#empCodeEdit").val("");
     $("#empNameEdit").val("");
     $("#empAddrEdit").val("");
@@ -248,22 +253,109 @@ function clearvalueeditmodal(){
     $("#empemailEdit").val("");
 }
 
-$("#employeesDelete").on('click',function(){
+$("#employeesDelete").on('click', function () {
     var arrayDeleteEmp = $("input[name^='checkBoxEmployee']:checked:enabled");
-    if(arrayDeleteEmp.length <= 0){
-        swal("Please Select Data","","warning");
+    var lengthOfResponseText;
+    var cSuccess = 0;
+    var fSuccess = 0;
+    var empdelval = arrayDeleteEmp.length;
+    if (empdelval <= 0) {
+        swal("กรุณาเลือกข้อมูลที่ต้องการลบ", "", "warning");
+    } else if (empdelval > 0) {
+        swal({
+                title: "ต้องการลบข้อมูลจำนวน " + empdelval + " เรคคอร์ด",
+                type: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#5cb85C",
+                confirmButtonText: "ยืนยัน",
+                cancelButtonText: "ยกเลิก",
+                closeOnConfirm: false
+            },
+            function () {
+                for (var i = arrayDeleteEmp.length - 1; i >= 0; i--) {
+                    lengthOfResponseText = deleteEmp(arrayDeleteEmp[i].value);
+                    //console.log("GG:" + lengthOfResponseText);
+                    if (lengthOfResponseText == 0) {
+                        cSuccess++;
+                    } else {
+                        fSuccess++;
+                    }
+                }
+                $("#tableEmployee").DataTable().destroy();
+                loadtable();
+
+                if (cSuccess > 0 && fSuccess > 0) {
+                    swal("ลบข้อมูลสำเร็จจำนวน " + cSuccess + " เรคคอร์ด", "ไม่สำเร็จจำนวน " + fSuccess + " เรคคอร์ด", "success")
+                } else if (cSuccess > 0) {
+                    swal("ลบข้อมูลสำเร็จ", "", "success");
+                } else if (fSuccess > 0) {
+                    swal("ไม่สามารถลบได้เนื่องจากข้อมูลถูกใช้งานอยู่", "", "warning");
+                } else {
+                    swal("ไม่สามารถลบได้", "", "warning");
+                }
+            });
     }
-    else{
-        for (var i = arrayDeleteEmp.length - 1; i >= 0; i--) {
-            deleteEmp(arrayDeleteEmp[i].value);
-            swal("Delete Success","","success");
-            loadtable();
-        }
-    }
+    $("#checkBoxEmployeeAll").prop("checked", false);
 });
 
-function deleteEmp(id){
-    var jsonData = AjaxUtil.delete({
-        url:session.context+"/employees/"+id
+function deleteEmp(id) {
+    var lengthOfResponseText;
+    var data = $.ajax({
+        type: "DELETE",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        headers: {
+            Accept: "application/json"
+        },
+        url: session.context + "/employees/" + id,
+        complete: function (xhr) {
+            lengthOfResponseText = xhr.responseText.length;
+            if (xhr.readyState == 4) {
+                if (xhr.status == 200 && xhr.responseText == "") {
+                    //alert("delete");
+                }
+                else {
+                    //alert("fail");
+                }
+            } else {
+                //alert("fail");
+            }
+        },
+        async: false
     });
+    return lengthOfResponseText;
 }
+
+function deleteEmpData(id) {
+
+    swal({
+            title: "ต้องการลบข้อมูล",
+            type: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#5cb85C",
+            confirmButtonText: "ยืนยัน",
+            cancelButtonText: "ยกเลิก",
+            closeOnConfirm: false
+        },
+        function () {
+            var delempdata = AjaxUtil.delete({
+                url: session.context + "/employees/" + id,
+                complete: function (xhr) {
+                    if (xhr.readyState == 4) {
+                        if (xhr.status == 200 && xhr.responseText == "") {
+                            swal("ลบข้อมูลสำเร็จ", "", "success");
+                            $("#tableEmployee").DataTable().destroy();
+                            loadtable();
+                        }
+                        else {
+                            swal("ไม่สามารถลบได้เนื่องจากข้อมูลถูกใช้งานอยู่", "", "warning");
+                        }
+                    } else {
+                        swal("ไม่สามารถลบได้เนื่องจากข้อมูลถูกใช้งานอยู่", "", "warning");
+                    }
+                }
+            })
+        })
+}
+
+

@@ -26,6 +26,11 @@
   <put-attribute name="footer" value="/WEB-INF/views/mainlayout/footermain.jspx" />
   </definition>
 
+  <definition name="userlayout" template="/WEB-INF/layouts/userlayout.jspx">
+    <put-attribute name="header" value="/WEB-INF/views/layoutuser/headeruser.jspx" />
+    <put-attribute name="footer" value="/WEB-INF/views/mainlayout/footermain.jspx" />
+  </definition>
+
 
   <definition name="loginTemplate" template="/WEB-INF/layouts/loginTemplate.jspx">
   </definition>

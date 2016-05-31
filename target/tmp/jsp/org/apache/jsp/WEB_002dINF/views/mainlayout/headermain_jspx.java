@@ -113,16 +113,31 @@ static {
       out.write("         xhr.setRequestHeader(header, token);\n");
       out.write("         });\n");
       out.write("         });*/\n");
+      out.write("//        getuser();\n");
+      out.write("//        function getuser(){\n");
+      out.write("//            var userdata = AjaxUtil.get({\n");
+      out.write("//                url:session.context+\"/customers/getuserdata\"\n");
+      out.write("//            });\n");
+      out.write("//            console.log(\"GG\");\n");
+      out.write("//            $.each(userdata,function(index,item){\n");
+      out.write("//                console.log(item);\n");
+      out.write("//                $(\"#nameofuser\").append(\"item\");\n");
+      out.write("//            })\n");
+      out.write("//        }\n");
+      out.write("\n");
+      out.write("\n");
       out.write("\n");
       out.write("    ");
       out.write("</script>");
       if (_jspx_meth_spring_url_2(_jspx_page_context))
         return;
-      out.write("<nav role=\"navigation\" class=\"navbar navbar-default\">");
-      out.write("<div class=\"container-fluid\">");
       if (_jspx_meth_spring_url_3(_jspx_page_context))
         return;
+      out.write("<nav role=\"navigation\" class=\"navbar navbar-inverse navbar-fixed-top\">");
+      out.write("<div class=\"container\">");
       if (_jspx_meth_spring_url_4(_jspx_page_context))
+        return;
+      if (_jspx_meth_spring_url_5(_jspx_page_context))
         return;
       out.write("<div class=\"navbar-header\">");
       out.write("<button aria-expanded=\"false\" data-target=\"#bs-example-navbar-collapse-1\" data-toggle=\"collapse\" class=\"navbar-toggle collapsed\" type=\"button\">");
@@ -133,60 +148,37 @@ static {
       out.write("<span class=\"icon-bar\" />");
       out.write("<span class=\"icon-bar\" />");
       out.write("</button>");
+      out.write("<p style=\"font-size: 25px\" class=\"navbar-text\">");
+      out.write("<a href=\"/MyProjectSpa/admin/main\">");
+      out.write("หน้าผู้ดูแลระบบ");
+      out.write("</a>");
+      out.write("</p>");
       out.write("</div>");
-      out.write("<a style=\"padding-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;\" href=\"/MyProjectSpa\" class=\"navbar-nav\" />");
-      out.write("<img class=\"image-nav\" style=\"width: 50px; height: 50px;\" src=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${spa}", java.lang.String.class, (PageContext)_jspx_page_context, null) + "\" id=\"image\" />");
-      out.write("<div role=\"navigation\" class=\"collapse navbar-collapse\">");
-      out.write("<ul class=\"nav navbar-nav\">");
-      out.write("<li>");
-      out.write("<a href=\"#\">");
-      out.write("service");
-      out.write("</a>");
-      out.write("</li>");
-      out.write("<li class=\"dropdown\">");
-      out.write("<a aria-expanded=\"false\" aria-haspopup=\"true\" role=\"button\" data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\">");
-      out.write("products ");
-      out.write("<span class=\"caret\" />");
-      out.write("</a>");
-      out.write("<ul class=\"dropdown-menu\">");
-      out.write("<li>");
-      out.write("<a href=\"/MyProjectSpa/products/productall\">");
-      out.write("product");
-      out.write("</a>");
-      out.write("</li>");
-      out.write("<li class=\"divider\" role=\"separator\" />");
-      out.write("<li>");
-      out.write("<a href=\"/MyProjectSpa/massages/massageall\">");
-      out.write("massage");
-      out.write("</a>");
-      out.write("</li>");
-      out.write("<li class=\"divider\" role=\"separator\" />");
-      out.write("<li>");
-      out.write("<a href=\"#\">");
-      out.write("beauty");
-      out.write("</a>");
-      out.write("</li>");
-      out.write("</ul>");
-      out.write("</li>");
-      out.write("</ul>");
       out.write("<ul class=\"nav navbar-nav navbar-right\">");
-      out.write("<li class=\"dropdown\">");
-      out.write("<a aria-expanded=\"false\" aria-haspopup=\"true\" role=\"button\" data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\">");
-      out.write("<i class=\"fa fa-bars\">");
-      out.write("</i>");
+      out.write("<li style=\"margin-top: 9px\" class=\"dropdown\">");
+      out.write("<a id=\"nameofuser\" aria-expanded=\"false\" aria-haspopup=\"true\" role=\"button\" data-toggle=\"dropdown\" class=\"dropdown-toggle\" href=\"#\">");
+      out.write("</a>");
       out.write("<ul class=\"dropdown-menu\">");
       out.write("<li>");
-      if (_jspx_meth_spring_url_5(_jspx_page_context))
+      out.write("<a href=\"/MyProjectSpa/customers/admin/changedetail\">");
+      out.write("แก้ไขข้อมูลส่วนตัว");
+      out.write("</a>");
+      out.write("</li>");
+      out.write("<li>");
+      out.write("<a href=\"/MyProjectSpa/customers/admin/changepassword\">");
+      out.write("เปลี่ยนรหัสผ่าน");
+      out.write("</a>");
+      out.write("</li>");
+      out.write("<li>");
+      if (_jspx_meth_spring_url_6(_jspx_page_context))
         return;
       out.write("<a href=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${fn:escapeXml(sign_out_url)}", java.lang.String.class, (PageContext)_jspx_page_context, _jspx_fnmap_0) + "\">");
-      out.write("signout");
+      out.write("ออกจากระบบ");
       out.write("</a>");
       out.write("</li>");
       out.write("</ul>");
-      out.write("</a>");
       out.write("</li>");
       out.write("</ul>");
-      out.write("</div>");
       out.write("</div>");
       out.write("</nav>");
       out.write("<style>");
@@ -196,15 +188,19 @@ static {
       out.write("        }\n");
       out.write("\n");
       out.write("        .dropdown-menu {\n");
-      out.write("            background-color: #428BCA;\n");
+      out.write("            background-color: black;\n");
+      out.write("            font-size: 25px;\n");
       out.write("        }\n");
       out.write("\n");
       out.write("        .dropdown-menu li a {\n");
       out.write("            color: #FFFFFF;\n");
       out.write("        }\n");
+      out.write("        .navbar-text a{\n");
+      out.write("            font-size: 18px;\n");
+      out.write("        }\n");
       out.write("    ");
       out.write("</style>");
-      out.write("<script type=\"text/javascript\" src=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${login}", java.lang.String.class, (PageContext)_jspx_page_context, null) + "\">");
+      out.write("<script type=\"text/javascript\" src=\"" + (java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${admin}", java.lang.String.class, (PageContext)_jspx_page_context, null) + "\">");
       out.write("</script>");
       out.write("</div>");
     } catch (Throwable t) {
@@ -309,8 +305,8 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_3 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_3.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_3.setParent(null);
-    _jspx_th_spring_url_3.setVar("spa");
-    _jspx_th_spring_url_3.setValue("/resources/images/logo_spa.png");
+    _jspx_th_spring_url_3.setVar("admin");
+    _jspx_th_spring_url_3.setValue("/resources/scripts/MyProjectSpa/admin.js");
     int[] _jspx_push_body_count_spring_url_3 = new int[] { 0 };
     try {
       int _jspx_eval_spring_url_3 = _jspx_th_spring_url_3.doStartTag();
@@ -336,8 +332,8 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_4 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_4.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_4.setParent(null);
-    _jspx_th_spring_url_4.setVar("login");
-    _jspx_th_spring_url_4.setValue("/resources/scripts/MyProjectSpa/loginScript.js");
+    _jspx_th_spring_url_4.setVar("spa");
+    _jspx_th_spring_url_4.setValue("/resources/images/logo_spa.png");
     int[] _jspx_push_body_count_spring_url_4 = new int[] { 0 };
     try {
       int _jspx_eval_spring_url_4 = _jspx_th_spring_url_4.doStartTag();
@@ -363,8 +359,8 @@ static {
     org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_5 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
     _jspx_th_spring_url_5.setPageContext(_jspx_page_context);
     _jspx_th_spring_url_5.setParent(null);
-    _jspx_th_spring_url_5.setVar("sign_out_url");
-    _jspx_th_spring_url_5.setValue("/resources/j_spring_security_logout");
+    _jspx_th_spring_url_5.setVar("login");
+    _jspx_th_spring_url_5.setValue("/resources/scripts/MyProjectSpa/loginScript.js");
     int[] _jspx_push_body_count_spring_url_5 = new int[] { 0 };
     try {
       int _jspx_eval_spring_url_5 = _jspx_th_spring_url_5.doStartTag();
@@ -378,6 +374,33 @@ static {
     } finally {
       _jspx_th_spring_url_5.doFinally();
       _jspx_tagPool_spring_url_var_value_nobody.reuse(_jspx_th_spring_url_5);
+    }
+    return false;
+  }
+
+  private boolean _jspx_meth_spring_url_6(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  spring:url
+    org.springframework.web.servlet.tags.UrlTag _jspx_th_spring_url_6 = (org.springframework.web.servlet.tags.UrlTag) _jspx_tagPool_spring_url_var_value_nobody.get(org.springframework.web.servlet.tags.UrlTag.class);
+    _jspx_th_spring_url_6.setPageContext(_jspx_page_context);
+    _jspx_th_spring_url_6.setParent(null);
+    _jspx_th_spring_url_6.setVar("sign_out_url");
+    _jspx_th_spring_url_6.setValue("/resources/j_spring_security_logout");
+    int[] _jspx_push_body_count_spring_url_6 = new int[] { 0 };
+    try {
+      int _jspx_eval_spring_url_6 = _jspx_th_spring_url_6.doStartTag();
+      if (_jspx_th_spring_url_6.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+        return true;
+      }
+    } catch (Throwable _jspx_exception) {
+      while (_jspx_push_body_count_spring_url_6[0]-- > 0)
+        out = _jspx_page_context.popBody();
+      _jspx_th_spring_url_6.doCatch(_jspx_exception);
+    } finally {
+      _jspx_th_spring_url_6.doFinally();
+      _jspx_tagPool_spring_url_var_value_nobody.reuse(_jspx_th_spring_url_6);
     }
     return false;
   }

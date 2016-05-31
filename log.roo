@@ -152,3 +152,53 @@ focus --class ~.domain.projectspa.Massage
 field number --fieldName massageTime --type java.lang.Integer
 exit
 // Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-15 23:16:23
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-22 18:12:03
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-22 18:12:51
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-22 18:24:49
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-22 18:25:03
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-25 17:58:18
+backup
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-25 17:59:00
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-25 21:31:53
+focus --class ~.domain.projectspa.Customer
+field set --fieldName roles --type ~.domain.projectspa.CustomerType
+// [failed] perform tests
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-25 22:05:28
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-25 22:42:09
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-25 22:42:30
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-26 00:12:03
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-26 00:12:58
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-26 20:13:27
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-26 20:14:07
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-26 23:29:20
+focus --class ~.domain.projectspa.Massage
+field number --fieldName massageprice --type java.lang.Integer
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-26 23:31:28
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-29 19:44:43
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-29 19:47:51
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-29 21:15:49
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-29 21:16:11
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-29 21:17:27
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-29 21:20:59
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-29 21:22:56
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-29 21:25:01
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-31 11:49:16
+focus --class ~.domain.projectspa.Product
+field number --fieldName productweight --type java.lang.Integer 
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-31 11:51:02
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-05-31 12:02:53
+exit
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log closed at 2016-05-31 13:27:50

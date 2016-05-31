@@ -5,6 +5,7 @@ package com.main.myprojectspa.web.myprojectspa;
 
 import com.main.myprojectspa.domain.projectspa.Product;
 import com.main.myprojectspa.domain.projectspa.util.ApplicationConstant;
+import com.main.myprojectspa.service.ProductService;
 import com.main.myprojectspa.web.myprojectspa.ProductController;
 
 import java.io.File;
@@ -38,7 +39,7 @@ privileged aspect ProductController_Custom_Controller_Json {
             MultipartFile multipathFile = multipartHttpServletRequest.getFile("file");
             String json = multipartHttpServletRequest.getParameter("json");
             Product product = Product.fromJsonToProduct(json);
-            List<Product> prolist = Product.createproduct(product.getProductId(), product.getProductName());
+            List<Product> prolist = Product.createproduct(product.getProductId(), product.getProductName(),product.getProductPicture());
             if (prolist.size() == 0) {
                 byte[] bytes = multipathFile.getBytes();
                 File path = new File(ApplicationConstant.PATH_FILE + multipathFile.getOriginalFilename());
@@ -69,8 +70,10 @@ privileged aspect ProductController_Custom_Controller_Json {
                     .include("productName")
                     .include("productDetails")
                     .include("productPrice")
+                    .include("productPicture")
                     .include("productTypes.id")
                     .include("productTypes.productTypesName")
+                    .include("productTypes.version")
                     .exclude("*")
                     .deepSerialize(result)),headers, HttpStatus.OK);
         } catch (Exception e) {
@@ -147,9 +150,61 @@ privileged aspect ProductController_Custom_Controller_Json {
                         .exclude("*")
                         .deepSerialize(product)),headers, HttpStatus.OK);
             }
-
         } catch (Exception e) {
             return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @RequestMapping(value = "/deleteproductdata/{id}", method = RequestMethod.DELETE, headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> ProductController.deleteproductdata(@PathVariable("id") Long id) {
+        ResponseEntity<String> status = null;
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        try {
+            Product product = Product.findProduct(id);
+            String filename = product.getProductPicture();
+            File file = new File(ApplicationConstant.PATH_FILE + filename);
+            Boolean filestatus = file.isFile();
+            if (filestatus == true) {
+                file.delete();
+                product.remove();
+                return new ResponseEntity<String>(headers, HttpStatus.OK);
+            } else {
+                product.remove();
+                return new ResponseEntity<String>(headers, HttpStatus.CONFLICT);
+            }
+        } catch (Exception e) {
+            return new ResponseEntity<String>("{\"ERROR\":" + e.getMessage() + "\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @RequestMapping(value = "/updateproductdata", method = RequestMethod.POST, headers = "Accept=application/json")
+    public ResponseEntity<String> ProductController.updateproductdata(MultipartHttpServletRequest multipartdata) throws IOException {
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        try {
+            MultipartFile multipathFile = multipartdata.getFile("fileedit");
+            String json = multipartdata.getParameter("jasonedit");
+            Product product = Product.fromJsonToProduct(json);
+            if (multipathFile == null) {
+                Product prodataold = Product.findProduct(product.getId());
+                prodataold.setProductId(product.getProductId());
+                prodataold.setProductName(product.getProductName());
+                prodataold.setProductTypes(product.getProductTypes());
+                prodataold.setProductPrice(product.getProductPrice());
+                prodataold.setProductDetails(product.getProductDetails());
+                prodataold.merge();
+                return new ResponseEntity<String>(headers, HttpStatus.OK);
+
+            } else {
+                productservice.updateproductdata(product, multipartdata);
+                return new ResponseEntity<String>(headers, HttpStatus.OK);
+            }
+
+        } catch (Exception e) {
+            LOGGER.error("update:{}", e);
+            return new ResponseEntity<String>("{\"ERROR\":" + e.getMessage() + "\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 

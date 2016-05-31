@@ -29,8 +29,6 @@ privileged aspect CustomerTypeDataOnDemand_Roo_DataOnDemand {
         CustomerType obj = new CustomerType();
         setCreatedBy(obj, index);
         setCreatedDate(obj, index);
-        setCustomerPrivillege(obj, index);
-        setCustomerTypeCode(obj, index);
         setCustomerTypeName(obj, index);
         setStatus(obj, index);
         setUpdatedBy(obj, index);
@@ -46,16 +44,6 @@ privileged aspect CustomerTypeDataOnDemand_Roo_DataOnDemand {
     public void CustomerTypeDataOnDemand.setCreatedDate(CustomerType obj, int index) {
         Date createdDate = new GregorianCalendar(Calendar.getInstance().get(Calendar.YEAR), Calendar.getInstance().get(Calendar.MONTH), Calendar.getInstance().get(Calendar.DAY_OF_MONTH), Calendar.getInstance().get(Calendar.HOUR_OF_DAY), Calendar.getInstance().get(Calendar.MINUTE), Calendar.getInstance().get(Calendar.SECOND) + new Double(Math.random() * 1000).intValue()).getTime();
         obj.setCreatedDate(createdDate);
-    }
-    
-    public void CustomerTypeDataOnDemand.setCustomerPrivillege(CustomerType obj, int index) {
-        String customerPrivillege = "customerPrivillege_" + index;
-        obj.setCustomerPrivillege(customerPrivillege);
-    }
-    
-    public void CustomerTypeDataOnDemand.setCustomerTypeCode(CustomerType obj, int index) {
-        Integer customerTypeCode = new Integer(index);
-        obj.setCustomerTypeCode(customerTypeCode);
     }
     
     public void CustomerTypeDataOnDemand.setCustomerTypeName(CustomerType obj, int index) {

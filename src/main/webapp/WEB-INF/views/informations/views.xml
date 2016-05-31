@@ -13,4 +13,10 @@
 <definition extends="default" name="informations/update">
         <put-attribute name="body" value="/WEB-INF/views/informations/update.jspx"/>
     </definition>
+    <definition extends="custom" name="informations/contract">
+        <put-attribute name="body" value="/WEB-INF/views/informations/contract.jspx"/>
+    </definition>
+    <definition extends="custom" name="informations/information">
+        <put-attribute name="body" value="/WEB-INF/views/informations/information.jspx"/>
+    </definition>
 </tiles-definitions>

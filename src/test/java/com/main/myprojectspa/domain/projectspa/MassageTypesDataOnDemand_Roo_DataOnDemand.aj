@@ -30,7 +30,6 @@ privileged aspect MassageTypesDataOnDemand_Roo_DataOnDemand {
         setCreatedBy(obj, index);
         setCreatedDate(obj, index);
         setMassageTypeCode(obj, index);
-        setMassageTypeDetail(obj, index);
         setMassageTypeName(obj, index);
         setStatus(obj, index);
         setUpdatedBy(obj, index);
@@ -51,11 +50,6 @@ privileged aspect MassageTypesDataOnDemand_Roo_DataOnDemand {
     public void MassageTypesDataOnDemand.setMassageTypeCode(MassageTypes obj, int index) {
         String massageTypeCode = "massageTypeCode_" + index;
         obj.setMassageTypeCode(massageTypeCode);
-    }
-    
-    public void MassageTypesDataOnDemand.setMassageTypeDetail(MassageTypes obj, int index) {
-        String massageTypeDetail = "massageTypeDetail_" + index;
-        obj.setMassageTypeDetail(massageTypeDetail);
     }
     
     public void MassageTypesDataOnDemand.setMassageTypeName(MassageTypes obj, int index) {

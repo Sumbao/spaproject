@@ -6,6 +6,8 @@ package com.main.myprojectspa.web.myprojectspa;
 import com.main.myprojectspa.domain.projectspa.ProductTypes;
 import com.main.myprojectspa.web.myprojectspa.ProductTypesController;
 import java.util.List;
+
+import flexjson.JSONSerializer;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -25,7 +27,12 @@ privileged aspect ProductTypesController_Custom_Controller_Json {
         headers.add("Content-Type", "application/json; charset=utf-8");
         try {
             List<ProductTypes> result = ProductTypes.findAllProductTypeses();
-            return new ResponseEntity<String>(ProductTypes.toJsonArray(result), headers, HttpStatus.OK);
+            return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
+                    .include("id")
+                    .include("version")
+                    .include("productTypesName")
+                    .exclude("*")
+                    .deepSerialize(result)),headers, HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
         }

@@ -8,15 +8,15 @@
         <field:input field="status" id="c_com_main_myprojectspa_domain_projectspa_Customer_status" z="mvprfbJP8GB83ryc/UTfH03l+tk="/>
         <field:datetime dateTimePattern="${customer_createddate_date_format}" field="createdDate" id="c_com_main_myprojectspa_domain_projectspa_Customer_createdDate" z="jWvTRKEInu9Xt3EaKBc19EaTaj0="/>
         <field:datetime dateTimePattern="${customer_updateddate_date_format}" field="updatedDate" id="c_com_main_myprojectspa_domain_projectspa_Customer_updatedDate" z="sOC18rYspY5uAQe8+6gdgiF0Bto="/>
-        <field:input field="userId" id="c_com_main_myprojectspa_domain_projectspa_Customer_userId" z="3Av+ozjwHcpudgcrLhevhW5FKpQ="/>
-        <field:input field="userPassword" id="c_com_main_myprojectspa_domain_projectspa_Customer_userPassword" z="rYcyHVpEQN8lz+bTw6EasG2509M="/>
-        <field:input field="loginstatus" id="c_com_main_myprojectspa_domain_projectspa_Customer_loginstatus" max="1" min="0" required="true" validationMessageCode="field_invalid_integer" z="bdlPbGtKiHc9bHbwiRaMZufBYUE="/>
+        <field:checkbox field="loginstatus" id="c_com_main_myprojectspa_domain_projectspa_Customer_loginstatus" z="2ryIkMI/XFdS8xm7ELbn46L0ny8="/>
         <field:input field="customerName" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerName" z="U1sdappBzLZzjs3wKC9DP/pEhKY="/>
         <field:input field="customerAddr" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerAddr" z="yEicXdq+A74Hr7W435w6pgo49OY="/>
         <field:input field="customerEmail" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerEmail" z="NCx10wI+jK+1d7YHJJjzBkn+KQM="/>
         <field:input field="customerAge" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerAge" validationMessageCode="field_invalid_integer" z="NRr+SBVy8PapZ9Opx+xoEvPJNCE="/>
         <field:datetime dateTimePattern="${customer_customerbirthday_date_format}" field="customerBirthDay" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerBirthDay" z="aPYV4b05Dg31egsx8eyTtfA4nnM="/>
         <field:input field="customerTel" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerTel" z="U79MKsu/iYqOWpSyCeX1eogICeM="/>
-        <field:select field="customerTypes" id="c_com_main_myprojectspa_domain_projectspa_Customer_customerTypes" itemValue="id" items="${customertypes}" path="/customertypes" z="HyvBE/onS3mjbKLnXhgby82FsN4="/>
+        <field:input field="username" id="c_com_main_myprojectspa_domain_projectspa_Customer_username" z="l5+ylqOSJpmFfQL1FN3iz8qLCOE="/>
+        <field:input field="password" id="c_com_main_myprojectspa_domain_projectspa_Customer_password" z="VRYjCjovkymU+l6FCaujNoMU/tY="/>
+        <field:select field="customertype" id="c_com_main_myprojectspa_domain_projectspa_Customer_customertype" itemValue="id" items="${customertypes}" path="/customertypes" z="xdBDa2VauSd96137MoNMw00Wffg="/>
     </form:update>
 </div>

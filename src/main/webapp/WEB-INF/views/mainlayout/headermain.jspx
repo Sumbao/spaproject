@@ -40,79 +40,94 @@
          xhr.setRequestHeader(header, token);
          });
          });*/
+//        getuser();
+//        function getuser(){
+//            var userdata = AjaxUtil.get({
+//                url:session.context+"/customers/getuserdata"
+//            });
+//            console.log("GG");
+//            $.each(userdata,function(index,item){
+//                console.log(item);
+//                $("#nameofuser").append("item");
+//            })
+//        }
+
+
 
     </script>
     <spring:url value="/resources/images/pichead.jpg" var="pichead"/>
+    <spring:url value="/resources/scripts/MyProjectSpa/admin.js" var="admin"/>
     <!--<img id="imagehead" src="${pichead}" style="width: 700px; height: 200px;"/>-->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
             <spring:url value="/resources/images/logo_spa.png" var="spa"/>
             <spring:url value="/resources/scripts/MyProjectSpa/loginScript.js" var="login"/>
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <p class="navbar-text" style="font-size: 25px"><a href="/MyProjectSpa/admin/main">หน้าผู้ดูแลระบบ</a></p>
             </div>
-            <a class="navbar-nav" href="/MyProjectSpa"
-               style="padding-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;"/><img id="image"
-                                                                                                           src="${spa}"
-                                                                                                           style="width: 50px; height: 50px;"
-                                                                                                           class="image-nav"/>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" role="navigation">
+            <!--<div class="collapse navbar-collapse" role="navigation">-->
+            <!--<ul class="nav navbar-nav" >-->
+                <!--<li class="dropdown " >-->
+                    <!--<a href="#" class="dropdown-toggle navbar-text" data-toggle="dropdown" role="button"-->
+                       <!--aria-haspopup="true"-->
+                       <!--aria-expanded="false">การบริการ <span class="caret"></span></a>-->
+                    <!--<ul class="dropdown-menu">-->
+                        <!--<li><a href="/MyProjectSpa/massages/massageall">สุขภาพ</a></li>-->
+                        <!--<li role="separator" class="divider"></li>-->
+                        <!--<li><a href="/MyProjectSpa/massages/beautyall">ความงาม</a></li>-->
+                        <!--<li role="separator" class="divider"></li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+                <!--<li class="navbar-text"><a-->
+                        <!--href="/MyProjectSpa/products/productall">เปลี่ยนรหัสผ่าน</a></li>-->
+                <!--<li class="navbar-text"><a-->
+                        <!--href="/MyProjectSpa/massageevents/massagelist">แก้ไขข้อมูลส่วนตัว</a></li>-->
+                <!--<li class="navbar-text"><a-->
+                        <!--href="/MyProjectSpa/informations/information">ประชาสัมพันธ์</a></li>-->
+                <!--<li class="navbar-text"><a-->
+                        <!--href="/MyProjectSpa/informations/contract">ติดต่อเรา</a></li>-->
 
-                <ul class="nav navbar-nav">
-                    <li><a href="#">service</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">products <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="/MyProjectSpa/products/productall">product</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="/MyProjectSpa/massages/massageall">massage</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">beauty</a></li>
-                        </ul>
-                    </li>
-                    <!--<li><a href="/MyProjectSpa/employees/masterdata">Add Data</a></li>-->
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <!--<li class="dropdown">-->
-                        <!--<p class="navbar-text">-->
-                            <!--<span class="visible-xs-inline">&#160;&#160;&#160;</span>-->
-                            <!--<a class="navbar-link">-->
-                                <!--<spring:url value="/resources/images/ess-lang-th.png" var="image_th_url"/>-->
-                                <!--<img id="lang-th" src="${image_th_url}" alt="th" class="image-nav" title="TH"/>-->
-                            <!--</a>-->
-                            <!--&#160;|&#160;-->
-                            <!--<a class="navbar-link">-->
-                                <!--<spring:url value="/resources/images/ess-lang-en.png" var="image_en_url"/>-->
-                                <!--<img id="lang-en" src="${image_en_url}" alt="en" class="image-nav" title="EN"/>-->
-                            <!--</a>-->
-                        <!--</p>-->
-                    <!--</li>-->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">
-                            <i class="fa fa-bars">
-                                <jsp:text/>
-                            </i>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <spring:url value="/resources/j_spring_security_logout" var="sign_out_url"/>
-                                    <a href="${fn:escapeXml(sign_out_url)}">signout</a>
-                                </li>
-                            </ul>
-                        </a>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            <!--</ul>-->
+            <ul class="nav navbar-nav navbar-right">
+                <!--<li class="dropdown" style="margin-top: 16px">-->
+                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"-->
+                <!--aria-expanded="false">-->
+                <!--<i class="fa fa-bars">-->
+                <!--<jsp:text/>-->
+                <!--</i>-->
+                <!--<ul class="dropdown-menu">-->
+                <li class="dropdown" style="margin-top: 9px">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="nameofuser"><jsp:text/></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/MyProjectSpa/customers/admin/changedetail">แก้ไขข้อมูลส่วนตัว</a></li>
+                        <li><a href="/MyProjectSpa/customers/admin/changepassword">เปลี่ยนรหัสผ่าน</a></li>
+                        <li>
+                            <spring:url value="/resources/j_spring_security_logout" var="sign_out_url" />
+                            <a href="${fn:escapeXml(sign_out_url)}">ออกจากระบบ</a>
+                        </li>
+                    </ul>
+                </li>
+                <!--<li>-->
+                <!--<spring:url value="/resources/j_spring_security_logout" var="sign_out_url"/>-->
+                    <!--<p class="navbar-text" style="font-size: 25px" id="nameofuser"></p>-->
+                <!--</li>-->
+
+                <!--</ul>-->
+                <!--</a>-->
+                <!--</li>-->
+                <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">login <span class="caret"></span></a>-->
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+        <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
     </nav>
     <style>
         .navbar-default {
@@ -120,14 +135,20 @@
         }
 
         .dropdown-menu {
-            background-color: #428BCA;
+            background-color: black;
+            font-size: 25px;
         }
 
         .dropdown-menu li a {
             color: #FFFFFF;
         }
+        .navbar-text a{
+            font-size: 18px;
+        }
     </style>
-    <script src="${login}" type="text/javascript"><!--Not Empty --></script>
+    <script src="${admin}" type="text/javascript"><!--Not Empty --></script>
 </div>
+
+
 
 

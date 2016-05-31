@@ -10,6 +10,5 @@
         <field:display date="true" dateTimePattern="${massageTypes_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_updatedDate" object="${massagetypes}" z="Prz0YyDppEBTSJKRlb2zq4A7MTo="/>
         <field:display field="massageTypeCode" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeCode" object="${massagetypes}" z="iMh2mAwcfd0/sFmlFWibz3XsB54="/>
         <field:display field="massageTypeName" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeName" object="${massagetypes}" z="UaNdsVS5fcqjVcmLrlFxz3n1S4I="/>
-        <field:display field="massageTypeDetail" id="s_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeDetail" object="${massagetypes}" z="wnlfT/lxzsexBnd0mGNqSCH6MHE="/>
     </page:show>
 </div>

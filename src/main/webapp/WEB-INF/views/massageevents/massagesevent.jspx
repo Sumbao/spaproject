@@ -2,7 +2,7 @@
     <jsp:directive.page contentType="text/html;charset=UTF-8" />
     <jsp:output omit-xml-declaration="yes" />
     <spring:url value="/resources/scripts/MyProjectSpa/massageEvent.js" var="massageevent"/>
-    <div class="container">
+    <div class="container" style="margin-top: 20px">
         <div class="row">
             <div class="col-sm-12">
                 <div class="form-horizontal">
@@ -10,11 +10,11 @@
                         <label class="control-label col-sm-4">พนักงาน</label>
                         <div class="col-sm-3">
                             <select id="selectemp" class="form-control">
-                                <jsp:text/>
+                                <option value="01" ></option>
                             </select>
                         </div>
                         <button type="button" class="btn btn-primary" id="searchEmpEvent" ><span class="glyphicon glyphicon-search"></span></button>
-                        <button type="button" class="btn btn-danger" id="newEmpEvent" style="margin-left: 5px"><span class="glyphicon glyphicon-time"></span></button>
+                        <button type="button" class="btn btn-danger" id="newEmpEvent" style="margin-left: 5px">จองเวลาใช้บริการ</button>
                     </div>
                 </div>
             </div>
@@ -26,13 +26,41 @@
         body {
             padding: 0;
             font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-            font-size: 14px;
+            font-size: 18px;
         }
 
         #calendar {
             /*max-width: 900px;*/
             margin: 0 auto;
+
         }
+
+        .fc-title{
+            font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+            font-size: 18px;
+        }
+
+        .fc-time{
+            font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+            font-size: 18px;
+        }
+        label{
+            font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+            font-size: 18px;
+        }
+
+        .fc-widget-header{
+            background-color:#66afe9;
+            color:white;
+            font-size: 20px;
+        }
+
+        .fc-unthemed .fc-today {
+            background-color: #fcefa1;
+
+        }
+
+        .fc-sun { color:red;  }
 
     </style>
 </div>

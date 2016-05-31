@@ -14,8 +14,8 @@ function findAllProduct() {
     var allRooms = AjaxUtil.get({
         url: session.context + "/products/findallproduct"
     })
-    $(".carousel-captionactive").empty();
-    $(".carousel-captionitem").empty();
+    //$(".carousel-captionactive").empty();
+    //$(".carousel-captionitem").empty();
     $.each(allRooms, function (index, item) {
         // $("#rowRoom").append(''+
         // 	'<div class="col-sm-3" >'+
@@ -31,56 +31,55 @@ function findAllProduct() {
         // 		'</div>'+
         // 	'</div>'
         // );
-        if (index <= 3) {
-            $(".carousel-captionactive").append('' +
-                '<div class="col-sm-3" >' +
-                '<div class="thumbnail" >' +
-                '<img id="roomImages" src="' + partImages + '/products/loadimage/' + item.id + '" class="img-responsive"  style="min-height:160px;height:160px;" />' +
-                '<div class="caption">' +
-                '<h3>' + item.productName + '</h3>' +
-                '<p>' + item.productPrice + '</p>' +
-                '<div align="right">' +
-                '<button id="roombtnAdd" type="button" class="btn btn-primary" onclick="getdetail(' + item.id + ')"" >' + "detail" + '</button>' +
-                '</div>' +
-                '</div>' +
-                '</div>' +
-                '</div>'
-            );
-        } else {
-            $(".carousel-captionitem").append('' +
-                '<div class="col-sm-3" >' +
-                '<div class="thumbnail" >' +
-                '<img id="roomImages" src="' + partImages + '/products/loadimage/' + item.id + '" class="img-responsive"  style="min-height:160px;height:160px;" />' +
-                '<div class="caption">' +
-                '<h3>' + item.productName + '</h3>' +
-                '<p>' + item.productPrice + '</p>' +
-                '<div align="right">' +
-                '<button id="roombtnAdd" type="button" class="btn btn-primary" onclick="getdetail(' + item.id + ')"" >' + "detail" + '</button>' +
-                '</div>' +
-                '</div>' +
-                '</div>' +
-                '</div>'
-            );
-        }
-        ;
+        //if (index <= 3) {
+        //    $(".carousel-captionactive").append('' +
+        //        '<div class="col-sm-3" >' +
+        //        '<div class="thumbnail" >' +
+        //        '<img id="roomImages" src="' + partImages + '/products/loadimage/' + item.id + '" class="img-responsive"  style="min-height:160px;height:160px;" />' +
+        //        '<div class="caption">' +
+        //        '<h3>' + item.productName + '</h3>' +
+        //        '<p>' + item.productPrice + '</p>' +
+        //        '<div align="right">' +
+        //        '<button id="roombtnAdd" type="button" class="btn btn-primary" onclick="getdetail(' + item.id + ')"" >' + "detail" + '</button>' +
+        //        '</div>' +
+        //        '</div>' +
+        //        '</div>' +
+        //        '</div>'
+        //    );
+        //} else {
+        //    $(".carousel-captionitem").append('' +
+        //        '<div class="col-sm-3" >' +
+        //        '<div class="thumbnail" >' +
+        //        '<img id="roomImages" src="' + partImages + '/products/loadimage/' + item.id + '" class="img-responsive"  style="min-height:160px;height:160px;" />' +
+        //        '<div class="caption">' +
+        //        '<h3>' + item.productName + '</h3>' +
+        //        '<p>' + item.productPrice + '</p>' +
+        //        '<div align="right">' +
+        //        '<button id="roombtnAdd" type="button" class="btn btn-primary" onclick="getdetail(' + item.id + ')"" >' + "detail" + '</button>' +
+        //        '</div>' +
+        //        '</div>' +
+        //        '</div>' +
+        //        '</div>'
+        //    );
+        //}
+        //;
 
-        $("#allproduct").append('' +
-            '<div class="col-xs-6 col-md-3">' +
+        $(".row-thumbnail").append('' +
+            '<div class="col-sm-4" style="margin-top: 5px">' +
             '<a href="/MyProjectSpa/products/productdetail/?id=' + item.id + '">' +
-            '<div class="form-group">' +
-            '<img id="inforImage" class="img-responsive" width="160" height="100" src="/MyProjectSpa/products/loadimage/' + item.id + '"/>' +
-            '<div class="caption">' +
-            '<label style="font-size: 20PX">' +
             '<center>' +
-            item.productName +
+            '<img id="inforImage" class="img-rounded" width="150" height="150" src="/MyProjectSpa/products/loadimage/' + item.id + '"/>' +
             '</center>' +
-            '</label>' +
-            '</div>' +
+            '<div class="caption">' +
+            '<p style="text-align: center;font-family: FontAwesome;font-size: 18px">' +
+            item.productName +
+            '</p>' +
             '</div>' +
             '</a>' +
             '</div>')
     })
-}
+};
+
 
 $("#roomBuildings").on('change', function () {
     $("#roomBuildings option[value='01']").remove();
@@ -103,41 +102,58 @@ $("#searchProduct").on('click', function () {
         url: session.context + "/products/findProductbyproducttype/" + producttypesearch[0]
     });
 
-    $("#rowRoom").empty();
-    $(".carousel-captionactive").empty();
-    $(".carousel-captionitem").empty();
+    $(".row-thumbnail").empty();
+    //$(".carousel-captionactive").empty();
+    //$(".carousel-captionitem").empty();
     $.each(getdata, function (index, item) {
-        if (index <= 3) {
-            $(".carousel-captionactive").append('' +
-                '<div class="col-sm-3" >' +
-                '<div class="thumbnail" >' +
-                '<img id="roomImages" src="' + partImages + '/products/loadimage/' + item.id + '" class="img-rounded"  style="min-height:220px;height:220px;" />' +
-                '<div class="caption">' +
-                '<h3>' + item.productName + '</h3>' +
-                '<p>' + item.productPrice + '</p>' +
-                '<div align="right">' +
-                '<button id="roombtnAdd" type="button" class="btn btn-primary" onclick="getdetail(' + item.id + ')"" >' + "detail" + '</button>' +
-                '</div>' +
-                '</div>' +
-                '</div>' +
-                '</div>'
-            );
-        } else {
-            $(".carousel-captionitem").append('' +
-                '<div class="col-sm-3" >' +
-                '<div class="thumbnail" >' +
-                '<img id="roomImages" src="' + partImages + '/products/loadimage/' + item.id + '" class="img-rounded"  style="min-height:220px;height:220px;" />' +
-                '<div class="caption">' +
-                '<h3>' + item.productName + '</h3>' +
-                '<p>' + item.productPrice + '</p>' +
-                '<div align="right">' +
-                '<button id="roombtnAdd" type="button" class="btn btn-primary" onclick="getdetail(' + item.id + ')"" >' + "detail" + '</button>' +
-                '</div>' +
-                '</div>' +
-                '</div>' +
-                '</div>'
-            );
-        }
-        ;
+        //if (index <= 3) {
+        //    $(".carousel-captionactive").append('' +
+        //        '<div class="col-sm-3" >' +
+        //        '<div class="thumbnail" >' +
+        //        '<img id="roomImages" src="' + partImages + '/products/loadimage/' + item.id + '" class="img-rounded"  style="min-height:220px;height:220px;" />' +
+        //        '<div class="caption">' +
+        //        '<h3>' + item.productName + '</h3>' +
+        //        '<p>' + item.productPrice + '</p>' +
+        //        '<div align="right">' +
+        //        '<button id="roombtnAdd" type="button" class="btn btn-primary" onclick="getdetail(' + item.id + ')"" >' + "detail" + '</button>' +
+        //        '</div>' +
+        //        '</div>' +
+        //        '</div>' +
+        //        '</div>'
+        //    );
+        //} else {
+        //    $(".carousel-captionitem").append('' +
+        //        '<div class="col-sm-3" >' +
+        //        '<div class="thumbnail" >' +
+        //        '<img id="roomImages" src="' + partImages + '/products/loadimage/' + item.id + '" class="img-rounded"  style="min-height:220px;height:220px;" />' +
+        //        '<div class="caption">' +
+        //        '<h3>' + item.productName + '</h3>' +
+        //        '<p>' + item.productPrice + '</p>' +
+        //        '<div align="right">' +
+        //        '<button id="roombtnAdd" type="button" class="btn btn-primary" onclick="getdetail(' + item.id + ')"" >' + "detail" + '</button>' +
+        //        '</div>' +
+        //        '</div>' +
+        //        '</div>' +
+        //        '</div>'
+        //    );
+        //}
+        //;
+        $(".row-thumbnail").append('' +
+            '<div class="col-sm-4" style="margin-top: 5px">' +
+            '<a href="/MyProjectSpa/products/productdetail/?id=' + item.id + '">' +
+            '<center>' +
+            '<img id="inforImage" class="img-rounded" width="150" height="150" src="/MyProjectSpa/products/loadimage/' + item.id + '"/>' +
+            '</center>' +
+            '<div class="caption">' +
+            '<h2 style="text-align: center">' +
+            item.productName +
+            '</h2>' +
+            '</div>' +
+            '</a>' +
+            '</div>')
     });
+});
+
+$("#selectProductTypes").on('change', function () {
+    $("#selectProductTypes option[value='01']").remove();
 });

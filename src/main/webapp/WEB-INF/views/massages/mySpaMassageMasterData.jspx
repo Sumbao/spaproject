@@ -6,5 +6,256 @@
      role="tabpanel" class="tab-pane" id="MassageTabs">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-        massage
+    <spring:url value="/resources/scripts/MyProjectSpa/massage.js" var="massage"/>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="form-horizontal" role="forn">
+                    <div class="form-group" style="margin-top: 10px">
+                        <button id="massageBtnAdd" class="btn btn-success" style="margin-right:5px;">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                        <button id="massageDelete" class="btn btn-danger" style="margin-right:5px;">
+                            <span class="glyphicon glyphicon-minus"></span>
+                        </button>
+                    </div>
+                    <div class="form-group">
+                        <div style="width:100%">
+                            <table class="table table-responsive paginated" data-toggle="table" role="table" id="tableMassage"
+                                    cellspacing="0" width="100%">
+                                <thead>
+                                <tr>
+                                    <th class="col">
+                                        <div>
+                                            <center><input id="checkBoxMassageAll" type="checkbox"/></center>
+                                        </div>
+                                    </th>
+                                    <th class="col">
+                                        <center>
+                                        รหัสการให้บริการ
+                                        </center>
+                                    </th>
+                                    <th class="col">
+                                        <center>
+                                        ชื่อการให้บริการ
+                                        </center>
+                                    </th>
+                                    <th class="col">
+                                        <center>
+                                        ประเภทการให้บริการ
+                                        </center>
+                                    </th>
+                                    <th class="col">
+                                        <center>
+                                        เวลาในการให้บริการ
+                                        </center>
+                                    </th>
+                                    <th class="col">
+                                        <center>
+                                        แก้ไข
+                                        </center>
+                                    </th>
+                                    <th class="col">
+                                        <center>
+                                        ลบ
+                                        </center>
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody id="tablemassagebody">
+                                    <jsp:text/>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-horizontal">
+                    <div id="modalAddMassage" class="modal fade" role="dialog" aria-labelledby="myModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4>เพิ่มข้อมูลการให้บริการ</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">รหัสการให้บริการ</label>
+
+                                        <div class="col-sm-6">
+                                            <input id="massageCodeAdd" type="text" class="form-control"
+                                                   data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">ชื่อการให้บริการ</label>
+
+                                        <div class="col-sm-6">
+                                            <input id="massagenameAdd" type="text" class="form-control"
+                                                   data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">ประเภทการให้บริการ</label>
+
+                                        <div class="col-sm-6">
+                                            <select id="select_Massagetype" class="form-control" data-toggle="popover"
+                                                    data-content="GG"
+                                                    data-placement="bottom">
+                                                <jsp:text/>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">เวลาในการให้บริการ</label>
+
+                                        <div class="col-sm-6">
+                                            <select id="select_MassageTime" class="form-control" data-toggle="popover"
+                                                    data-content="GG"
+                                                    data-placement="bottom">
+                                                <option value="30">30 นาที</option>
+                                                <option value="45">45 นาที</option>
+                                                <option value="60">60 นาที</option>
+                                                <option value="90">90 นาที</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">รายละเอียด</label>
+
+                                        <div class="col-sm-6">
+                                            <textarea id="massageDesAdd" class="form-control"
+                                                      data-toggle="popover" data-content="GG"
+                                                      data-placement="bottom" maxlength="300"><jsp:text/></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <center>
+                                        <button id="modalBtnAddmassage" class="btn btn-primary">
+                                            <span class="glyphicon glyphicon glyphicon-ok"></span>
+                                        </button>
+                                        <button id="btnCancelmassage" class="btn btn-danger">
+                                            <span class="glyphicon glyphicon glyphicon-remove"></span>
+                                        </button>
+                                        <button id="modalBtnAddNextmassage" class="btn btn-primary">
+                                            <span class="glyphicon glyphicon glyphicon-chevron-right"></span>
+                                        </button>
+                                    </center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="modalEditMassage" class="modal fade" role="dialog" aria-labelledby="myModalLabel"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4>แก้ไขข้อมูลการให้บริการ</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">รหัสการให้บริการ</label>
+
+                                        <div class="col-sm-6">
+                                            <input id="massageCodeEdit" type="text" class="form-control"
+                                                   data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">ชื่อการให้บริการ</label>
+
+                                        <div class="col-sm-6">
+                                            <input id="massagenameEdit" type="text" class="form-control"
+                                                   data-toggle="popover" data-content="GG" data-placement="bottom"/>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label">ประเภทการให้บริการ</label>
+
+                                        <div class="col-sm-6">
+                                            <select id="select_MassagetypeEdit" class="form-control"
+                                                    data-toggle="popover"
+                                                    data-content="GG"
+                                                    data-placement="bottom">
+                                                <jsp:text/>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">เวลาในการให้บริการ</label>
+
+                                        <div class="col-sm-6">
+                                            <select id="select_MassageTimeEdit" class="form-control"
+                                                    data-toggle="popover"
+                                                    data-content="GG"
+                                                    data-placement="bottom">
+                                                <option value="30">30 นาที</option>
+                                                <option value="45">45 นาที</option>
+                                                <option value="60">60 นาที</option>
+                                                <option value="90">90 นาที</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-3 control-label required">รายละเอียด</label>
+
+                                        <div class="col-sm-6">
+                                            <textarea id="massageDesEdit" class="form-control"
+                                                      data-toggle="popover" data-content="GG"
+                                                      data-placement="bottom" maxlength="300"><jsp:text/></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <center>
+                                            <button id="modalBtnEditmassage" class="btn btn-primary">
+                                                <span class="glyphicon glyphicon glyphicon-ok"></span>
+                                            </button>
+                                            <button id="btnCancelEditmassage" class="btn btn-danger">
+                                                <span class="glyphicon glyphicon glyphicon-remove"></span>
+                                            </button>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        th center {
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 18px;
+        }
+
+        td center {
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 15px;
+        }
+
+        .paging-nav {
+            text-align: right;
+            padding-top: 2px;
+        }
+
+        .paging-nav a {
+            margin: auto 1px;
+            text-decoration: none;
+            display: inline-block;
+            padding: 1px 7px;
+            background: #91b9e6;
+            color: white;
+            border-radius: 3px;
+        }
+
+        .paging-nav .selected-page {
+            background: #187ed5;
+            font-weight: bold;
+        }
+
+
+    </style>
+    <script src="${massage}" type="text/javascript"><!--Not Empty --></script>
 </div>

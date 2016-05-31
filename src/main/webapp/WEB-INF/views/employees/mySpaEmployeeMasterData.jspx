@@ -3,7 +3,7 @@
      xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:tiles="http://tiles.apache.org/tags-tiles"
      xmlns:component="urn:jsptagdir:/WEB-INF/tags/component"
      xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0"
-     role="tabpanel" class="tab-pane active" id="EmployeesTabs">
+     role="tabpanel" class="tab-pane" id="EmployeesTabs">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
     <spring:url value="/resources/scripts/MyProjectSpa/Employees.js" var="employees"/>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="form-group">
                         <div>
-                            <table class="table table-responsive" data-toggle="table" role="table">
+                            <table class="table table-responsive paginated" data-toggle="table" role="table" cellspacing="0" width="100%" id="tableEmployee" >
                                 <thead>
                                 <tr>
                                     <th>
@@ -29,15 +29,16 @@
                                             <center><input id="checkBoxEmployeeAll" type="checkbox"/></center>
                                         </div>
                                     </th>
-                                    <th><center>Edit</center></th>
-                                    <th><center>EmpCode</center></th>
-                                    <th><center>EmpName</center></th>
-                                    <th><center>EmpAddr</center></th>
-                                    <th><center>EmpTel</center></th>
-                                    <th><center>EmpEmail</center></th>
+                                    <th class="col"><center>รหัสพนักงาน</center></th>
+                                    <th class="col"><center>ชื่อพนักงาน</center></th>
+                                    <th class="col"><center>ที่อยู่</center></th>
+                                    <th class="col"><center>เบอร์โทรศัพท์</center></th>
+                                    <th class="col"><center>อีเมล</center></th>
+                                    <th class="col"><center>แก้ไข</center></th>
+                                    <th class="col"><center>ลบ</center></th>
                                 </tr>
                                 </thead>
-                                <tbody id="tableEmployee">
+                                <tbody id="tableEmployeebody">
                                     <jsp:text/>
                                 </tbody>
                             </table>
@@ -50,11 +51,11 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h4>Add Data</h4>
+                                    <h4>เพิ่มข้อมูลพนักงาน</h4>
                                 </div>
                                 <div class="modal-body">
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpCode</label>
+                                        <label class="col-sm-3 control-label required">รหัสพนักงาน</label>
 
                                         <div class="col-sm-6">
                                             <input id="empCodeAdd" type="text" class="form-control"
@@ -62,7 +63,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpName</label>
+                                        <label class="col-sm-3 control-label required">ชื่อพนักงาน</label>
 
                                         <div class="col-sm-6">
                                             <input id="empNameAdd" type="text" class="form-control"
@@ -70,7 +71,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpAddr</label>
+                                        <label class="col-sm-3 control-label required">ที่อยู่</label>
 
                                         <div class="col-sm-6">
                                             <input id="empAddrAdd" type="text" class="form-control"
@@ -78,7 +79,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpTel</label>
+                                        <label class="col-sm-3 control-label required">เบอร์โทรศัพท์</label>
 
                                         <div class="col-sm-6">
                                             <input id="empTelAdd" type="tel" class="form-control" data-toggle="popover"
@@ -86,7 +87,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpEmail</label>
+                                        <label class="col-sm-3 control-label required">อีเมล</label>
 
                                         <div class="col-sm-6">
                                             <input id="empemailAdd" type="email" class="form-control"
@@ -114,7 +115,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpCode</label>
+                                        <label class="col-sm-3 control-label required">รหัสพนักงาน</label>
 
                                         <div class="col-sm-6">
                                             <input id="empCodeEdit" type="text" class="form-control"
@@ -122,7 +123,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpName</label>
+                                        <label class="col-sm-3 control-label required">ชื่อพนักงาน</label>
 
                                         <div class="col-sm-6">
                                             <input id="empNameEdit" type="text" class="form-control"
@@ -130,7 +131,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpAddr</label>
+                                        <label class="col-sm-3 control-label required">ที่อยู่</label>
 
                                         <div class="col-sm-6">
                                             <input id="empAddrEdit" type="text" class="form-control"
@@ -138,7 +139,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpTel</label>
+                                        <label class="col-sm-3 control-label required">เบอร์โทรศัพท์</label>
 
                                         <div class="col-sm-6">
                                             <input id="empTelEdit" type="tel" class="form-control" data-toggle="popover"
@@ -146,7 +147,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-3 control-label required">EmpEmail</label>
+                                        <label class="col-sm-3 control-label required">อีเมล</label>
 
                                         <div class="col-sm-6">
                                             <input id="empemailEdit" type="email" class="form-control"
@@ -169,5 +170,16 @@
             </div>
         </div>
     </div>
+    <style>
+        th center{
+            font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+            font-size: 18px;
+        }
+        td center{
+            font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+            font-size: 15px;
+        }
+
+    </style>
     <script src="${employees}" type="text/javascript"><!--Not Empty --></script>
 </div>

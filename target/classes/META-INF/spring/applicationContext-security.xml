@@ -1,32 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans:beans xmlns="http://www.springframework.org/schema/security" 
-    xmlns:beans="http://www.springframework.org/schema/beans" 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
         http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.2.xsd">
     <!-- HTTP security configurations -->
     <http auto-config="true" use-expressions="true">
-        <form-login login-processing-url="/resources/j_spring_security_check" login-page="/login" authentication-failure-url="/login?login_error=t"
-                    default-target-url="/main"
-                    always-use-default-target="false" />
-        <logout logout-url="/resources/j_spring_security_logout" />
+        <form-login login-processing-url="/resources/j_spring_security_check" login-page="/login"
+                    authentication-failure-url="/login?login_error=1"
+                    default-target-url="/login_success"
+                    always-use-default-target="false"/>
+        <logout logout-url="/resources/j_spring_security_logout"/>
         <!-- Configure these elements to secure URIs in your application -->
-        <intercept-url pattern="/choices/**" access="hasRole('ROLE_ADMIN')" />
-        <intercept-url pattern="/member/**" access="isAuthenticated()" />
-        <intercept-url pattern="/main/**" access="hasRole('ROLE_ADMIN')" />
-        <intercept-url pattern="/resources/**" access="permitAll" />
-        <intercept-url pattern="/login/**" access="permitAll" />
-        <intercept-url pattern="/**" access="permitAll" />
+        <intercept-url pattern="/massageevents/newevent" access="isAuthenticated()"/>
+        <intercept-url pattern="/customers/userdetail" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/choices/**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/member/**" access="isAuthenticated()"/>
+        <intercept-url pattern="/admin/main**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/customers/admin/**" access="hasRole('ROLE_ADMIN')"/>
+        <intercept-url pattern="/customers/user/**" access="hasRole('ROLE_USER')"/>
+        <intercept-url pattern="/resources/**" access="permitAll"/>
+        <intercept-url pattern="/login/**" access="permitAll"/>
+        <intercept-url pattern="/**" access="permitAll or isAuthenticated()"/>
+        <headers />
     </http>
     <!-- Configure Authentication mechanism -->
+    <!--<authentication-manager alias="authenticationManager">-->
+    <!--&lt;!&ndash; SHA-256 values can be produced using 'echo -n your_desired_password | sha256sum' (using normal *nix environments) &ndash;&gt;-->
+    <!--&lt;!&ndash;<authentication-provider>&ndash;&gt;-->
+    <!--&lt;!&ndash;<password-encoder hash="sha-256" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<user-service>&ndash;&gt;-->
+    <!--&lt;!&ndash;<user name="admin" password="8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918" authorities="ROLE_ADMIN" />&ndash;&gt;-->
+    <!--&lt;!&ndash;<user name="user" password="04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb" authorities="ROLE_USER" />&ndash;&gt;-->
+    <!--&lt;!&ndash;</user-service>&ndash;&gt;-->
+    <!--&lt;!&ndash;</authentication-provider>&ndash;&gt;-->
+    <!--</authentication-manager>-->
+    <!-- Configure Authentication mechanism -->
+    <!--<authentication-manager alias="authenticationManager">-->
+    <!--&lt;!&ndash; DAO Based Security &ndash;&gt;-->
+    <!--<authentication-provider>-->
+    <!--&lt;!&ndash; If not want you use encrypted, comment this line &ndash;&gt;-->
+    <!--<jdbc-user-service data-source-ref="dataSource"-->
+    <!--users-by-username-query="SELECT C.userId AS username, C.userPassword as password FROM CUSTOMER.class C where C.userId=?"-->
+    <!--authorities-by-username-query="SELECT C.userId as username, CT.customerTypeName as authority  FROM CUSTOMER.class C left join customer_roles CR on C.id=CR.customer  left join CUSTOMER_TYPE.class CT on CR.roles = CT.id  WHERE C.userId=?" />-->
+    <!--</authentication-provider>-->
+    <!--</authentication-manager>-->
+
     <authentication-manager alias="authenticationManager">
-        <!-- SHA-256 values can be produced using 'echo -n your_desired_password | sha256sum' (using normal *nix environments) -->
+        <!-- DAO Based Security -->
         <authentication-provider>
-            <password-encoder hash="sha-256" />
-            <user-service>
-                <user name="admin" password="8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918" authorities="ROLE_ADMIN" />
-                <user name="user" password="04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb" authorities="ROLE_USER" />
-            </user-service>
+            <!-- If not want you use encrypted, comment this line -->
+            <password-encoder hash="plaintext"/>
+            <jdbc-user-service data-source-ref="dataSource"
+                               users-by-username-query="SELECT C.username AS username, C.password as password,C.loginstatus as enabled FROM customer C where C.username=?"
+                               authorities-by-username-query="select C.username ,CT.customer_type_name from customer C left join customer_type CT on C.customertype = CT.id where username=?"/>
         </authentication-provider>
     </authentication-manager>
+
+
+    <!-- Security event logging -->
+    <beans:bean id="loggerListener"
+                class="org.springframework.security.authentication.event.LoggerListener"/>
 </beans:beans>
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+     xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:tiles="http://tiles.apache.org/tags-tiles"
+     xmlns:component="urn:jsptagdir:/WEB-INF/tags/component"
+     xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0"
+     role="tabpanel" class="tab-pane">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBhGnPId21xOes0UyJtcBhdfqmHxJBV3hk"></script>-->
+    <!--<script-->
+            <!--src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBhGnPId21xOes0UyJtcBhdfqmHxJBV3hk">-->
+    <!--</script>-->
+    <!--<script>-->
+        <!--function initialize() {-->
+            <!--var mapProp = {-->
+                <!--center:new google.maps.LatLng(51.508742,-0.120850),-->
+                <!--zoom:5,-->
+                <!--mapTypeId:google.maps.MapTypeId.ROADMAP-->
+            <!--};-->
+            <!--var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);-->
+        <!--}-->
+        <!--google.maps.event.addDomListener(window, 'load', initialize);-->
+    <!--</script>-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" onload="initialize()">
+                <legend><h1
+                        style="text-align: center;font-family: FontAwesome; font-size: 25px">สถานบริการสุขภาพและความงาม วิทยาลัยการแพทย์แผนไทย ราชมงคลธัญบุรี</h1>
+                </legend>
+                <p style="text-align: center">เวลาเปิดให้บริการ 9.00น. ถึง 17.00น.</p>
+
+                <p style="text-align: center">โทรศัพท์: 02-549-3121</p>
+
+                <p style="text-align: center">มือถือ: 096-017-8178</p>
+
+                <p style="text-align: center">Line Id:0960178178</p>
+
+                <p style="text-align: center">E-mail:buamutt@gmail.com</p>
+
+                <!--<div id="googleMap" style="width:500px;height:380px;"></div>-->
+            </div>
+        </div>
+    </div>
+    <style>
+        p {
+            font-family: FontAwesome;
+            font-size: 20px;
+        }
+       legend h1{
+
+        }
+    </style>
+</div>

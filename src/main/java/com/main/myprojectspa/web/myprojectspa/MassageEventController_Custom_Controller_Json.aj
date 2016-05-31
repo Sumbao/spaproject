@@ -5,7 +5,12 @@ package com.main.myprojectspa.web.myprojectspa;
 
 import com.main.myprojectspa.domain.projectspa.MassageEvent;
 import com.main.myprojectspa.web.myprojectspa.MassageEventController;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.List;
+import java.util.Date;
 
 import flexjson.JSONSerializer;
 import org.springframework.http.HttpHeaders;
@@ -19,6 +24,16 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.util.UriComponentsBuilder;
 
 privileged aspect MassageEventController_Custom_Controller_Json {
+
+    public static Date changedatewithtime(Date datenew) {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(datenew);
+        cal.set(Calendar.HOUR_OF_DAY, datenew.getHours());
+        cal.set(Calendar.MINUTE, datenew.getMinutes());
+        cal.set(Calendar.SECOND, datenew.getSeconds());
+        cal.set(Calendar.MILLISECOND, 0);
+        return cal.getTime();
+    }
 
     @RequestMapping(value = "/findeventbyEmpId/{id}", method = RequestMethod.GET, headers = "Accept=application/json")
     @ResponseBody
@@ -42,10 +57,93 @@ privileged aspect MassageEventController_Custom_Controller_Json {
                     .include("reserveDate")
                     .include("massage.massageName")
                     .exclude("*")
-                    .deepSerialize(massageEvent)),headers, HttpStatus.OK);
+                    .deepSerialize(massageEvent)), headers, HttpStatus.OK);
         } catch (Exception e) {
-            return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<String>("{\"ERROR\":" + e.getMessage() + "\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+
+    @RequestMapping(value = "/findeventbyDate/{date}", method = RequestMethod.GET, headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String>MassageEventController.findeventbyDate(@PathVariable("date") Date searchdate) {
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        try {
+            List<MassageEvent> massageEvent = MassageEvent.findeventbyDate(searchdate);
+            if (massageEvent.size() == 0) {
+                return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
+            }
+            return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
+                    .include("id")
+                    .include("version")
+                    .include("eventStartTime")
+                    .include("eventEndTime")
+                    .include("userReserve.id")
+                    .include("userReserve.customerName")
+                    .include("employee.id")
+                    .include("employee.empName")
+                    .include("reserveDate")
+                    .include("massage.massageName")
+                    .exclude("*")
+                    .deepSerialize(massageEvent)), headers, HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<String>("{\"ERROR\":" + e.getMessage() + "\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @RequestMapping(value = "/createnewevent", method = RequestMethod.POST, headers = "Accept=application/json")
+    public ResponseEntity<String> MassageEventController.createnewevent(@RequestBody String json) {
+        ResponseEntity<String> status = null;
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        MassageEvent massageevent = MassageEvent.fromJsonToMassageEvent(json);
+//        Long reservedate = massageevent.getReserveDate().getTime();
+//        Long starttime = massageevent.getEventStartTime().getTime();
+//        Long endTime = massageevent.getEventEndTime().getTime();
+        boolean chkstatus = false;
+        try {
+
+            Date starttime = changedatewithtime(massageevent.getEventStartTime());
+            Date endtime = changedatewithtime(massageevent.getEventEndTime());
+            List<MassageEvent> eventlist = MassageEvent.findoverlapdata(massageevent.getEmployee().getId(), massageevent.getReserveDate());
+            //LOGGER.error("list form query:"+eventlist.size());
+            for (int i = 0; i < eventlist.size(); i++) {
+                Date starttimeCheck = changedatewithtime(eventlist.get(i).getEventStartTime());
+                Date endtimeCheck = changedatewithtime(eventlist.get(i).getEventEndTime());
+
+                if (starttime.before(endtimeCheck) && endtime.after(endtimeCheck)) {
+                    chkstatus = true;
+                } else if (starttime.after(starttimeCheck) && endtime.before(endtimeCheck)) {
+                    chkstatus = true;
+                } else if (starttime.before(starttimeCheck) && endtime.after(starttimeCheck)) {
+                    chkstatus = true;
+                } else if (starttime.before(starttimeCheck) && endtime.after(endtimeCheck)) {
+                    chkstatus = true;
+                } else if (starttime.equals(starttimeCheck) && endtime.equals(endtimeCheck)) {
+                    chkstatus = true;
+                } else if (starttime.equals(starttimeCheck) && endtime.after(endtimeCheck)) {
+                    chkstatus = true;
+                } else if (starttime.equals(starttimeCheck) && endtime.before(endtimeCheck)) {
+                    chkstatus = true;
+                } else if (starttime.after(starttimeCheck) && endtime.equals(endtimeCheck)) {
+                    chkstatus = true;
+                } else if (starttime.before(starttimeCheck) && endtime.equals(endtimeCheck)) {
+                    chkstatus = true;
+                }
+//                else if (starttime.equals(endtimeCheck)) {
+//                    chkstatus = true;
+//                }
+            }
+        if (chkstatus == true) {
+            status = new ResponseEntity<String>(headers, HttpStatus.CONFLICT);
+        } else {
+            massageevent.persist();
+            status = new ResponseEntity<String>(headers, HttpStatus.CREATED);
+        }
+        return status;
+    }catch(Exception e){
+        return new ResponseEntity<String>("{\"ERROR\":" + e.getMessage() + "\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+}
 
 }

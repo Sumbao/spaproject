@@ -22,29 +22,30 @@
                     </div>
                     <div class="form-group">
                         <div>
-                            <table class="table table-responsive" data-toggle="table" role="table">
+                            <table class="table table-responsive paginated" data-toggle="table" role="table" id="tablemastype"
+                                   cellspacing="0" width="100%">
                                 <thead>
                                 <tr>
                                     <th>
                                         <div>
                                             <center><input id="checkBoxmastypeAll" type="checkbox"/></center>
                                         </div>
+                                    </th  >
+                                    <th class="col">
+                                        <center>รหัสประเภท</center>
                                     </th>
-                                    <th>
-                                        <center>Edit</center>
+                                    <th class="col">
+                                        <center>ชื่อประเภท</center>
                                     </th>
-                                    <th>
-                                        <center>TypeCode</center>
+                                    <th class="col">
+                                        <center>แก้ไข</center>
                                     </th>
-                                    <th>
-                                        <center>TypeName</center>
-                                    </th>
-                                    <th>
-                                        <center>Detail</center>
+                                    <th class="col">
+                                        <center>ลบ</center>
                                     </th>
                                 </tr>
                                 </thead>
-                                <tbody id="tablemastype">
+                                <tbody id="tablemastypebody">
                                 <jsp:text/>
                                 </tbody>
                             </table>

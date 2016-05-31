@@ -18,18 +18,12 @@ public class CustomerType extends BaseEntity {
 
     /**
      */
-    private Integer customerTypeCode;
-
-    /**
-     */
     private String customerTypeName;
 
     /**
      */
-    private String customerPrivillege;
-
-    /**
-     */
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "customerTypes")
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "customertype")
     private Set<Customer> customer = new HashSet<Customer>();
+
+
 }

@@ -2,6 +2,61 @@
 <div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" id="footer" version="2.0">
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
+    <spring:url value="/resources/images/facebook-icon.png" var="facebook"/>
+    <spring:url value="/resources/images/gmail-icon.png" var="gmail"/>
+    <spring:url value="/resources/images/line-icon.png" var="line"/>
+    <spring:url value="/resources/images/phone-icon.png" var="phone"/>
+
+    <div class="container" >
+        <legend><jsp:text/></legend>
+        <p style="text-align: center;margin-top: 45px" class="topic">ติดต่อเรา</p>
+        <div class="row" style="margin-top: 30px">
+            <!-- <div class="col-sm-6">
+                <center>
+                    <p style="text-align: center">โทรศัพท์: 02-549-3121</p>
+                    <p style="text-align: center">มือถือ: 096-017-8178</p>
+                </center>
+            </div>
+            <div class="col-sm-6">
+                <center>
+                    <p style="text-align: center">Line Id:0960178178</p>
+                    <p style="text-align: center">E-mail:buamutt@gmail.com</p>
+                </center>
+            </div> -->
+            <div>
+                <center>
+                <p>สถานบริการสุขภาพและความงามวิทยาลัยการแพทย์แผนไทย มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี</p>
+                <p>เปิดให้บริการทุกวันตั้งแต่เวลา 9.00น. ถึง 18.00น.เว้นวันอาทิตย์และวันหยุดราชการ</p>
+                <!--<p>โทรศัพท์: 02-549-3121|มือถือ: 096-017-8178|E-mail:buamutt@gmail.com|Line Id:0960178178</p>-->
+                    <img src="${facebook}"
+                         style="width: 22px; height: 22px;"
+                         class="image-nav"/><a href="https://www.facebook.com/%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%B8%E0%B8%82%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%87%E0%B8%B2%E0%B8%A1-%E0%B8%A1%E0%B8%97%E0%B8%A3%E0%B8%98%E0%B8%B1%E0%B8%8D%E0%B8%9A%E0%B8%B8%E0%B8%A3%E0%B8%B5-176769449324982/" target="_blank">facebook/สถานบริการสุขภาพและความงาม </a>
+                    <img src="${line}"
+                         style="width: 22px; height: 22px;"
+                         class="image-nav"/> 0960178178
+                    <img src="${gmail}"
+                         style="width: 22px; height: 22px;"
+                         class="image-nav"/> buamutt@gmail.com
+                    <img src="${phone}"
+                         style="width: 22px; height: 22px;"
+                         class="image-nav"/> 096-017-8178 , 02-549-3121
 
 
+
+            </center>
+            </div>
+
+        </div>
+    </div>
+    <style>
+        .topic{
+            font-family: FontAwesome;
+            font-size: 18px;
+        }
+
+        .row div center p{
+            font-family: FontAwesome;
+            font-size: 16px;
+        }
+    </style>
 </div>

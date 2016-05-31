@@ -14,6 +14,7 @@
         <field:input field="productPrice" id="c_com_main_myprojectspa_domain_projectspa_Product_productPrice" validationMessageCode="field_invalid_number" z="p6wjLWdsjMCjS42Dr2U3kiYasns="/>
         <field:input field="productPicture" id="c_com_main_myprojectspa_domain_projectspa_Product_productPicture" z="mPXnUkBf5nk9VGZkReUNJr19uio="/>
         <field:select field="productTypes" id="c_com_main_myprojectspa_domain_projectspa_Product_productTypes" itemValue="id" items="${producttypeses}" path="/producttypeses" z="yWdfm1WA97xKi8GW2D6DHjbEUdQ="/>
+        <field:input field="productweight" id="c_com_main_myprojectspa_domain_projectspa_Product_productweight" validationMessageCode="field_invalid_integer" z="lKd3H8Pvpdnaxo9JNMwHkqqO4es="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_main_myprojectspa_domain_projectspa_Product" render="${not empty dependencies}" z="tPFFasEmTYSTFycm5ODhGMlc1Jc="/>
 </div>

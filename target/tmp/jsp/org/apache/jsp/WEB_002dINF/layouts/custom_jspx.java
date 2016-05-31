@@ -82,19 +82,25 @@ public final class custom_jspx extends org.apache.jasper.runtime.HttpJspBase
       out.write("</div>");
       out.write("<div class=\"container-fluid\">");
       out.write("<div class=\"row clearfix\">");
-      out.write("<div class=\"col-md-12 column\">");
+      out.write("<div style=\"margin-top: 80px\" class=\"col-md-12 column\">");
       if (_jspx_meth_tiles_insertAttribute_1(_jspx_page_context))
         return;
       out.write("</div>");
       out.write("</div>");
       out.write("<div class=\"row clearfix\">");
-      out.write("<div class=\"col-md-12 column\">");
+      out.write("<div style=\"margin-top: 30px\" class=\"col-md-12 column\">");
       if (_jspx_meth_tiles_insertAttribute_2(_jspx_page_context))
         return;
       out.write("</div>");
       out.write("</div>");
       out.write("</div>");
       out.write("</body>");
+      out.write("<style>");
+      out.write("\n");
+      out.write("    body{\n");
+      out.write("        background-color:#fbf9ee;\n");
+      out.write("    }\n");
+      out.write("</style>");
       out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){

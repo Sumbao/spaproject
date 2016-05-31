@@ -13,34 +13,43 @@ function findemp(){
     });
 };
 
+$("#selectemp").on('change',function(){
+    $("#selectemp option[value='01']").remove();
+});
+
 
 
 $("#searchEmpEvent").on('click',function(){
-    var empsel = $("#selectemp").val().split("#");
-    //$(".fc-event-container").empty();
-    //inputdata(empsel[0]);
-    var empevent = AjaxUtil.get({
-        url:session.context +'/massageevents/findeventbyEmpId/'+empsel[0],
-        //complete: function (xhr) {
-        //    if (xhr.readyState == 4) {
-        //        if (xhr.status == 200) {
-        //
-        //        }
-        //        else if (xhr.status == 404) {
-        //            swal("ไม่พบข้อมูล","","warning");
-        //        }
-        //    } else {
-        //        swal("error","","warning");
-        //    }
-        //}
-    });
-    //$("#calendar").fullCalendar('removeEvents');
-    $('#calendar').fullCalendar('destroy');
-    loadcalendardata(empevent);
-    //$('#calendar').fullCalendar('refetchEvents');
-
-    $('#calendar').fullCalendar('render');
-
+    if($("#selectemp").val() == 01){
+        swal("กรุณาเลือกพนักงาน","","warning");
+    }else{
+        var empsel = $("#selectemp").val().split("#");
+        //$(".fc-event-container").empty();
+        //inputdata(empsel[0]);
+        var empevent = AjaxUtil.get({
+            url:session.context +'/massageevents/findeventbyEmpId/'+empsel[0],
+            complete: function (xhr) {
+                if (xhr.readyState == 4) {
+                    if (xhr.status == 404) {
+                        $("#calendar").fullCalendar({
+                            header: {
+                                left: 'prev,next today',
+                                center: 'title',
+                                right: 'month,basicWeek,basicDay'
+                            }
+                        });
+                    }
+                } else {
+                    swal("error","","warning");
+                }
+            }
+        });
+        //$("#calendar").fullCalendar('removeEvents');
+        $('#calendar').fullCalendar('destroy');
+        loadcalendardata(empevent);
+        //$('#calendar').fullCalendar('refetchEvents');
+        $('#calendar').fullCalendar('render');
+    }
 });
 
 function loadcalendardata(data){
@@ -143,12 +152,12 @@ function loadcalendardata(data){
             var todayCheckDay = today.toISOString().split("T")[0];
 
             if (todayLang > dateReservation) {
-                element.css("backgroundColor","#BEBEBE");
+                element.css("backgroundColor","#A0A0A0");
             }
             if(dateReservation > todayLang){
                 if (todayLang >= dateReservationStart) {
                     if (todayCheckDay === dateCheckDay) {
-                        element.css("backgroundColor","#FFD700");
+                        element.css("backgroundColor","#00FFCC");
                     }
                 }
             }
@@ -163,7 +172,11 @@ function loadcalendardata(data){
 
 $("#newEmpEvent").on('click',function(){
     var empsel = $("#selectemp").val().split("#");
-    window.location.href = "/MyProjectSpa/massageevents/newevent?id="+empsel[0];
+    if($("#selectemp").val() == 01){
+        swal("กรุณาเลือกพนักงาน","","warning");
+    }else{
+        window.location.href = "/MyProjectSpa/massageevents/newevent?id="+empsel[0];
+    }
 });
 
 //function clear_calendar() {

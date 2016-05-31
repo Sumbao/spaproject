@@ -42,11 +42,11 @@ public final class mySpaMasterData_jspx extends org.apache.jasper.runtime.HttpJs
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
       out.write("<div version=\"2.0\">");
-      out.write("<div class=\"container\">");
+      out.write("<div style=\"margin-top: 100px\" class=\"container\">");
       out.write("<div class=\"row\">");
       out.write("<legend>");
       out.write("<h1>");
-      out.write("Data");
+      out.write("จัดการข้อมูลในระบบ");
       out.write("</h1>");
       out.write("</legend>");
       out.write("<form role=\"form\" class=\"form-horizontal\">");
@@ -71,10 +71,20 @@ public final class mySpaMasterData_jspx extends org.apache.jasper.runtime.HttpJs
         return;
       if (_jspx_meth_tiles_insertTemplate_8(_jspx_page_context))
         return;
+      if (_jspx_meth_tiles_insertTemplate_9(_jspx_page_context))
+        return;
       out.write("</div>");
       out.write("</div>");
       out.write("</div>");
       out.write("</div>");
+      out.write("<style>");
+      out.write("\n");
+      out.write("        li a{\n");
+      out.write("            font-family: \"Lucida Grande\",Helvetica,Arial,Verdana,sans-serif;\n");
+      out.write("            font-size: 18px;\n");
+      out.write("        }\n");
+      out.write("    ");
+      out.write("</style>");
       out.write("</div>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
@@ -194,6 +204,18 @@ public final class mySpaMasterData_jspx extends org.apache.jasper.runtime.HttpJs
     _jspx_th_tiles_insertTemplate_8.setJspContext(_jspx_page_context);
     _jspx_th_tiles_insertTemplate_8.setTemplate("/WEB-INF/views/informations/mySpaInformationMasterData.jspx");
     _jspx_th_tiles_insertTemplate_8.doTag();
+    return false;
+  }
+
+  private boolean _jspx_meth_tiles_insertTemplate_9(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  tiles:insertTemplate
+    org.apache.tiles.jsp.taglib.InsertTemplateTag _jspx_th_tiles_insertTemplate_9 = (_jspx_resourceInjector != null) ? _jspx_resourceInjector.createTagHandlerInstance(org.apache.tiles.jsp.taglib.InsertTemplateTag.class) : new org.apache.tiles.jsp.taglib.InsertTemplateTag();
+    _jspx_th_tiles_insertTemplate_9.setJspContext(_jspx_page_context);
+    _jspx_th_tiles_insertTemplate_9.setTemplate("/WEB-INF/views/massageevents/massageeventlist.jspx");
+    _jspx_th_tiles_insertTemplate_9.doTag();
     return false;
   }
 }

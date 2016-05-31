@@ -8,7 +8,7 @@ function loadtableinformation(){
     var infordata = AjaxUtil.get({
         url:session.context + "/informations/findallinformation"
     });
-    $("#tableInformation").empty();
+    $("#tableInformationbody").empty();
     $("#tableInformation").data("data-table", infordata);
     $.each(infordata, function (index, item) {
         $("#tableInformation").append('' +
@@ -20,11 +20,6 @@ function loadtableinformation(){
             '</td>'+
             '<td>' +
             '<center>' +
-            '<button value="' + index + '" class="btn btn-primary" onclick="editInformation(this)""><span class="glyphicon fa fa-pencil"></span></button>' +
-            '</center>' +
-            '</td>' +
-            '<td>' +
-            '<center>' +
             item.informationName +
             '</center>' +
             '</td>' +
@@ -33,9 +28,15 @@ function loadtableinformation(){
             item.informationDetail +
             '</center>' +
             '</td>' +
+            '<td>' +
+            '<center>' +
+            '<button value="' + index + '" class="btn btn-primary" onclick="editInformation(this)""><span class="glyphicon fa fa-pencil"></span></button>' +
+            '</center>' +
+            '</td>' +
             '</tr>'
         )
     })
+    $("#tableInformation").DataTable();
 }
 
 function checkBoxInputinformation(){
@@ -101,6 +102,7 @@ $("#modalBtnAddinformation").on('click',function(){
                     swal("Success","","success");
                     $("#modalAddInformation").modal('hide');
                     clearvalueinfor();
+                    $("#tableInformation").DataTable().destroy();
                     loadtableinformation();
                 }
                 else if (xhr.status == 409) {
