@@ -1,7 +1,61 @@
 $( document ).ready(function() {
-    console.log( "GGHHY" );
+    loadtablemastype();
 });
 
 $("#mastypeBtnAdd").on('click',function(){
     $("#modalAddmastype").modal("show");
-})
+});
+
+function loadtablemastype(){
+
+    var mastypedata = AjaxUtil.get({
+        url:session.context+"/massagetypeses/findmassagetype"
+    });
+
+    $("#tablemastypebody").empty();
+    $("#tablemastype").data("data-table", mastypedata);
+    $.each(mastypedata,function(index,item){
+        $("#tablemastype").append('' +
+            '<tr>' +
+            '<td>' +
+            '<center>' +
+            '<input id="checkBoxMastype' + index + '" value="' + jsonData[index].id + '" name="checkBoxMastype" type="checkbox" class="checkbox" onclick="checkBoxInputMastype(this)"/>' +
+            '</center>' +
+            '</td>' +
+            '<td>' +
+            '<center>' +
+            item.massageTypeCode +
+            '</center>' +
+            '</td>' +
+            '<td>' +
+            '<center>' +
+            item.massageTypeName +
+            '</center>' +
+            '</td>' +
+            '<td>' +
+            '<center>' +
+            '<button value="' + index + '" class="btn btn-primary" onclick="editMastype(this)""><span class="glyphicon fa fa-pencil"></span></button>' +
+            '</center>' +
+            '</td>' +
+            '<td>' +
+            '<center>' +
+            '<button class="btn btn-danger" value="' + index + '" onclick="deleteMasTypeData(' + item.id + ')""><span class="glyphicon glyphicon glyphicon-remove"></span></button>' +
+            '</center>' +
+            '</td>' +
+            '</tr>'
+        )
+    });
+    $("#tablemastype").DataTable();
+};
+
+function checkBoxInputMastype(){
+
+}
+
+function editMastype(){
+
+}
+
+function deleteMasTypeData(){
+
+}

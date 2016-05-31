@@ -25,14 +25,6 @@ privileged aspect MassageTypes_Roo_JavaBean {
         this.massageTypeName = massageTypeName;
     }
     
-    public String MassageTypes.getMassageTypeDetail() {
-        return this.massageTypeDetail;
-    }
-    
-    public void MassageTypes.setMassageTypeDetail(String massageTypeDetail) {
-        this.massageTypeDetail = massageTypeDetail;
-    }
-    
     public Set<Massage> MassageTypes.getMassage() {
         return this.massage;
     }

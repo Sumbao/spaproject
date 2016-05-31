@@ -4,14 +4,15 @@
 
     <jsp:directive.page contentType="text/html;charset=UTF-8"/>
     <jsp:output omit-xml-declaration="yes"/>
-
-    <li role="presentation" class="active"><a href="#EmployeesTabs" aria-controls="EmployeesTabs" role="tab" data-toggle="tab">Employees</a></li>
-    <li role="presentation" ><a href="#CustomerTabs" aria-controls="CustomerTabs" role="tab" data-toggle="tab">Customer</a></li>
+    <li role="presentation" class="active"><a href="#massageeventTabs" aria-controls="massageeventTabs" role="tab" data-toggle="tab">เวลาจอง</a></li>
+    <li role="presentation" ><a href="#EmployeesTabs" aria-controls="EmployeesTabs" role="tab" data-toggle="tab">พนักงาน</a></li>
+    <li role="presentation" ><a href="#CustomerTabs" aria-controls="CustomerTabs" role="tab" data-toggle="tab">ลูกค้า</a></li>
     <!--<li role="presentation" ><a href="#HolidayTabs"  aria-controls="HolidayTabs" role="tab" data-toggle="tab">Holiday</a></li>-->
-    <!--<li role="presentation" ><a href="#MassageTypesTabs" aria-controls="MassageTypesTabs" role="tab" data-toggle="tab">MassageType</a></li>-->
-    <li role="presentation" ><a href="#MassageTabs" aria-controls="MassageTabs"  role="tab" data-toggle="tab">Massage</a></li>
-    <li role="presentation" ><a href="#ProductTypesTabs" onclick="loadtableprotype(this)" aria-controls="ProductTypesTabs"  role="tab" data-toggle="tab">ProductTypes</a></li>
-    <li role="presentation" ><a href="#ProductTabs" onclick="loadtableproduct(this);setproType(this)" aria-controls="ProductTabs"  role="tab" data-toggle="tab">Product</a></li>
-    <li role="presentation" ><a href="#InformationTabs" aria-controls="InformationTabs" role="tab" data-toggle="tab">Information</a></li>
+    <li role="presentation" ><a href="#MassageTypesTabs" aria-controls="MassageTypesTabs" role="tab" data-toggle="tab">ประเภทการให้บริการ</a></li>
+    <li role="presentation" ><a href="#MassageTabs" aria-controls="MassageTabs"  role="tab" data-toggle="tab">การบริการ</a></li>
+    <li role="presentation" ><a href="#ProductTypesTabs" onclick="loadtableprotype(this)" aria-controls="ProductTypesTabs"  role="tab" data-toggle="tab">ประเภทสินค้า</a></li>
+    <li role="presentation" ><a href="#ProductTabs" onclick="loadtableproduct(this);setproType(this)" aria-controls="ProductTabs"  role="tab" data-toggle="tab">สินค้า</a></li>
+    <li role="presentation" ><a href="#InformationTabs" aria-controls="InformationTabs" role="tab" data-toggle="tab">ข่าวประชาสัมพันธ์</a></li>
 </ul>
+
 

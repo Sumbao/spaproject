@@ -15,32 +15,31 @@
     <spring:url value="/" var="dash_board_url"/>
     <spring:url value="/resources/images/ess-brand.png" var="image_brand_url"/>
     <script>
-    console.log('${userDetail.username}');
-    if ('${userDetail.username}' == "No UserName") {
-    location.href = '/' + (window.location.pathname.split('/')[1]) + "/resources/j_spring_security_logout";
-    }
+        console.log('${userDetail.username}');
+        if ('${userDetail.username}' == "No UserName") {
+            location.href = '/' + (window.location.pathname.split('/')[1]) + "/resources/j_spring_security_logout";
+        }
 
-    var session = {
-    date: new Date(Number("${now.time}")).setHours(0, 0, 0, 0),    // the current date without time
-    time: new Date(Number("${now.time}")),                      // the current date with time
-    user: "${user}",                                            // the session user
-    lang: "${lang}",                                            // the language is page language
-    other: [],                                                  // the other use for create request for other
-    context: '/' + (window.location.pathname.split('/')[1]),    // the context path
-    contextCurrentURL: '${currentURL}',                                   // the context path remove artifact web app
-    userRole: '${userRole}',                                   // the session userRole
-    };
-    var _language = window.session.lang;
-    /*    $(function(){
-    var token = $("meta[name='_csrf']").attr("content");
-    var header = $("meta[name='_csrf_header']").attr("content");
-    console.log(token);
-    console.log(header);
-    $(document).ajaxSend(function(e, xhr, options) {
-    xhr.setRequestHeader(header, token);
-    });
-    });*/
-
+        var session = {
+            date: new Date(Number("${now.time}")).setHours(0, 0, 0, 0),    // the current date without time
+            time: new Date(Number("${now.time}")),                      // the current date with time
+            user: "${user}",                                            // the session user
+            lang: "${lang}",                                            // the language is page language
+            other: [],                                                  // the other use for create request for other
+            context: '/' + (window.location.pathname.split('/')[1]),    // the context path
+            contextCurrentURL: '${currentURL}',                                   // the context path remove artifact web app
+            userRole: '${userRole}',                                   // the session userRole
+        };
+        var _language = window.session.lang;
+        /*    $(function(){
+         var token = $("meta[name='_csrf']").attr("content");
+         var header = $("meta[name='_csrf_header']").attr("content");
+         console.log(token);
+         console.log(header);
+         $(document).ajaxSend(function(e, xhr, options) {
+         xhr.setRequestHeader(header, token);
+         });
+         });*/
     </script>
     <!--<c:set var="LABEL_MEETINGROOM"><spring:message  javaScriptEscape="true" code="LB00002"/></c:set>-->
     <!--<c:set var="LABEL_RESERVATION_CHAIR"><spring:message  javaScriptEscape="true" code="LB00011"/></c:set>-->
@@ -114,118 +113,203 @@
     <!--</script>-->
     <spring:url value="/resources/images/pichead.jpg" var="pichead"/>
     <!--<img id="imagehead" src="${pichead}" style="width: 700px; height: 200px;"/>-->
-    <nav class="navbar navbar-default" role="navigation" >
-        <div class="container-fluid">
-            <spring:url value="/resources/images/logo_spa.png" var="spa"/>
-            <spring:url value="/resources/scripts/MyProjectSpa/loginScript.js" var="login"/>
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+    <div class="bs-example">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <spring:url value="/resources/images/logo_spa.png" var="spa"/>
+                <spring:url value="/resources/scripts/MyProjectSpa/loginScript.js" var="login"/>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-nav" href="/MyProjectSpa"
+                       style="padding-left: 0px; padding-top: 10px; padding-bottom: 0px; padding-right: 0px"/><img
+                        id="image"
+                        src="${spa}"
+                        style="width: 65px; height: 65px;"
+                        class="image-nav"/>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" role="navigation">
+                    <ul class="nav navbar-nav" style="margin-left: 50px">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle navbar-text" data-toggle="dropdown" role="button"
+                               aria-haspopup="true"
+                               aria-expanded="false">การบริการ<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/MyProjectSpa/massages/massageall">สุขภาพ</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="/MyProjectSpa/massages/beautyall">ความงาม</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="navbar-text"><a
+                                href="/MyProjectSpa/products/productall">ผลิตภัณท์</a></li>
+                        <li class="navbar-text"><a
+                                href="/MyProjectSpa/massageevents/massagelist">จองเวลารับบริการ</a></li>
+                        <li class="navbar-text"><a
+                                href="/MyProjectSpa/informations/information">ข่าวสาร</a></li>
+                        <li class="navbar-text"><a
+                                href="/MyProjectSpa/informations/contract">ติดต่อเรา</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <button class="btn btn-warning navbar-btn" role="button" aria-haspopup="true" id="btn_loginmain"
+                                    style="margin-top: 22px">
+                                <span class="glyphicon glyphicon-log-in">เข้าสู่ระบบ</span>
+                            </button>
+                        </li>
+                        <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">login <span class="caret"></span></a>-->
+                    </ul>
+                </div><!-- /.navbar-collapse -->
             </div>
-            <a class="navbar-nav" href="/MyProjectSpa"
-               style="padding-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;"/><img id="image"
-                                                                                                           src="${spa}"
-                                                                                                           style="width: 50px; height: 50px;"
-                                                                                                           class="image-nav"/>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" role="navigation">
 
-                <ul class="nav navbar-nav">
-                    <li><a href="/MyProjectSpa/massageevents/massagelist">service</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">products <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="/MyProjectSpa/products/productall">product</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="/MyProjectSpa/massages/massageall">massage</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">beauty</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <!--<li class="dropdown">-->
-                        <!--<p class="navbar-text">-->
-                            <!--<span class="visible-xs-inline">&#160;&#160;&#160;</span>-->
-                            <!--<a class="navbar-link">-->
-                                <!--<spring:url value="/resources/images/ess-lang-th.png" var="image_th_url"/>-->
-                                <!--<img id="lang-th" src="${image_th_url}" alt="th" class="image-nav" title="TH"/>-->
-                            <!--</a>-->
-                            <!--&#160;|&#160;-->
-                            <!--<a class="navbar-link">-->
-                                <!--<spring:url value="/resources/images/ess-lang-en.png" var="image_en_url"/>-->
-                                <!--<img id="lang-en" src="${image_en_url}" alt="en" class="image-nav" title="EN"/>-->
-                            <!--</a>-->
-                        <!--</p>-->
-                    <!--</li>-->
-                    <li class="btn">
-                        <button class="btn btn-info" role="button" aria-haspopup="true" id="btn_loginmain">login</button>
-                    </li>
-                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">login <span class="caret"></span></a>-->
-
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-    <!--<div class="form-horizontal" role="form">-->
-        <!--<div id="modalRegister" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
-            <!--<div class="modal-dialog modal-md">-->
-                <!--<div class="modal-content">-->
-                    <!--<div class="modal-header">-->
-                        <!--<h4>-->
-                            <!--login-->
-                        <!--</h4>-->
-                    <!--</div>-->
-                    <!--<div class="modal-body">-->
-                        <!--<div class="form-group">-->
-                            <!--<label class="col-sm-4 control-label">Username</label>-->
-
-                            <!--<div class="col-sm-7">-->
-                                <!--<input id="txt_username" type="text" class="form-control" maxlength="10"-->
-                                       <!--data-toggle="popover" data-content="GG"-->
-                                       <!--data-placement="bottom"/>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="form-group">-->
-                            <!--<label class="col-sm-4 control-label">Password</label>-->
-
-                            <!--<div class="col-sm-7">-->
-                                <!--<input id="txt_password" type="text" class="form-control" maxlength="30"-->
-                                       <!--data-toggle="popover" data-content="GG"-->
-                                       <!--data-placement="bottom"/>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                    <!--<center>-->
-                        <!--<div class="modal-footer">-->
-                            <!--<button id="btn_Login" type="button" class="btn btn-primary">Login</button>-->
-                            <!--<button id="btn_Register" type="button" class="btn btn-warning">Register</button>-->
-                            <!--&lt;!&ndash;<button id="btn_CancelEditCompanies" type="button" aria-hidden="true" class="btn btn-danger"&ndash;&gt;-->
-                            <!--&lt;!&ndash;data-dismiss="modal">${BUTTON_CANCEL}</button>&ndash;&gt;-->
-                        <!--</div>-->
-                    <!--</center>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+            <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+        </nav>
+    </div>
     <style>
-        .navbar-default{
+        .navbar-default {
             background-color: #428BCA;
         }
-        .dropdown-menu{
+
+        .dropdown-menu li a {
             background-color: #66afe9;
-        }
-        .dropdown-menu li a{
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 18px;
             color: #FFFFFF;
         }
+
+        .dropdown-menu {
+            background-color: #66afe9;
+            color: #FFFFFF;
+        }
+
+        .navbar-text {
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 18px;
+        }
+
+        .navbar-text a {
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 18px;
+        }
+
+        .glyphicon-log-in {
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 18px;
+        }
+
+        .bs-example{
+            margin: 20px;
+        }
+
     </style>
+    <!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">-->
+        <!--<div class="container">-->
+            <!--&lt;!&ndash; Brand and toggle get grouped for better mobile display &ndash;&gt;-->
+            <!--<div class="navbar-header">-->
+                <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
+                    <!--<span class="sr-only">Toggle navigation</span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                <!--</button>-->
+                <!--<a class="navbar-nav" href="/MyProjectSpa"-->
+                   <!--style="padding-left: 0px; padding-top: 10px; padding-bottom: 0px; padding-right: 0px"/><img-->
+                    <!--id="image"-->
+                    <!--src="${spa}"-->
+                    <!--style="width: 65px; height: 65px;"-->
+                    <!--class="image-nav"/>-->
+                <!--&lt;!&ndash;<a class="navbar-brand" href="/MyProjectSpa">&ndash;&gt;-->
+                <!--&lt;!&ndash;style="padding-left: 0px; padding-top: 10px; padding-bottom: 0px; padding-right: 0px"/>&ndash;&gt;-->
+            <!--</div>-->
+
+            <!--&lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
+            <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+                <!--<ul class="nav navbar-nav">-->
+                    <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
+                    <!--<li><a href="#">Link</a></li>-->
+                    <!--<li class="dropdown">-->
+                        <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
+                        <!--<ul class="dropdown-menu">-->
+                            <!--<li><a href="#">Action</a></li>-->
+                            <!--<li><a href="#">Another action</a></li>-->
+                            <!--<li><a href="#">Something else here</a></li>-->
+                            <!--<li role="separator" class="divider"></li>-->
+                            <!--<li><a href="#">Separated link</a></li>-->
+                            <!--<li role="separator" class="divider"></li>-->
+                            <!--<li><a href="#">One more separated link</a></li>-->
+                        <!--</ul>-->
+                    <!--</li>-->
+                <!--</ul>-->
+                <!--<form class="navbar-form navbar-left" role="search">-->
+                    <!--<div class="form-group">-->
+                        <!--<input type="text" class="form-control" placeholder="Search"/>-->
+                    <!--</div>-->
+                    <!--<button type="submit" class="btn btn-default">Submit</button>-->
+                <!--</form>-->
+                <!--<ul class="nav navbar-nav navbar-right">-->
+                    <!--<li><a href="#">Link</a></li>-->
+                    <!--<li class="dropdown">-->
+                        <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>-->
+                        <!--<ul class="dropdown-menu">-->
+                            <!--<li><a href="#">Action</a></li>-->
+                            <!--<li><a href="#">Another action</a></li>-->
+                            <!--<li><a href="#">Something else here</a></li>-->
+                            <!--<li role="separator" class="divider"></li>-->
+                            <!--<li><a href="#">Separated link</a></li>-->
+                        <!--</ul>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>&lt;!&ndash; /.navbar-collapse &ndash;&gt;-->
+        <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+    <!--</nav>-->
+    <!--<div class="form-horizontal" role="form">-->
+    <!--<div id="modalRegister" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+    <!--<div class="modal-dialog modal-md">-->
+    <!--<div class="modal-content">-->
+    <!--<div class="modal-header">-->
+    <!--<h4>-->
+    <!--login-->
+    <!--</h4>-->
+    <!--</div>-->
+    <!--<div class="modal-body">-->
+    <!--<div class="form-group">-->
+    <!--<label class="col-sm-4 control-label">Username</label>-->
+
+    <!--<div class="col-sm-7">-->
+    <!--<input id="txt_username" type="text" class="form-control" maxlength="10"-->
+    <!--data-toggle="popover" data-content="GG"-->
+    <!--data-placement="bottom"/>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+    <!--<label class="col-sm-4 control-label">Password</label>-->
+
+    <!--<div class="col-sm-7">-->
+    <!--<input id="txt_password" type="text" class="form-control" maxlength="30"-->
+    <!--data-toggle="popover" data-content="GG"-->
+    <!--data-placement="bottom"/>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--<center>-->
+    <!--<div class="modal-footer">-->
+    <!--<button id="btn_Login" type="button" class="btn btn-primary">Login</button>-->
+    <!--<button id="btn_Register" type="button" class="btn btn-warning">Register</button>-->
+    <!--&lt;!&ndash;<button id="btn_CancelEditCompanies" type="button" aria-hidden="true" class="btn btn-danger"&ndash;&gt;-->
+    <!--&lt;!&ndash;data-dismiss="modal">${BUTTON_CANCEL}</button>&ndash;&gt;-->
+    <!--</div>-->
+    <!--</center>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
     <script src="${login}" type="text/javascript"><!--Not Empty --></script>
 </div>
 

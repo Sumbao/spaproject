@@ -48,4 +48,12 @@ privileged aspect Massage_Roo_JavaBean {
         this.massageTime = massageTime;
     }
     
+    public Integer Massage.getMassageprice() {
+        return this.massageprice;
+    }
+    
+    public void Massage.setMassageprice(Integer massageprice) {
+        this.massageprice = massageprice;
+    }
+    
 }

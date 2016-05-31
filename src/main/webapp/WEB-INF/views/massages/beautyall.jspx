@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields"
+     xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:tiles="http://tiles.apache.org/tags-tiles"
+     xmlns:component="urn:jsptagdir:/WEB-INF/tags/component"
+     xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0"
+     role="tabpanel" class="tab-pane">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <spring:url value="/resources/scripts/MyProjectSpa/beautyall.js" var="beauty"/>
+    <spring:url value="/resources/images/beauty.jpg" var="beautys"/>
+    <div class="container" style="margin-top: 25px">
+        <div class="row">
+            <legend><p style="font-family: FontAwesome;
+            font-size: 24px;">เสริมความงาม</p></legend>
+            <div class="col-sm-12">
+                <div class="col-sm-8">
+                    <div class="table-responsive">
+                        <table class="table" id="beautytable">
+                            <thead>
+                            <tr>
+                                <th class="col"><center>เสริมความงาม</center></th>
+                                <th class="col"><center>เวลา/นาที</center></th>
+                                <th class="col"><center>ราคา/บาท</center></th>
+                            </tr>
+                            </thead>
+                            <tbody id="beautybodytable">
+                            <jsp:text/>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p><img style="display: block;float: left ;width: 400px; height: 480px;" src="${beautys}"/></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .dataTables_filter, .dataTables_info { display: none; }
+        td center{
+            font-family: FontAwesome;
+            font-size: 16px;
+        }
+        th center{
+            font-family: FontAwesome;
+            font-size: 18px;
+            color: white;
+        }
+        th {
+            background: #66afe9;
+        }
+    </style>
+    <script src="${beauty}" type="text/javascript"><!--Not Empty --></script>
+</div>
+

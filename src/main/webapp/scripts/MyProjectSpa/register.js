@@ -20,17 +20,31 @@ $("#btn_Register").on('click',function(){
     var cussex = $("input[name=sex]:checked").val();
     var tel = $("#txt_CusTel").val();
     var email = $("#txt_CusEmail").val();
+    var role = AjaxUtil.get({
+        url:session.context+"/customertypes/getcustomertype/"+9998
+    });
+
+    console.log("role:"+role);
+    var cusbirthday = birthday.split("/");
+    var datetosave = parseInt(cusbirthday[0]);
+    var monthtosave = parseInt(cusbirthday[1]);
+    var yeartosave = parseInt(cusbirthday[2]);
+    var birthdatetosave = new Date(yeartosave, monthtosave - 1, datetosave, 0, 0, 0);
 
     var data = {
-        userId : username,
-        userPassword: pass,
+        username : username,
+        password: pass,
+        loginstatus:true,
         customerName: name,
         customerAddr: addr,
         customerEmail: email,
         customerAge: age,
-        customerBirthDay: birthday,
-        customerTel:tel
+        customerBirthDay: birthdatetosave.getTime(),
+        customerTel:tel,
+        customertype:{id:role.id,version:role.version}
     }
+
+    console.log("data:"+data);
     //alert(username+pass+name+addr+birthday+age+cussex+tel);
     var jsonData = AjaxUtil.post({
         url: session.context + "/customers/createCustomer",
@@ -49,7 +63,7 @@ $("#btn_Register").on('click',function(){
                                 if (isConfirm) {
                                     swal.close();
                                     clearvalue();
-                                    window.location.href = session['context'];
+                                    window.location.href = session['context']+"/login";
 
                                 }
                             });

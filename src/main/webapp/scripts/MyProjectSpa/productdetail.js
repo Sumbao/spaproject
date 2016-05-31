@@ -16,7 +16,7 @@ function loadprodetail(){
 
         $("label[id=proCode]").text(jsonData.productId);
         $("label[id=proName]").text(jsonData.productName);
-        $("label[id=proPrice]").text(jsonData.productPrice);
+        $("label[id=proPrice]").text(jsonData.productPrice+" บาท");
         $("label[id=proDetail]").text(jsonData.productDetails);
 
     $("#proImage").attr('src',$("#proImage").attr('src')+idproint);

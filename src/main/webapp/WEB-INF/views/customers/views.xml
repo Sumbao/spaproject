@@ -17,4 +17,13 @@
 <definition extends="custom" name="customers/register">
         <put-attribute name="body" value="/WEB-INF/views/customers/customerRegister.jspx"/>
     </definition>
+    <definition extends="userlayout" name="customers/user">
+        <put-attribute name="body" value="/WEB-INF/views/customers/userpage.jspx"/>
+    </definition>
+    <definition extends="mainlayout" name="customers/admindetail">
+        <put-attribute name="body" value="/WEB-INF/views/customers/admindetail.jspx"/>
+    </definition>
+    <definition extends="mainlayout" name="customers/adminpassword">
+        <put-attribute name="body" value="/WEB-INF/views/customers/adminpassword.jspx"/>
+    </definition>
 </tiles-definitions>

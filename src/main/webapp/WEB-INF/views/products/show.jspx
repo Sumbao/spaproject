@@ -14,5 +14,6 @@
         <field:display field="productPrice" id="s_com_main_myprojectspa_domain_projectspa_Product_productPrice" object="${product}" z="Mbmd2fC4+9WfbSsptzuEJ1jgQo4="/>
         <field:display field="productPicture" id="s_com_main_myprojectspa_domain_projectspa_Product_productPicture" object="${product}" z="6KeCtiXbqC/LEzn9md5JYjMTgdk="/>
         <field:display field="productTypes" id="s_com_main_myprojectspa_domain_projectspa_Product_productTypes" object="${product}" z="/fH4iyP3W8uASM4qHJIA9Fb5fXY="/>
+        <field:display field="productweight" id="s_com_main_myprojectspa_domain_projectspa_Product_productweight" object="${product}" z="cC5FFUtMO168CLttz4sfyQtQjyw="/>
     </page:show>
 </div>

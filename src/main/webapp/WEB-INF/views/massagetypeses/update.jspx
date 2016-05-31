@@ -10,7 +10,6 @@
         <field:datetime dateTimePattern="${massageTypes_updateddate_date_format}" field="updatedDate" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_updatedDate" z="ipocPVOext/WmIGl+nGyQYTYEk8="/>
         <field:input field="massageTypeCode" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeCode" z="6jwf762Y2796tD0hLNvAdf5/Phs="/>
         <field:input field="massageTypeName" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeName" z="oWIPJhxc13w5rFLd9P1J5gXV268="/>
-        <field:input field="massageTypeDetail" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_massageTypeDetail" z="Nu8hN8BpfmNHyTZR/MwzbBgnRFQ="/>
         <field:simple field="massage" id="c_com_main_myprojectspa_domain_projectspa_MassageTypes_massage" messageCode="entity_reference_not_managed" messageCodeAttribute="Massage" z="G3wj6YWqaFB9XYpyBvr4n7nDR0o="/>
     </form:update>
 </div>

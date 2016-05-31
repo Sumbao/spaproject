@@ -25,4 +25,5 @@
   <definition extends="custom" name="main">
     <put-attribute name="body" value="/WEB-INF/views/main.jspx"/>
   </definition>
+
 </tiles-definitions>

@@ -9,7 +9,7 @@
             <table:column id="c_com_main_myprojectspa_domain_projectspa_Customer_status" property="status" z="WMG8gxTEcvOrkFU9W4JkRgpJRtk="/>
             <table:column date="true" dateTimePattern="${customer_createddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_Customer_createdDate" property="createdDate" z="Tg2Lypi9U9l2gJ30z1x37Ib7egw="/>
             <table:column date="true" dateTimePattern="${customer_updateddate_date_format}" id="c_com_main_myprojectspa_domain_projectspa_Customer_updatedDate" property="updatedDate" z="WgicrM65Y67KNHvnbc9hkHxx7zY="/>
-            <table:column id="c_com_main_myprojectspa_domain_projectspa_Customer_userId" property="userId" z="jospktPsgAPlJodq48uMbGDKbA0="/>
+            <table:column id="c_com_main_myprojectspa_domain_projectspa_Customer_username" property="username" z="xDdV9idZvgZAZGtNRSVTnbTOneo="/>
         </table:table>
     </page:list>
 </div>

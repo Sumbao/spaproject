@@ -1,0 +1,16 @@
+<urlrewrite>
+    <rule>
+        <condition type="user-in-role">ROLE_USER</condition>
+        <from>/login_success</from>
+        <to type="redirect">/MyProjectSpa/customers/userdetail</to>
+    </rule>
+    <rule>
+        <condition type="user-in-role">ROLE_ADMIN</condition>
+        <from>/login_success</from>
+        <to type="redirect">/MyProjectSpa/admin/main</to>
+    </rule>
+    <!--<rule>-->
+        <!--<from>/login_success</from>-->
+        <!--<to type="redirect">index.htm</to>-->
+    <!--</rule>-->
+</urlrewrite>

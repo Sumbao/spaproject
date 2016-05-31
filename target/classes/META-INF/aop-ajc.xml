@@ -17,6 +17,7 @@
 <aspect name="com.main.myprojectspa.domain.projectspa.Product_Roo_Jpa_Entity"/>
 <aspect name="com.main.myprojectspa.web.myprojectspa.ProductTypesController_Roo_Controller_Json"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.Information_Roo_Json"/>
+<aspect name="com.main.myprojectspa.web.myprojectspa.CustomerTypeController_Custom_Controller_Json"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.Information_Custom_Finder"/>
 <aspect name="com.main.myprojectspa.base.BaseEntity_Roo_Jpa_ActiveRecord"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.Employee_Roo_Jpa_Entity"/>
@@ -85,6 +86,7 @@
 <aspect name="com.main.myprojectspa.domain.projectspa.MassageEvent_Roo_JavaBean"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.Massage_Custom_Finder"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.ProductTypes_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.main.myprojectspa.web.myprojectspa.InformationController_Custom_Controller"/>
 <aspect name="com.main.myprojectspa.web.myprojectspa.CustomerController_Custom_Controller"/>
 <aspect name="com.main.myprojectspa.web.myprojectspa.MassageEventController_Custom_Controller_Json"/>
 <aspect name="com.main.myprojectspa.domain.projectspa.Holiday_Roo_Jpa_ActiveRecord"/>

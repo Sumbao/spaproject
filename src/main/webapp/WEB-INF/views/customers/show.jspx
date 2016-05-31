@@ -8,8 +8,6 @@
         <field:display field="status" id="s_com_main_myprojectspa_domain_projectspa_Customer_status" object="${customer}" z="dNq82fBSXsIv4MvkxjsBiqy0CNQ="/>
         <field:display date="true" dateTimePattern="${customer_createddate_date_format}" field="createdDate" id="s_com_main_myprojectspa_domain_projectspa_Customer_createdDate" object="${customer}" z="T2izN8ixcilI4lW4FnGZLcfOzd0="/>
         <field:display date="true" dateTimePattern="${customer_updateddate_date_format}" field="updatedDate" id="s_com_main_myprojectspa_domain_projectspa_Customer_updatedDate" object="${customer}" z="ZlVyzvZ0Nh9HBNKB3MsSrX5n+3w="/>
-        <field:display field="userId" id="s_com_main_myprojectspa_domain_projectspa_Customer_userId" object="${customer}" z="cx/on8RryWTsKMckjh4rJ/hBzFc="/>
-        <field:display field="userPassword" id="s_com_main_myprojectspa_domain_projectspa_Customer_userPassword" object="${customer}" z="cZBm7xcAYt9Nv6T516jOwlZcsOA="/>
         <field:display field="loginstatus" id="s_com_main_myprojectspa_domain_projectspa_Customer_loginstatus" object="${customer}" z="yQDfx/lxRDRPuxmEIb7wmu3w6Kg="/>
         <field:display field="customerName" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerName" object="${customer}" z="fDjqO/I3D8fQWBaHeX/HIObeEWA="/>
         <field:display field="customerAddr" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerAddr" object="${customer}" z="I/1Ibat3N6AVIP2Hv270W6czKDw="/>
@@ -17,6 +15,8 @@
         <field:display field="customerAge" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerAge" object="${customer}" z="fEsjNppq4ut1hIwziDjQCvBbo7o="/>
         <field:display date="true" dateTimePattern="${customer_customerbirthday_date_format}" field="customerBirthDay" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerBirthDay" object="${customer}" z="mYp2gohcYbiRCJJChUcKi34jWso="/>
         <field:display field="customerTel" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerTel" object="${customer}" z="SBCXrzLKYxzALNj14L1amvlSAGY="/>
-        <field:display field="customerTypes" id="s_com_main_myprojectspa_domain_projectspa_Customer_customerTypes" object="${customer}" z="WKya96XVdJa6qP3VSWAH0m3mzZI="/>
+        <field:display field="username" id="s_com_main_myprojectspa_domain_projectspa_Customer_username" object="${customer}" z="YX9coWb7mctLBONhzPYGHRQg+J8="/>
+        <field:display field="password" id="s_com_main_myprojectspa_domain_projectspa_Customer_password" object="${customer}" z="09JuVLlMO4yvn/a5tVxnygZDGo4="/>
+        <field:display field="customertype" id="s_com_main_myprojectspa_domain_projectspa_Customer_customertype" object="${customer}" z="ney1NbUQGjpNz3nCjedbwdL9pn8="/>
     </page:show>
 </div>

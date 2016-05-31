@@ -82,6 +82,7 @@ public final class newmassageevent_jspx extends org.apache.jasper.runtime.HttpJs
       out.write("</label>");
       out.write("<div class=\"col-sm-7\">");
       out.write("<select data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" class=\"form-control\" id=\"masTypeSelect\">");
+      out.write("<option value=\"01\" />");
       out.write("</select>");
       out.write("</div>");
       out.write("</div>");
@@ -91,6 +92,7 @@ public final class newmassageevent_jspx extends org.apache.jasper.runtime.HttpJs
       out.write("</label>");
       out.write("<div class=\"col-sm-7\">");
       out.write("<select data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" class=\"form-control\" id=\"massageSelect\">");
+      out.write("<option value=\"01\" />");
       out.write("</select>");
       out.write("</div>");
       out.write("</div>");
@@ -99,8 +101,8 @@ public final class newmassageevent_jspx extends org.apache.jasper.runtime.HttpJs
       out.write("เวลาเริ่ม : ");
       out.write("</label>");
       out.write("<div class=\"col-sm-7\">");
-      out.write("<div class=\"input-group ui-timepicker-input\">");
-      out.write("<input data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" placeholder=\"HH:MM\" class=\"form-control\" type=\"text\" id=\"eventStartTime\" />");
+      out.write("<div class=\"input-group\">");
+      out.write("<input data-placement=\"bottom\" data-content=\"GG\" data-toggle=\"popover\" placeholder=\"HH:MM\" useSelect=\"true\" class=\"form-control\" type=\"text\" id=\"eventStartTime\" />");
       out.write("<span class=\"input-group-btn\">");
       out.write("<button class=\"btn btn-default\" type=\"button\" id=\"btn_TimeEventStart\">");
       out.write("<span required=\"true\" class=\"glyphicon glyphicon-time\" />");

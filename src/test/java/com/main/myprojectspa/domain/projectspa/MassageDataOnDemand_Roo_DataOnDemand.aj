@@ -38,6 +38,7 @@ privileged aspect MassageDataOnDemand_Roo_DataOnDemand {
         setMassageDetail(obj, index);
         setMassageName(obj, index);
         setMassageTime(obj, index);
+        setMassageprice(obj, index);
         setStatus(obj, index);
         setUpdatedBy(obj, index);
         setUpdatedDate(obj, index);
@@ -72,6 +73,11 @@ privileged aspect MassageDataOnDemand_Roo_DataOnDemand {
     public void MassageDataOnDemand.setMassageTime(Massage obj, int index) {
         Integer massageTime = new Integer(index);
         obj.setMassageTime(massageTime);
+    }
+    
+    public void MassageDataOnDemand.setMassageprice(Massage obj, int index) {
+        Integer massageprice = new Integer(index);
+        obj.setMassageprice(massageprice);
     }
     
     public void MassageDataOnDemand.setStatus(Massage obj, int index) {

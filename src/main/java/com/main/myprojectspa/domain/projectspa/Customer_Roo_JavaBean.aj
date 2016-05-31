@@ -9,27 +9,27 @@ import java.util.Date;
 
 privileged aspect Customer_Roo_JavaBean {
     
-    public String Customer.getUserId() {
-        return this.userId;
+    public String Customer.getUsername() {
+        return this.username;
     }
     
-    public void Customer.setUserId(String userId) {
-        this.userId = userId;
+    public void Customer.setUsername(String username) {
+        this.username = username;
     }
     
-    public String Customer.getUserPassword() {
-        return this.userPassword;
+    public String Customer.getPassword() {
+        return this.password;
     }
     
-    public void Customer.setUserPassword(String userPassword) {
-        this.userPassword = userPassword;
+    public void Customer.setPassword(String password) {
+        this.password = password;
     }
     
-    public Integer Customer.getLoginstatus() {
+    public boolean Customer.isLoginstatus() {
         return this.loginstatus;
     }
     
-    public void Customer.setLoginstatus(Integer loginstatus) {
+    public void Customer.setLoginstatus(boolean loginstatus) {
         this.loginstatus = loginstatus;
     }
     
@@ -73,20 +73,20 @@ privileged aspect Customer_Roo_JavaBean {
         this.customerBirthDay = customerBirthDay;
     }
     
+    public CustomerType Customer.getCustomertype() {
+        return this.customertype;
+    }
+    
+    public void Customer.setCustomertype(CustomerType customertype) {
+        this.customertype = customertype;
+    }
+    
     public String Customer.getCustomerTel() {
         return this.customerTel;
     }
     
     public void Customer.setCustomerTel(String customerTel) {
         this.customerTel = customerTel;
-    }
-    
-    public CustomerType Customer.getCustomerTypes() {
-        return this.customerTypes;
-    }
-    
-    public void Customer.setCustomerTypes(CustomerType customerTypes) {
-        this.customerTypes = customerTypes;
     }
     
 }

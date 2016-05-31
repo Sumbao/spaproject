@@ -29,10 +29,6 @@ public class MassageTypes extends BaseEntity {
 
     /**
      */
-    private String massageTypeDetail;
-
-    /**
-     */
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "massageTypes")
     private Set<Massage> massage = new HashSet<Massage>();
 

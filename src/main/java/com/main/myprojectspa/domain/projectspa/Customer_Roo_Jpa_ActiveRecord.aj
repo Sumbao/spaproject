@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 privileged aspect Customer_Roo_Jpa_ActiveRecord {
     
-    public static final List<String> Customer.fieldNames4OrderClauseFilter = java.util.Arrays.asList("userId", "userPassword", "loginstatus", "customerName", "customerAddr", "customerEmail", "customerAge", "customerBirthDay", "customerTel", "customerTypes");
+    public static final List<String> Customer.fieldNames4OrderClauseFilter = java.util.Arrays.asList("username", "password", "loginstatus", "customerName", "customerAddr", "customerEmail", "customerAge", "customerBirthDay", "customertype", "customerTel");
     
     public static long Customer.countCustomers() {
         return entityManager().createQuery("SELECT COUNT(o) FROM Customer o", Long.class).getSingleResult();

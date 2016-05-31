@@ -16,4 +16,7 @@
     <definition extends="custom" name="massages/massageall">
         <put-attribute name="body" value="/WEB-INF/views/massages/massageall.jspx"/>
     </definition>
+    <definition extends="custom" name="massages/beautyall">
+        <put-attribute name="body" value="/WEB-INF/views/massages/beautyall.jspx"/>
+    </definition>
 </tiles-definitions>

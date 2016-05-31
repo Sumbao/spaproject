@@ -13,6 +13,10 @@ import org.springframework.roo.addon.json.RooJson;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import java.util.HashSet;
+import java.util.Set;
+import javax.persistence.CascadeType;
+import javax.persistence.ManyToMany;
 
 @RooJavaBean
 @RooToString
@@ -22,17 +26,15 @@ public class Customer extends BaseEntity {
 
     /**
      */
-    private String userId;
+    private String username;
 
     /**
      */
-    private String userPassword;
+    private String password;
 
     /**
      */
-    @Min(0L)
-    @Max(1L)
-    private Integer loginstatus;
+    private boolean loginstatus;
 
     /**
      */
@@ -58,11 +60,14 @@ public class Customer extends BaseEntity {
 
     /**
      */
-    private String customerTel;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "customertype")
+    private CustomerType customertype;
 
     /**
      */
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "customerTypes")
-    private CustomerType customerTypes;
+    private String customerTel;
+
+
+
 }

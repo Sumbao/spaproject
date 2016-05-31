@@ -67,4 +67,5 @@ public class MassageEvent extends BaseEntity {
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date reserveDate;
+
 }

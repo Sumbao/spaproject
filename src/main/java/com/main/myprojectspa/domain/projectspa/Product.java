@@ -45,15 +45,16 @@ public class Product extends BaseEntity {
     /**
      */
     public static String toJsonArray(Collection<Product> collection) {
-        return new JSONSerializer()
-                .exclude("*.class").exclude("*.product").deepSerialize(collection);
+        return new JSONSerializer().exclude("*.class").exclude("*.product").deepSerialize(collection);
     }
 
     /**
      */
     public String toJson() {
-        return new JSONSerializer()
-                .exclude("*.class").exclude("*.product").deepSerialize(this);
+        return new JSONSerializer().exclude("*.class").exclude("*.product").deepSerialize(this);
     }
 
+    /**
+     */
+    private Integer productweight;
 }

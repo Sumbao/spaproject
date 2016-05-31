@@ -4,15 +4,18 @@
 package com.main.myprojectspa.web.myprojectspa;
 
 import com.main.myprojectspa.domain.projectspa.Customer;
-import com.main.myprojectspa.web.myprojectspa.CustomerController;
-import java.util.List;
+
+import java.util.*;
+
+import com.main.myprojectspa.domain.projectspa.CustomerType;
+import flexjson.JSONSerializer;
+import org.hibernate.mapping.Array;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.web.bind.annotation.*;
 
 privileged aspect CustomerController_Custom_Controller_Json {
 
@@ -23,14 +26,72 @@ privileged aspect CustomerController_Custom_Controller_Json {
         HttpHeaders headers = new HttpHeaders();
         headers.add("Content-Type","application/json; charset:utf:8");
         Customer customer = Customer.fromJsonToCustomer(json);
+        System.out.print("data:"+customer);
         try {
-            List<Customer> list = Customer.findCustomerbyId(customer.getUserId());
+            List<Customer> list = Customer.findCustomerbyId(customer.getUsername());
             if (list.size() == 0) {
+//                CustomerType custype = CustomerType.findCustomerType(customer.getRoles());
+//                Set<CustomerType> custypeset =  new HashSet<CustomerType>(customer.getId());
+                //customer.setRoles(custypeset);
+                //System.out.println("role:"+customer.getRoles());
+//                customer.setRoles(custypeset);
+
                 customer.persist();
                 return new ResponseEntity<String>(headers, HttpStatus.CREATED);
             }else{
                 return new ResponseEntity<String>(headers, HttpStatus.CONFLICT);
             }
+        } catch (Exception e) {
+            return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @RequestMapping(value="/getuserdata",method = RequestMethod.GET,headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> CustomerController.getuserdata() {
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type", "application/json; charset=utf-8");
+        try {
+            Authentication auth = SecurityContextHolder.getContext().getAuthentication();
+            String name = auth.getName(); //get logged in username
+            //System.out.println("username:"+name);
+            List<Customer> userlogin = Customer.findCustomerbyUsername(name);
+            if(userlogin == null){
+                return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
+            }
+            return new ResponseEntity<String>((new JSONSerializer().exclude("*.class")
+                    .include("id")
+                    .include("version")
+                    .include("username")
+                    .include("password")
+                    .include("loginstatus")
+                    .include("customerName")
+                    .include("customerAddr")
+                    .include("customerEmail")
+                    .include("customerAge")
+                    .include("customerTel")
+                    .include("customertype.id")
+                    .include("customertype.customerTypeName")
+                    .exclude("*")
+                    .deepSerialize(userlogin)), headers, HttpStatus.OK);
+        } catch (Exception e) {
+            return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+    }
+
+    @RequestMapping(value = "/changepassword", method = RequestMethod.PUT, headers = "Accept=application/json")
+    @ResponseBody
+    public ResponseEntity<String> CustomerController.changepassword(@RequestParam String password,long id) {
+        ResponseEntity<String> status = null;
+        HttpHeaders headers = new HttpHeaders();
+        headers.add("Content-Type","application/json; charset:utf:8");
+        Customer customer = Customer.findCustomer(id);
+        try {
+            SecurityContextHolder.getContext().setAuthentication(null);
+            customer.setPassword(password);
+            customer.merge();
+            System.out.println("customer:"+customer);
+            return new ResponseEntity<String>(headers, HttpStatus.OK);
         } catch (Exception e) {
             return new ResponseEntity<String>("{\"ERROR\":"+e.getMessage()+"\"}", headers, HttpStatus.INTERNAL_SERVER_ERROR);
         }

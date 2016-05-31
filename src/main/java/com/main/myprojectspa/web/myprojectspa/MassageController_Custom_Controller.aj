@@ -10,4 +10,15 @@ privileged aspect MassageController_Custom_Controller {
     public String MassageController.massageall(Model uiModel) {
         return "massages/massageall";
     }
+
+    @RequestMapping(value = "/beautyall", produces = "text/html")
+    public String MassageController.beautyall(Model uiModel) {
+        return "massages/beautyall";
+    }
+
+    @RequestMapping(value = "/massageeventlist", produces = "text/html")
+    public String MassageController.massageeventlist(Model uiModel) {
+        return "massages/massageeventlist";
+    }
+
 }

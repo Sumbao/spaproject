@@ -13,5 +13,6 @@
         <field:input field="massageDetail" id="c_com_main_myprojectspa_domain_projectspa_Massage_massageDetail" z="l4gY/R6I4VfIUj4RUhM/kX73L3Q="/>
         <field:select field="massageTypes" id="c_com_main_myprojectspa_domain_projectspa_Massage_massageTypes" itemValue="id" items="${massagetypeses}" path="/massagetypeses" z="BXsyIXBXcM4d/v3YY/OaXdN8ZPM="/>
         <field:input field="massageTime" id="c_com_main_myprojectspa_domain_projectspa_Massage_massageTime" validationMessageCode="field_invalid_integer" z="LQzgxD6HYzNb5dWMHoRhBpafW3o="/>
+        <field:input field="massageprice" id="c_com_main_myprojectspa_domain_projectspa_Massage_massageprice" validationMessageCode="field_invalid_integer" z="hV+xa8Wik/kqC6QG8rKooBUQ7gI="/>
     </form:update>
 </div>

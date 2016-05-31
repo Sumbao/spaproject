@@ -56,4 +56,12 @@ privileged aspect Product_Roo_JavaBean {
         this.productTypes = productTypes;
     }
     
+    public Integer Product.getProductweight() {
+        return this.productweight;
+    }
+    
+    public void Product.setProductweight(Integer productweight) {
+        this.productweight = productweight;
+    }
+    
 }

@@ -21,8 +21,9 @@
                         </button>
                     </div>
                     <div class="form-group">
-                        <div class="table-responsive">
-                            <table class="table" data-toggle="table" role="table">
+                        <div class="table-responsive paginated">
+                            <table class="table" data-toggle="table" role="table" cellspacing="0" width="100%"
+                                   id="tableProduct">
                                 <thead>
                                 <tr>
                                     <th>
@@ -30,27 +31,30 @@
                                             <center><input id="checkBoxproAll" type="checkbox"/></center>
                                         </div>
                                     </th>
-                                    <th>
-                                        <center>edit</center>
+                                    <th class="col">
+                                        <center>รหัสสินค้า</center>
+                                    </th>
+                                    <th class="col">
+                                        <center>ชื่อสินค้า</center>
+                                    </th>
+                                    <th class="col">
+                                        <center>รายละเอียด</center>
                                     </th>
                                     <th>
-                                        <center>Product Code</center>
+                                        <center>ราคา</center>
                                     </th>
-                                    <th>
-                                        <center>product Name</center>
+                                    <th class="col">
+                                        <center>ประเภทสินค้า</center>
                                     </th>
-                                    <th>
-                                        <center>Product datail</center>
+                                    <th class="col">
+                                        <center>แก้ไข</center>
                                     </th>
-                                    <th>
-                                        <center>Product Price</center>
-                                    </th>
-                                    <th>
-                                        <center>Product types</center>
+                                    <th class="col">
+                                        <center>ลบ</center>
                                     </th>
                                 </tr>
                                 </thead>
-                                <tbody id="tableProduct">
+                                <tbody id="tableProductbody">
                                 <jsp:text/>
                                 </tbody>
                             </table>
@@ -65,11 +69,11 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h4>Add Data</h4>
+                                <h4>เพิ่มข้อมูลสินค้า</h4>
                             </div>
                             <div class="modal-body">
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label required">product Code</label>
+                                    <label class="col-sm-3 control-label required">รหัสสินค้า</label>
 
                                     <div class="col-sm-6">
                                         <input id="proCodeAdd" type="text" class="form-control"
@@ -77,7 +81,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label required">product Name</label>
+                                    <label class="col-sm-3 control-label required">ชื่อสินค้า</label>
 
                                     <div class="col-sm-6">
                                         <input id="pronameAdd" type="text" class="form-control"
@@ -85,7 +89,8 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label">product type</label>
+                                    <label class="col-sm-3 control-label">ประเภทสินค้า</label>
+
                                     <div class="col-sm-6">
                                         <select id="select_Protype" class="form-control" data-toggle="popover"
                                                 data-content="GG"
@@ -95,7 +100,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label required">product detail</label>
+                                    <label class="col-sm-3 control-label required">รายละเอียด</label>
 
                                     <div class="col-sm-6">
                                             <textarea id="prodesAdd" class="form-control"
@@ -104,7 +109,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label required">product Price</label>
+                                    <label class="col-sm-3 control-label required">ราคา</label>
 
                                     <div class="col-sm-6">
                                         <input id="propriceAdd" type="text" class="form-control"
@@ -112,7 +117,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label">product picture</label>
+                                    <label class="col-sm-3 control-label">รูปภาพผลิตภัณท์</label>
 
                                     <div class="col-sm-6">
                                         <div class="input-group">
@@ -128,6 +133,12 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="form-group">
+                                    <center><img id="imgAvatar" width="250" heigh="250"/></center>
+                                </div>
+                                <!--<div class="form-group">-->
+                                    <!--<center><button id="rotate" class="btn btn-danger"><span class="glyphicon glyphicon-refresh"/></button></center>-->
+                                <!--</div>-->
                             </div>
                             <div class="modal-footer">
                                 <center>
@@ -150,27 +161,27 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h4>Edit Data</h4>
+                                <h4>แก้ไขข้อมูลสินค้า</h4>
                             </div>
                             <div class="modal-body">
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label required">product Code</label>
+                                    <label class="col-sm-3 control-label required">รหัสสินค้า</label>
 
                                     <div class="col-sm-6">
-                                        <input id="protypeCodeAdd" type="text" class="form-control"
+                                        <input id="proCodeEdit" type="text" class="form-control"
                                                data-toggle="popover" data-content="GG" data-placement="bottom"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label required">product Name</label>
+                                    <label class="col-sm-3 control-label required">ชื่อสินค้า</label>
 
                                     <div class="col-sm-6">
-                                        <input id="protypenameEdit" type="text" class="form-control"
+                                        <input id="pronameEdit" type="text" class="form-control"
                                                data-toggle="popover" data-content="GG" data-placement="bottom"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label">product type</label>
+                                    <label class="col-sm-3 control-label">ประเภทสินค้า</label>
 
                                     <div class="col-sm-6">
                                         <select id="select_ProtypeEdit" class="form-control" data-toggle="popover"
@@ -181,24 +192,24 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label required">product detail</label>
+                                    <label class="col-sm-3 control-label required">รายละเอียด</label>
 
                                     <div class="col-sm-6">
-                                            <textarea id="protypedesEdit" class="form-control"
+                                            <textarea id="prodesEdit" class="form-control"
                                                       data-toggle="popover" data-content="GG"
                                                       data-placement="bottom" maxlength="50"><jsp:text/></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label required">product Price</label>
+                                    <label class="col-sm-3 control-label required">ราคา</label>
 
                                     <div class="col-sm-6">
-                                        <input id="protypenameEdit" type="text" class="form-control"
+                                        <input id="propriceEdit" type="text" class="form-control"
                                                data-toggle="popover" data-content="GG" data-placement="bottom"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label class="col-sm-3 control-label">product picture</label>
+                                    <label class="col-sm-3 control-label">รูปภาพผลิตภัณท์</label>
 
                                     <div class="col-sm-6">
                                         <div class="input-group">
@@ -208,7 +219,7 @@
                                                    data-placement="bottom"/>
                                             <span class="input-group-btn fileUpload">
                                                 <span class="btn btn-primary btn-file glyphicon glyphicon-folder-close">
-                                                    <input type="producrfileedit" id="productFileEdit" class="upload"/>
+                                                    <input type="file" id="productFileEdit" class="upload"/>
                                                 </span>
                                             </span>
                                         </div>
@@ -249,6 +260,16 @@
             cursor: pointer;
             opacity: 0;
             filter: alpha(opacity=0);
+        }
+
+        th center {
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 18px;
+        }
+
+        td center {
+            font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+            font-size: 15px;
         }
     </style>
 </div>

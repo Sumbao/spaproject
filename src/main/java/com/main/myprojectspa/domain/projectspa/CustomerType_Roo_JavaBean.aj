@@ -9,28 +9,12 @@ import java.util.Set;
 
 privileged aspect CustomerType_Roo_JavaBean {
     
-    public Integer CustomerType.getCustomerTypeCode() {
-        return this.customerTypeCode;
-    }
-    
-    public void CustomerType.setCustomerTypeCode(Integer customerTypeCode) {
-        this.customerTypeCode = customerTypeCode;
-    }
-    
     public String CustomerType.getCustomerTypeName() {
         return this.customerTypeName;
     }
     
     public void CustomerType.setCustomerTypeName(String customerTypeName) {
         this.customerTypeName = customerTypeName;
-    }
-    
-    public String CustomerType.getCustomerPrivillege() {
-        return this.customerPrivillege;
-    }
-    
-    public void CustomerType.setCustomerPrivillege(String customerPrivillege) {
-        this.customerPrivillege = customerPrivillege;
     }
     
     public Set<Customer> CustomerType.getCustomer() {

@@ -20,7 +20,23 @@ privileged aspect CustomerController_Custom_Controller {
 
         return "customers/masterdata";
     }
-    
+    @RequestMapping(value = "/userdetail",produces = "text/html")
+    public String CustomerController.userdetail(Model uiModel){
+
+        return "customers/user";
+    }
+
+    @RequestMapping(value = "/admin/changepassword",produces = "text/html")
+    public String CustomerController.changepassword(Model uiModel){
+
+        return "customers/adminpassword";
+    }
+
+    @RequestMapping(value = "/admin/changedetail",produces = "text/html")
+    public String CustomerController.changedetail(Model uiModel){
+
+        return "customers/admindetail";
+    }
    
     
 }

@@ -41,11 +41,11 @@ privileged aspect CustomerDataOnDemand_Roo_DataOnDemand {
         setCustomerName(obj, index);
         setCustomerTel(obj, index);
         setLoginstatus(obj, index);
+        setPassword(obj, index);
         setStatus(obj, index);
         setUpdatedBy(obj, index);
         setUpdatedDate(obj, index);
-        setUserId(obj, index);
-        setUserPassword(obj, index);
+        setUsername(obj, index);
         return obj;
     }
     
@@ -90,11 +90,13 @@ privileged aspect CustomerDataOnDemand_Roo_DataOnDemand {
     }
     
     public void CustomerDataOnDemand.setLoginstatus(Customer obj, int index) {
-        Integer loginstatus = new Integer(index);
-        if (loginstatus < 0 || loginstatus > 1) {
-            loginstatus = 1;
-        }
+        Boolean loginstatus = true;
         obj.setLoginstatus(loginstatus);
+    }
+    
+    public void CustomerDataOnDemand.setPassword(Customer obj, int index) {
+        String password = "password_" + index;
+        obj.setPassword(password);
     }
     
     public void CustomerDataOnDemand.setStatus(Customer obj, int index) {
@@ -112,14 +114,9 @@ privileged aspect CustomerDataOnDemand_Roo_DataOnDemand {
         obj.setUpdatedDate(updatedDate);
     }
     
-    public void CustomerDataOnDemand.setUserId(Customer obj, int index) {
-        String userId = "userId_" + index;
-        obj.setUserId(userId);
-    }
-    
-    public void CustomerDataOnDemand.setUserPassword(Customer obj, int index) {
-        String userPassword = "userPassword_" + index;
-        obj.setUserPassword(userPassword);
+    public void CustomerDataOnDemand.setUsername(Customer obj, int index) {
+        String username = "username_" + index;
+        obj.setUsername(username);
     }
     
     public Customer CustomerDataOnDemand.getSpecificCustomer(int index) {

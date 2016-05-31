@@ -1,0 +1,146 @@
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+     xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:spring="http://www.springframework.org/tags">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+
+    <jsp:useBean class="java.util.Date" id="now" scope="request"/>
+
+    <spring:url value="/" var="dash_board_url"/>
+    <spring:url value="/resources/images/ess-brand.png" var="image_brand_url"/>
+    <script>
+        console.log('${userDetail.username}');
+        if ('${userDetail.username}' == "No UserName") {
+            location.href = '/' + (window.location.pathname.split('/')[1]) + "/resources/j_spring_security_logout";
+        }
+
+        var session = {
+            date: new Date(Number("${now.time}")).setHours(0, 0, 0, 0),    // the current date without time
+            time: new Date(Number("${now.time}")),                      // the current date with time
+            user: "${user}",                                            // the session user
+            lang: "${lang}",                                            // the language is page language
+            other: [],                                                  // the other use for create request for other
+            context: '/' + (window.location.pathname.split('/')[1]),    // the context path
+            contextCurrentURL: '${currentURL}',                                   // the context path remove artifact web app
+            userRole: '${userRole}',                                   // the session userRole
+        };
+        var _language = window.session.lang;
+        /*    $(function(){
+         var token = $("meta[name='_csrf']").attr("content");
+         var header = $("meta[name='_csrf_header']").attr("content");
+         console.log(token);
+         console.log(header);
+         $(document).ajaxSend(function(e, xhr, options) {
+         xhr.setRequestHeader(header, token);
+         });
+         });*/
+        //        getuser();
+        //        function getuser(){
+        //            var userdata = AjaxUtil.get({
+        //                url:session.context+"/customers/getuserdata"
+        //            });
+        //            console.log("GG");
+        //            $.each(userdata,function(index,item){
+        //                console.log(item);
+        //                $("#nameofuser").append("item");
+        //            })
+        //        }
+
+
+    </script>
+    <spring:url value="/resources/images/pichead.jpg" var="pichead"/>
+    <spring:url value="/resources/scripts/MyProjectSpa/admin.js" var="admin"/>
+    <!--<img id="imagehead" src="${pichead}" style="width: 700px; height: 200px;"/>-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <spring:url value="/resources/images/logo_spa.png" var="spa"/>
+            <spring:url value="/resources/scripts/MyProjectSpa/loginScript.js" var="login"/>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <p class="navbar-text" style="font-size: 25px"><a href="/MyProjectSpa/admin/main">หน้าผู้ใช้ระบบ</a></p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!--<div class="collapse navbar-collapse" role="navigation">-->
+                <!--<ul class="nav navbar-nav">-->
+                    <!--<li class="dropdown " >-->
+                    <!--<a href="#" class="dropdown-toggle navbar-text" data-toggle="dropdown" role="button"-->
+                    <!--aria-haspopup="true"-->
+                    <!--aria-expanded="false">การบริการ <span class="caret"></span></a>-->
+                    <!--<ul class="dropdown-menu">-->
+                    <!--<li><a href="/MyProjectSpa/massages/massageall">สุขภาพ</a></li>-->
+                    <!--<li role="separator" class="divider"></li>-->
+                    <!--<li><a href="/MyProjectSpa/massages/beautyall">ความงาม</a></li>-->
+                    <!--<li role="separator" class="divider"></li>-->
+                    <!--</ul>-->
+                    <!--</li>-->
+                    <!--<li class="navbar-text"><a-->
+                    <!--href="/MyProjectSpa/products/productall">เปลี่ยนรหัสผ่าน</a></li>-->
+                    <!--<li class="navbar-text"><a-->
+                    <!--href="/MyProjectSpa/informations/information">ประชาสัมพันธ์</a></li>-->
+                    <!--<li class="navbar-text"><a-->
+                    <!--href="/MyProjectSpa/informations/contract">ติดต่อเรา</a></li>-->
+
+                <!--</ul>-->
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li class="dropdown" style="margin-top: 16px">-->
+                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"-->
+                    <!--aria-expanded="false">-->
+                    <!--<i class="fa fa-bars">-->
+                    <!--<jsp:text/>-->
+                    <!--</i>-->
+                    <!--<ul class="dropdown-menu">-->
+                    <li class="dropdown" style="margin-top: 9px">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false" id="nameofuser" style="font-size: 28px">
+                            <jsp:text/>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/MyProjectSpa/customers/admin/changedetail">แก้ไขข้อมูลส่วนตัว</a></li>
+                            <li><a href="/MyProjectSpa/customers/admin/changepassword">เปลี่ยนรหัสผ่าน</a></li>
+                            <li>
+                                <spring:url value="/resources/j_spring_security_logout" var="sign_out_url"/>
+                                <a href="${fn:escapeXml(sign_out_url)}">ออกจากระบบ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--<li>-->
+                    <!--<spring:url value="/resources/j_spring_security_logout" var="sign_out_url"/>-->
+                    <!--<p class="navbar-text" style="font-size: 25px" id="nameofuser"></p>-->
+                    <!--</li>-->
+
+                    <!--</ul>-->
+                    <!--</a>-->
+                    <!--</li>-->
+                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">login <span class="caret"></span></a>-->
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        <!--</div>&lt;!&ndash; /.container-fluid &ndash;&gt;-->
+    </nav>
+    <style>
+        .navbar-default {
+            background-color: #cd0a0a;
+        }
+
+        .dropdown-menu {
+            background-color: #d43f3a;
+        }
+
+        .dropdown-menu li a {
+            color: #FFFFFF;
+            font-size: 21px;
+        }
+
+        .navbar-text a {
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+    <script src="${admin}" type="text/javascript"><!--Not Empty --></script>
+</div>

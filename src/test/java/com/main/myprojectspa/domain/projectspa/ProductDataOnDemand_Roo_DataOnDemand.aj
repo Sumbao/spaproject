@@ -39,6 +39,7 @@ privileged aspect ProductDataOnDemand_Roo_DataOnDemand {
         setProductName(obj, index);
         setProductPicture(obj, index);
         setProductPrice(obj, index);
+        setProductweight(obj, index);
         setStatus(obj, index);
         setUpdatedBy(obj, index);
         setUpdatedDate(obj, index);
@@ -78,6 +79,11 @@ privileged aspect ProductDataOnDemand_Roo_DataOnDemand {
     public void ProductDataOnDemand.setProductPrice(Product obj, int index) {
         Float productPrice = new Integer(index).floatValue();
         obj.setProductPrice(productPrice);
+    }
+    
+    public void ProductDataOnDemand.setProductweight(Product obj, int index) {
+        Integer productweight = new Integer(index);
+        obj.setProductweight(productweight);
     }
     
     public void ProductDataOnDemand.setStatus(Product obj, int index) {
